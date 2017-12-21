@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body {% if layout.class %}class="template-{{ layout.class }}-post"{% endif %}>
+    <main class="wrapper {% if page.is_split == true %}row{% else %}column{% endif %} align-center position-relative" role="main">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </main>
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,430 @@
+// layout
+.wrapper {
+	width: $full;
+	z-index: 1;
+}
+
+@media #{$break-large} {
+    .wrapper {
+		flex-direction: column;
+    }
+}
+
+.container {
+	width: $full - 40%;
+	margin: 0 auto;
+}
+
+@media #{$break-medium} {
+    .container {
+        width: $full - 20%;
+    }
+}
+
+.hero {
+	width: $half-viewport-width;
+	height: $full-viewport-height;
+	background: $dark-color;
+	@include prefix(background-size, cover !important, webkit moz);
+	background-position: center !important;
+
+	h4 {
+		color: $light-color;
+		text-transform: uppercase;
+	}
+	
+	.name {
+		width: 130px;
+	}
+}
+
+@media #{$break-medium} {
+	.hero {
+		display: none !important;
+	}
+
+	.page-content {
+        width: $full-viewport-width;
+    }
+}
+
+// border classes
+.border {
+	border: 1px solid $border-color !important;
+}
+
+.border-top {
+	border-top: 1px solid $border-color !important;
+}
+
+.border-right {
+	border-right: 1px solid $border-color !important;
+}
+
+.border-bottom {
+	border-bottom: 1px solid $border-color !important;
+}
+
+.border-left {
+	border-left: 1px solid $border-color !important;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.position-fixed {
+	position: fixed;
+}
+
+.position-static {
+	position: static;
+}
+
+.gap {
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.gap-top-bottom {
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+
+.gap-left-right {
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+.gap-top {
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+
+.gap-right {
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.gap-bottom {
+	padding-bottom: 40px;
+	box-sizing: border-box;
+}
+
+.gap-left {
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.small-gap {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.small-gap-top-bottom {
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+.small-gap-left-right {
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.small-gap-top {
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.small-gap-right {
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.small-gap-bottom {
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.small-gap-left {
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.align-right {
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.align-center {
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.align-justify-center {
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.align-justify {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+}
+
+.align-spaced {
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+}
+
+.align-top {
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-ms-grid-row-align: flex-start;
+}
+
+.align-self-top {
+	align-self: flex-start;
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+}
+
+.align-bottom {
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	-ms-grid-row-align: flex-end;
+}
+
+.align-self-bottom {
+	-webkit-align-self: flex-end;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
+
+.align-middle {
+	align-items: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-ms-grid-row-align: center;
+}
+
+.align-self-middle {
+	align-self: center;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+}
+
+.align-stretch {
+	align-items: stretch;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	-ms-grid-row-align: stretch;
+}
+
+.align-self-stretch {
+	align-self: stretch;
+	-webkit-align-self: stretch;
+	-ms-flex-item-align: stretch;
+}
+
+.vertical-align-top {
+	vertical-align: top;
+}
+
+.pin-top {
+	position: absolute;
+	top: 0;
+}
+
+.pin-right {
+	position: absolute;
+	right: 0;
+}
+
+.pin-left {
+	position: absolute;
+	left: 0;
+}
+
+.pin-top-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.pin-top-center {
+	position: absolute;
+	@include prefix(transform, translateX(-$half) !important, webkit moz ms);
+	left: $half;
+	top: 0;
+}
+
+.pin-top-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.pin-middle-left {
+	position: absolute;
+	@include prefix(transform, translateY(-$half) !important, webkit moz ms);
+	left: 0;
+	top: $half;
+}
+
+.pin-middle-center {
+	position: absolute;
+	@include prefix(transform, translate(-$half, -$half) !important, webkit moz ms);
+	left: $half;
+	top: $half;
+}
+
+.pin-middle-right {
+	position: absolute;
+	@include prefix(transform, translateY(-$half) !important, webkit moz ms);
+	right: 0;
+	top: $half;
+}
+
+.pin-bottom-left {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.pin-bottom-center {
+	position: absolute;
+  @include prefix(transform, translateX(-$half) !important, webkit moz ms);
+	left: $half;
+	bottom: 0;
+}
+
+.pin-bottom-right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.pin-vertical-center {
+	position: absolute;
+	top: $half;
+	@include prefix(transform, translateY(-$half) !important, webkit moz ms);
+}
+
+.pin-horizontal-center {
+	position: absolute;
+	left: $half;
+	@include prefix(transform, translateX(-$half) !important, webkit moz ms);
+}
+
+.border-top {
+	border-top: 1px solid #ddd;
+}
+
+.border-right {
+	border-top: 1px solid #ddd;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ddd;
+}
+
+.border-left {
+	border-left: 1px solid #ddd;
+}
+
+.clear::before,
+.clear::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+// inputs
+input,
+select,
+textarea {
+  border: 1px solid #DDDEE0;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 0.6rem;
+  font-size: 9px;
+  font-family: 'Roboto Mono', 'Courier New';
+  letter-spacing: 1px;
+  background: transparent;
+  -webkit-appearance: none;
+}
+@media only screen and (min-width: 40.063em) {
+  input,
+  select,
+  textarea {
+    font-size: 10px;
+  }
+}
+input:active, input:focus,
+select:active,
+select:focus,
+textarea:active,
+textarea:focus {
+  border-color: black;
+  outline: none;
+  -webkit-appearance: none;
+}
+input::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #A7AAA9;
+}
+input:-moz-placeholder,
+select:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #A7AAA9;
+}
+input::-moz-placeholder,
+select::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #A7AAA9;
+}
+input:-ms-input-placeholder,
+select:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #A7AAA9;
+}
+
+textarea {
+  resize: vertical;
+  line-height: 2;
+}
+
+select {
+  position: relative;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  color: #A7AAA9;
+}
+select.filled {
+  color: black;
+}
+
+.validetta-bubble {
+  display: block;
+  padding-top: 0.6rem;
+  padding-left: 0;
+  font-family: "Cinetype-Mono", "Courier New", Courier, monospace;
+  font-size: 9px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}

@@ -1,0 +1,24 @@
+{% for block in page.sections%}
+{% case block.type %}
+{% when 'full-width-image' or 'center-image' or 'split-image-left' or 'split-image-right' %}
+<div class="{{ block.type }} content-block">
+  <figure>
+    <img src="{{ block.image }}"> 
+    <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
+  </figure>
+</div>  
+{% when 'text' %}
+<div class="{{ block.type }} content-block">
+  <div class="container">
+    {% if block.title %}<h6>{{ block.title | downcase }}{% if block.price %} • {{ block.price | prepend: "$" }}{% endif%}</h6>{% endif %}
+    {{ block.body | markdownify | downcase }}
+  </div>
+</div>  
+{% when 'byline' %}
+<div class="{{ block.type}}">
+  <div class="container">
+    <p class="heading">{{ block.byline | markdownify }}</p>
+  </div>   
+</div>   
+{% endcase %}
+{% endfor %}

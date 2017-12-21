@@ -1,0 +1,105 @@
+---
+title: Jesse Winton
+timezone: UTC
+collections:
+  posts:
+    title: Journal
+    output: true
+  work:
+    title: Projects
+    output: true
+    permalink: "/:collection/:path"
+  proposal:
+    title: Proposals
+    output: true
+    permalink: "/:collection/:path"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    is_nav_page: 
+    is_dark: 
+    is_split: 
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/journal/:title/"
+    layout: entries
+- scope:
+    path: ''
+    type: work
+  values:
+    permalink: "/work/:title/"
+    layout: projects
+    general:
+      client: 
+      project_year: 
+      project_url: 
+      cover_image: 
+    services:
+    - type: 
+    sections:
+    - type: text
+      body: 
+- scope:
+    path: ''
+    type: proposal
+  values:
+    permalink: "/proposal/:title/"
+    layout: proposal
+    is_split: true
+    billing_type: 
+    purpose: 
+    services:
+    - type: 
+    sections:
+    - type: 
+      title: 
+      body: 
+      price: 
+- scope:
+    path: about.markdown
+    type: pages
+  values:
+    permalink: "/about"
+    layout: about
+    page_heading: ''
+    bio_image: ''
+- scope:
+    path: work.markdown
+    type: pages
+  values:
+    permalink: "/work"
+    layout: work
+- scope:
+    path: journal.markdown
+    type: pages
+  values:
+    permalink: "/journal"
+    layout: journal
+- scope:
+    path: contact.markdown
+    type: pages
+  values:
+    permalink: "/contact"
+    layout: contact
+    page_heading: ''
+email: hi@jessewinton.co
+description: I’m a self-taught visual communicator with a specific focus on copywriting
+  and communicative design.
+baseurl: 
+url: http://jessewinton.co
+twitter_username: jrandallw
+google_analytics:
+  tracking_id: UA-107682340-1
+markdown: kramdown
+plugins: 
+sass:
+  style: compressed
+permalinks: pretty
+profile_image: "/uploads/profile.jpg"

@@ -1,0 +1,57 @@
+---
+layout: default
+class: proposal
+---
+
+<section class="proposal-overview column align-center">
+  <div class="container row">
+    <div class="intro grid-one-half">
+      <h6 class="heading">{{ page.title }} • {{ page.purpose }}</h6>
+      {{ page.content | remove: '<p>' | remove: '</p>' }}
+    </div>
+
+    <div class="info grid-one-half row">
+      {% assign client = page.client | strip_newlines %}
+      {% if client != '' %}
+      <div class="services grid-one-half">
+        <h6 class="heading">Client</h6>   
+        <ul>
+          {% for client_info in page.client %}
+          <li>{{ client_info.info }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% assign services = page.services | strip_newlines %}
+      {% if services != '' %}
+      <div class="services grid-one-half">
+        <h6 class="heading">Services</h6>   
+        <ul>
+          {% for service in page.services %}
+          <li>{{ service.type }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="proposal-content">
+  <div class="container">
+  {% include content.html %}
+
+  {% assign total = 0 %}
+  {% for price in page.sections %}
+    {% assign total = total | plus: price.price %}
+  {% endfor %}
+  <div class="content-block">
+    <div class="text">
+      <div class="container row align-center">
+        <p class="total price heading">Total Price <span>{{ total | prepend: "$" }} {{ page.billing_type | downcase }}</span></p>
+      </div> 
+    </div>  
+  </div>  
+</div>
+</section>
