@@ -1,5 +1,5 @@
 ---
-title: Jesse Winton
+title: Eric Stern
 timezone: UTC
 collections:
   posts:
@@ -75,4 +75,4 @@ plugins:
 sass:
   style: compressed
 permalinks: pretty
-profile_image: "/uploads/profile.jpg"
+profile_image: 
