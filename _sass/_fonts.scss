@@ -1,28 +1,28 @@
 /* fonts */
 @font-face {
-	font-family: 'Young Serif';
-	font-weight: normal;
-	src: url('../fonts/youngserif.woff') format('woff'),
-		 	 url('../fonts/youngserif.woff2') format('woff2');
+	font-family: 'Gotham';
+	font-weight: lighter;
+	src: url('../fonts/gotham-light.woff') format('woff'),
+			 url('../fonts/gotham-light.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'Roboto Mono';
+	font-family: 'Gotham';
 	font-weight: normal;
-	src: url('../fonts/roboto-mono.woff') format('woff'),
-			 url('../fonts/roboto-mono.woff2') format('woff2');
+	src: url('../fonts/gotham-book.woff') format('woff'),
+			 url('../fonts/gotham-book.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'Roboto Mono';
+	font-family: 'Gotham';
 	font-weight: 500;
-	src: url('../fonts/roboto-medium.woff') format('woff'),
-			 url('../fonts/roboto-medium.woff2') format('woff2');
+	src: url('../fonts/gotham-medium.woff') format('woff'),
+			 url('../fonts/gotham-medium.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'Roboto Mono';
-	font-weight: 600;
-	src: url('../fonts/roboto-bold.woff') format('woff'),
-			 url('../fonts/roboto-bold.woff2') format('woff2');
+	font-family: 'Gotham';
+	font-weight: bold;
+	src: url('../fonts/gotham-bold.woff') format('woff'),
+			 url('../fonts/gotham-bold.woff2') format('woff2');
 }
