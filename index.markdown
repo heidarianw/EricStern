@@ -7,4 +7,4 @@ is_split: true
 layout: home
 ---
 
-I’m a Creator, Writer, and Designer in Northern California.
+I’m a Creator, Writer.
