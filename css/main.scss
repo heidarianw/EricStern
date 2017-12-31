@@ -2,13 +2,13 @@
 ---
 
 // Variables
-$base-font-stack: 'Roboto Mono', 'Courier New', Courier, monospace;
-$heading-font-stack: 'Young Serif';
+$base-font-stack: 'Gotham', 'sans-serif';
+$heading-font-stack: 'Gotham', 'sans-serif';
 $base-font-size: 12px;
-$base-font-weight: 400;
+$base-font-weight: normal;
 $base-line-height: 2;
 $font-weight-medium: 500;
-$font-weight-bold: 600;
+$font-weight-bold: bold;
 $text-color: #222;
 $light-color: #fff;
 $secondary-light-color: #eee;
@@ -53,8 +53,6 @@ $break-medium: "screen and (max-width: 438px)";
 	"layout",
   "pages",
   "entries",
-  "projects",
-  "proposals",
   "structure",
   "grids",
 	"fonts"
