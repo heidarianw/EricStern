@@ -66,7 +66,7 @@ defaults:
 email: hi@ericstern.works
 description: I'm Eric Stern
 baseurl: 
-url: http://ericstern.works
+url: 
 twitter_username: ericstern
 google_analytics:
   tracking_id: UA-123456789-1
