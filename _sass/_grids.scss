@@ -18,6 +18,16 @@
 		flex-direction: column;
 }
 
+.grid {
+	margin: 0 auto;
+	display: grid;
+}
+
+.subgrid {
+	margin: 0 auto;
+	display: subgrid;
+}
+
 .wrap {
 		flex-wrap: wrap;
 }

@@ -17,9 +17,7 @@ defaults:
     path: ''
     type: pages
   values:
-    is_nav_page: 
-    is_dark: 
-    is_split: 
+    is_dark:  
 - scope:
     path: ''
     type: posts
@@ -68,6 +66,7 @@ description: I'm Eric Stern
 baseurl: 
 url: 
 twitter_username: ericstern
+tagline: Creator. Storyteller. Acheiver.
 google_analytics:
   tracking_id: UA-123456789-1
 markdown: kramdown
