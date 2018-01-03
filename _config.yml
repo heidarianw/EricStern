@@ -17,7 +17,7 @@ defaults:
     path: ''
     type: pages
   values:
-    is_dark:  
+    is_dark: 
 - scope:
     path: ''
     type: posts
