@@ -5,11 +5,10 @@ class: page
 
 <section class="page-content {{ page.title | downcase }} column align-center position-relative">
   <div class="container grid align-center">
-    {% assign projects = site.work | sort: "position" %}
-    {% assign firstProject = projects.is_featured.first %}
 
-    {% for project in projects %}
-    <div class="row align-center {% if project.is_featured == true %}featured {% endif %} project">
+    {% assign projects = site.work | sort: "position" %}
+    {% for project in projects limit: 10 %}
+    <div class="row align-center {% if project.title == page.projects[0] or project.title == page.projects[1] %}featured {% endif %}project">
       <a href="{{ project.url | prepend:site.url }}">
         {{ project.title }}
       </a> 
