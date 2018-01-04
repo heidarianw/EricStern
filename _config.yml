@@ -47,7 +47,7 @@ defaults:
     projects:
     - First Featured Project
     - Second Featured Project
-    pages:
+    page:
     - About Page
     - Contact Link
 - scope:
