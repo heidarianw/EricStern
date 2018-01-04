@@ -6,9 +6,24 @@ class: page
 <section class="page-content {{ page.title | downcase }} column align-center position-relative">
   <div class="container grid align-center">
 
+    {% assign sorted_projects = site.work | where: "title", page.projects.first %}
+
     {% assign projects = site.work | sort: "position" %}
-    {% for project in projects limit: 10 %}
-    <div class="row align-center {% if project.title == page.projects[0] or project.title == page.projects[1] %}featured {% endif %}project">
+    {% assign project_count = 0 %}
+    {% for project in projects %}
+      {% if project_count == 8 or project.title == page.projects[0] or project.title == page.projects[1] %}
+      {% continue %}
+      {% endif %}
+
+      {% assign sorted_projects = sorted_projects | push: project %}
+      {% assign project_count = project_count | plus: 1 %}
+    {% endfor %}
+
+    {% assign final_project = site.work | where: "title", page.projects[1] | first %}
+    {% assign sorted_projects = sorted_projects | push: final_project %}
+
+    {% for project in sorted_projects %}
+    <div class="row align-center {% if forloop.first == true or forloop.last == true %}featured {% endif %}project">
       <a href="{{ project.url | prepend:site.url }}">
         {{ project.title }}
       </a> 
