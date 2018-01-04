@@ -3,40 +3,19 @@ layout: default
 class: page
 ---
 
-<section class="project-overview row align-center">
-  <div class="container row">
-    <div class="intro grid-one-half">
-      <h6 class="heading">{{ page.general.client }} • {{ page.general.project_year }}</h6>
+<section class="project-overview column align-justify-center">
+  <div class="intro">
+    <h1 class="title">{{ page.title }}</h1>
+  </div>
 
-      {{ page.content | remove: '<p>' | remove: '</p>' }}
-
-      <a href="{{ page.general.project_url }}" target="_blank" class="project-link">{{ page.general.project_url | remove: "http://" }}</a>
+  <div class="info row">
+    <div class="grid-one-half">
+      <h5 class="heading">Project<br>
+      <span>{{ page.project_type }}</span></h5>
     </div>
-
-    <div class="info grid-one-half row">
-      {% assign services = page.services | strip_newlines %}
-      {% if services != '' %}
-      <div class="services grid-one-half">
-        <h6 class="heading">Services</h6>   
-        <ul>
-          {% for service in page.services %}
-          <li>{{ service.type }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
-      {% assign credits = page.credits | strip_newlines %}
-      {% if credits != '' %}
-      <div class="credits grid-one-half">
-        <h6 class="heading">Credits</h6>
-        <ul>
-          {% for credit in page.credits %}
-          <li>{{ credit.type }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
+    <div class="grid-one-half">
+        <h5 class="heading">Project Details<br>
+        <span>{{ page.project_details }}</span></h5>
     </div>
   </div>
 </section>
