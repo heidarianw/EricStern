@@ -6,8 +6,8 @@ projects:
 - The Interns You'll Never Forget
 - Test Project One
 navigation:
-- page: about
-- email: eric@ericstern.works
+- about
+- eric@ericstern.works
 layout: home
 ---
 
