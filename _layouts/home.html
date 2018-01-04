@@ -26,7 +26,7 @@ class: page
 
     {% for project in sorted_projects %}
     <div class="row align-center {% if forloop.first == true or forloop.last == true %}featured {% endif %}project">
-      <a href="{{ project.url | prepend:site.url }}">
+      <a href="{{ project.url | prepend:site.url }}"></a>
         {{ project.title }}
       </a> 
     </div>

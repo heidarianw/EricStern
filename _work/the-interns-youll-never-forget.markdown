@@ -2,6 +2,7 @@
 title: The Interns You'll Never Forget
 date: 2017-10-20 07:51:00 Z
 position: 3
+project_color: 6ad8d4
 sections:
 - type: text
   body: |-
