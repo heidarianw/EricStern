@@ -4,7 +4,7 @@ date: 2017-10-20 07:51:00 Z
 position: 3
 project_color: "#4a65bc"
 project_text_color: "#69d9d4"
-project_details: An Infomercial – Producer & Editor – Summer 2017
+project_details: An Infomercial – Summer 2017
 sections:
 - type: text
   body: |-
