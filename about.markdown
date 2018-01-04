@@ -4,7 +4,7 @@ date: 2017-10-08 02:27:00 Z
 permalink: "/about"
 position: 1
 page_heading: I’m Eric Stern.
-bio_image: ""
+bio_image: "/uploads/eric.jpg"
 layout: about
 ---
 

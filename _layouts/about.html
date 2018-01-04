@@ -4,14 +4,16 @@ class: page
 ---
 
 <section class="page-content about column align-center position-relative">
-  <div class="container">
-    <h6 class="page-heading">{{ page.page_heading }}</h6>
+  <div class="container row">
 
-    {{ content }}
-    
-    <figure class="bio-image position-relative">
+    <figure class="bio-image position-relative grid-one-half">
       <img src="{{ page.bio_image }}">
     </figure>
+
+    <div class="grid-one-half">
+      <h6 class="page-heading">{{ page.page_heading }}</h6>
+      {{ content }}
+    </div>  
 
   </div>
 </section>
