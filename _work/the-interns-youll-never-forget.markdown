@@ -2,11 +2,14 @@
 title: The Interns You'll Never Forget
 date: 2017-10-20 07:51:00 Z
 position: 3
-project_type: An Infomercial
-project_details: Producer & Editor – Fall 2017
 sections:
 - type: text
-  body: 
+  body: |-
+    The Brief: Make something famous, for good.
+
+    The Problem: It’s harder than ever for interns to stand out and get a job in advertising.
+
+    The Solution: Hyper-target the audience and make ourselves famous to BBH/Domani.
 - type: video
   id: 228313549
 - type: center-image
@@ -29,6 +32,8 @@ sections:
   image: "/uploads/interns8.jpg"
 - type: center-image
   image: "/uploads/interns9.jpg"
+project_type: An Infomercial
+project_details: Producer & Editor – Fall 2017
 layout: projects
 ---
 
