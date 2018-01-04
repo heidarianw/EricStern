@@ -68,7 +68,8 @@ body {
 	min-height: 100vh;
 	display: flex;
 	line-height: 2;
-	font-family: $base-font-stack;
+	font-weight: 400;
+  	font-family: 'Roboto Mono';
 	font-size: $base-font-size;
 	color: $text-color;
 	-webkit-font-smoothing: antialiased;

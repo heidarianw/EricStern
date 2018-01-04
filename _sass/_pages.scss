@@ -109,20 +109,29 @@
 }
 
 .project-overview .title {
-  font-size: 22vh;
+  font-size: $base-font-size + 60px;
   color: #222;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1;
 }
 
+.project-overview .intro {
+  width: $full - 20%;
+  margin: 0 auto;
+}
+
 .project-overview .heading {
   color: $light-color;
   font-weight: 600;
+  font-family: 'Roboto Mono';
   text-transform: uppercase;
-  font-size: $base-font-size;
+  font-weight: 400;
+  font-size: $base-font-size + 3px;
 
   span {
-    font-size: $base-font-size + 8px;
+    font-size: $base-font-size + 3px;
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');

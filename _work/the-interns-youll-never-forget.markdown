@@ -1,7 +1,10 @@
 ---
-title: The Interns You'll Never Forget
+title: The Interns You'll<br> Never Forget
 date: 2017-10-20 07:51:00 Z
 position: 3
+project_color: "#4a65bc"
+project_text_color: "#69d9d4"
+project_details: An Infomercial – Producer & Editor – Summer 2017
 sections:
 - type: text
   body: |-
@@ -32,9 +35,6 @@ sections:
   image: "/uploads/interns8.jpg"
 - type: center-image
   image: "/uploads/interns9.jpg"
-project_color: "#4a65bc"
-project_type: An Infomercial
-project_details: Producer & Editor – Fall 2017
 layout: projects
 ---
 

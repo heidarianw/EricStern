@@ -3,19 +3,11 @@ layout: default
 class: page
 ---
 
-<section class="project-overview column align-justify-center" style="background: #{{ page.project_color }}">
+<section class="project-overview column align-justify-center" style="background: {{ page.project_color }}">
   <div class="intro">
-    <h1 class="title">{{ page.title }}</h1>
-  </div>
-
-  <div class="info row">
-    <div class="grid-one-half">
-      <h5 class="heading">Project<br>
-      <span>{{ page.project_type }}</span></h5>
-    </div>
-    <div class="grid-one-half">
-        <h5 class="heading">Project Details<br>
-        <span>{{ page.project_details }}</span></h5>
+    <h1 class="title" style="color: {{ page.project_text_color }}">{{ page.title }}</h1>
+    <div class="info">
+      <h4 class="heading">{{ page.project_details }}</h4>
     </div>
   </div>
 </section>
