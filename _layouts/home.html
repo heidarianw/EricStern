@@ -9,11 +9,9 @@ class: page
     {% assign sorted_projects = site.work | where: "title", page.projects.first %}
 
     {% assign projects = site.work | sort: "position" %}
-    {% assign nav = page.navigation.page %}
-    {% assign contact = page.navigation.email %}
     {% assign project_count = 0 %}
     {% for project in projects %}
-      {% if project_count == 6 or project.title == page.projects[0] or project.title == page.projects[1] %}
+      {% if project_count == 8 or project.title == page.projects[0] or project.title == page.projects[1] %}
       {% continue %}
       {% endif %}
 
@@ -31,18 +29,5 @@ class: page
       </a> 
     </div>
     {% endfor %}
-
-    <div class="row align-center project about">
-      <a href="{{ nav }}">
-        About Eric
-      </a> 
-    </div>
-
-    <div class="row align-center project contact">
-      <a href="{{ contact }}">
-        Contact Eric
-      </a> 
-    </div>
-
   </div>
 </section>
