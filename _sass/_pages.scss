@@ -15,11 +15,26 @@
       background: $dark-color;
       margin: 0;
       cursor: pointer;
-      
+
+      &.about {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1
+      }
+    
+      &.contact {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3
+      }
+
       a {
         color: $light-color;
-        font-weight: bold;
+        font-weight: 500;
         font-size: $base-font-size + 3px;
+        text-transform: uppercase;
         opacity: 0;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
       }  
@@ -81,11 +96,34 @@
       }
 		}
   }
-  
-  &.work {
-    width: $full;
-    min-height: $full-viewport-height;
-    padding: $gutter * 10 0;
+}
+
+
+.project-overview {
+  min-height: 100vh;
+  background: #111;
+  width: 100vw;
+
+  .info {
+    padding-top: $gutter;
   }
 }
 
+.project-overview .title {
+  font-size: 22vh;
+  color: #222;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.project-overview .heading {
+  color: $light-color;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: $base-font-size;
+
+  span {
+    font-size: $base-font-size + 8px;
+  }
+}

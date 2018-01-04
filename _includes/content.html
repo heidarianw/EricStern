@@ -13,7 +13,13 @@
     {% if block.title %}<h6>{{ block.title | downcase }}{% if block.price %} • {{ block.price | prepend: "$" }}{% endif%}</h6>{% endif %}
     {{ block.body | markdownify | downcase }}
   </div>
-</div>  
+</div>
+{% when 'video' %}
+<div class="{{ block.type }} content-block">
+  <div class="container">
+    <iframe src="https://player.vimeo.com/video/{{ block.id }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>    
 {% when 'byline' %}
 <div class="{{ block.type}}">
   <div class="container">
