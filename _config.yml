@@ -47,6 +47,9 @@ defaults:
     projects:
     - First Featured Project
     - Second Featured Project
+    pages:
+    - About Page
+    - Contact Link
 - scope:
     path: about.markdown
     type: pages
