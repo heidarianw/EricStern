@@ -13,13 +13,20 @@
     
     .project {
       background: $dark-color;
-      margin: 0 0 $gutter / 2 0 !important;
-
+      margin: 0;
+      cursor: pointer;
+      
       a {
         color: $light-color;
         font-weight: bold;
         font-size: $base-font-size + 3px;
+        opacity: 0;
+        @include prefix(transition, opacity .3s ease-in, webkit moz ms);
       }  
+
+      &:hover a {
+        opacity: 1;
+      }
       
       &:before {
         content: '';
