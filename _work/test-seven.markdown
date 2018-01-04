@@ -8,6 +8,5 @@ categories:
 tags:
 - photography
 position: 6
-is_featured: true
 ---
 
