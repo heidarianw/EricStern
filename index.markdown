@@ -3,7 +3,7 @@ title: Home
 date: 2017-09-08 20:14:00 Z
 position: 0
 projects:
-- Test Project Seven
+- Test Project Four
 - Test Project One
 layout: home
 ---
