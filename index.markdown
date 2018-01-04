@@ -5,6 +5,9 @@ position: 0
 projects:
 - Test Project Four
 - Test Project One
+navigation:
+- about
+- eric@ericstern.works
 layout: home
 ---
 
