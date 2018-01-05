@@ -6,7 +6,18 @@
     <img src="{{ block.image }}"> 
     <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
   </figure>
-</div>  
+</div> 
+{% when 'image-grid' %}
+<div class="{{ block.type }} content-block">
+  <div class="container row align-center">
+    <figure class="left-image">
+      <img src="{{ block.left_image }}">
+    </figure>
+    <figure class="right-image">
+      <img src="{{ block.right_image }}">
+    </figure>
+  </div>
+</div> 
 {% when 'text' %}
 <div class="{{ block.type }} content-block">
   <div class="container">

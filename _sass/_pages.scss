@@ -85,7 +85,6 @@
     }
 
 		.bio-image {
-      width: 300px;
       margin: 0 auto;
       
       @media #{$break-large} {
@@ -111,7 +110,7 @@
 .project-overview .title {
   font-size: $base-font-size + 60px;
   color: #222;
-  font-weight: 600;
+  font-weight: bolder;
   text-transform: uppercase;
   line-height: 1;
 }
