@@ -8,8 +8,9 @@ general:
 sections:
 - type: text
   body: This abridged media consultancy plan was created as a TexasMedia project in
-    the fall of 2017 for City-Wide Garage Sale, a forty-year- old vintage market in Austin, TX. My
-    six-person group evaluated the client’s existing communication efforts and proposed owned
-    media, search &amp; display, social media, terrestrial, and eCommerce recommendations.
+    the fall of 2017 for City-Wide Garage Sale, a forty-year- old vintage market in
+    Austin, TX. My six-person group evaluated the client’s existing communication
+    efforts and proposed owned media, search &amp; display, social media, terrestrial,
+    and eCommerce recommendations.
 ---
 
