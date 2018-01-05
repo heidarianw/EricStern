@@ -26,13 +26,13 @@ sections:
   image: "/uploads/peu-4.png"
 - type: image-grid
   left_image: "/uploads/peu-5.png"
-  right_image: "/uploads/peu-6.png"  
+  right_image: "/uploads/peu-6.png"
 - type: center-image
-  image: "/uploads/peu-7.png" 
+  image: "/uploads/peu-7.png"
 - type: image-grid
   left_image: "/uploads/peu-8.png"
-  right_image: "/uploads/peu-9.png"  
+  right_image: "/uploads/peu-9.png"
 - type: center-image
-  image: "/uploads/peu-10.png"     
+  image: "/uploads/peu-10.png"
 ---
 
