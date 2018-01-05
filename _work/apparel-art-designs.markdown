@@ -5,7 +5,8 @@ is_columns: true
 general:
   project_color: "#111"
   project_text_color: "#fff"
-  project_details: Creative Director – 2016 – Illustrations by <a href="http://www.maazcon.com" target="_blank">Maaz Khan</a>
+  project_details: Creative Director – 2016 – Illustrations by <a href="http://www.maazcon.com"
+    target="_blank">Maaz Khan</a>
 sections:
 - type: center-image
   image: "/uploads/atlantic-city-back.jpg"
