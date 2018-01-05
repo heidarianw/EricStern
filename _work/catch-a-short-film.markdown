@@ -7,8 +7,10 @@ general:
   project_details: Short Film – December 2014
 sections:
 - type: text
-  body: After graduating high school in the summer of 2014, I set out to create ‘Catch,’ a narrative short
-    that tracked a father and son’s rather unsteady relationship. Official Selection of Cannes Court Métrage, The Hill Country Film Festival, Milledgeville Film Festival, Short of the Month.
+  body: After graduating high school in the summer of 2014, I set out to create ‘Catch,’
+    a narrative short that tracked a father and son’s rather unsteady relationship.
+    Official Selection of Cannes Court Métrage, The Hill Country Film Festival, Milledgeville
+    Film Festival, Short of the Month.
 - type: center-image
   image: "/uploads/catch-poster.jpg"
 ---
