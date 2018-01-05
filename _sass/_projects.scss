@@ -1,7 +1,40 @@
+.project-overview {
+    height: $full;
+    max-height: $full-viewport-height;
+    background: #111;
+    width: $full-viewport-width;
 
-.info {
-    width: $full - 20%;
-}
+    .intro {
+        width: $full - 20%;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+        .title {
+            font-size: $base-font-size + 60px;
+            color: #222;
+            font-weight: bolder;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+    
+    .info {
+        width: $full - 20%;
+
+        .heading {
+            color: $light-color;
+            font-weight: 600;
+            font-family: 'Roboto Mono';
+            font-weight: 400;
+            font-size: $base-font-size + 3px;
+        }
+    }
+
+    .arrow {
+        font-size: $base-font-size + 20px;
+        font-family: 'Ion';
+    }
+  }
 
 .project-content {
     width: $full;
@@ -15,6 +48,10 @@
 
     .content-block {
         margin: $gutter * 4 auto;
+    }
+
+    .text .container {
+        max-width: $half + 15%;
     }
 
     .full-width-image img {

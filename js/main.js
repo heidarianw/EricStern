@@ -32,7 +32,7 @@ var $cog = $('.arrow'),
 
 $(window).scroll(function () {
     $cog.css({
-        'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 720) + 'deg)'
+        'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 360) + 'deg)'
     });
 });
 
