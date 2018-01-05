@@ -11,10 +11,10 @@ sections:
     brand.
 - type: vimeo
   id: 131372707
+- type: vimeo
+  id: 131372706  
 - type: center-image
   image: "/uploads/julian.png"
-- type: vimeo
-  id: 131372706
 - type: image-grid
   left_image: "/uploads/kate-1.png"
   right_image: "/uploads/kate-2.png"

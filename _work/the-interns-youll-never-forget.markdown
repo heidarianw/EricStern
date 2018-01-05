@@ -10,14 +10,14 @@ sections:
 - type: text
   body: |-
     The Brief: Make something famous, for good.
-
+    
     The Problem: It’s harder than ever for interns to stand out and get a job in advertising.
-
+    
     The Solution: Hyper-target the audience and make ourselves famous to BBH/Domani.
+
 - type: vimeo
   id: 228313549
 - type: center-image
   image: "/uploads/adweek.png"
 layout: projects
 ---
-

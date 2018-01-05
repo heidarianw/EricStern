@@ -26,17 +26,21 @@
   </div>
 </div>
 {% when 'vimeo' %}
-<div class="{{ block.type }} content-block">
-  <div class="container">
-    <iframe src="https://player.vimeo.com/video/{{ block.id }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video">
+  <div class="{{ block.type }} content-block">
+    <div class="container">
+      <iframe src="https://player.vimeo.com/video/{{ block.id }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 {% when 'youtube' %}
-<div class="{{ block.type }} content-block">
-  <div class="container">
-    <iframe src="https://www.youtube.com/embed/{{ block.id }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-  </div>
-</div>    
+<div class="video">
+  <div class="{{ block.type }} video content-block">
+    <div class="container">
+      <iframe src="https://www.youtube.com/embed/{{ block.id }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>    
+</div>
 {% when 'byline' %}
 <div class="{{ block.type}}">
   <div class="container">
