@@ -7,10 +7,8 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: text
-  body: Put ‘em up for the Texas
-    Put ‘em up for the fight
-    Put ‘em up for the burnt orange
-    And put ‘em up for the white.   
+  body: Put ‘em up for the Texas Put ‘em up for the fight Put ‘em up for the burnt
+    orange And put ‘em up for the white.
 - type: youtube
   id: kofJzGcV9jE
 - type: center-image
@@ -22,13 +20,13 @@ sections:
   image: "/uploads/peu-4.png"
 - type: image-grid
   left_image: "/uploads/peu-5.png"
-  right_image: "/uploads/peu-6.png"  
+  right_image: "/uploads/peu-6.png"
 - type: center-image
-  image: "/uploads/peu-7.png" 
+  image: "/uploads/peu-7.png"
 - type: image-grid
   left_image: "/uploads/peu-8.png"
-  right_image: "/uploads/peu-9.png"  
+  right_image: "/uploads/peu-9.png"
 - type: center-image
-  image: "/uploads/peu-10.png"     
+  image: "/uploads/peu-10.png"
 ---
 
