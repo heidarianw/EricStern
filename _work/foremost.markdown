@@ -12,7 +12,7 @@ sections:
 - type: vimeo
   id: 131372707
 - type: vimeo
-  id: 131372706  
+  id: 131372706
 - type: center-image
   image: "/uploads/julian.png"
 - type: image-grid
