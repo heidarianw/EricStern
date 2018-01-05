@@ -24,7 +24,7 @@
     }
 
         .title {
-            font-size: $base-font-size + 60px;
+            font-size: $base-font-size + 75px;
             max-width: $full - 20%;
             color: #222;
             font-weight: 800;
@@ -41,11 +41,10 @@
             font-family: 'Roboto Mono';
             font-weight: 400;
             font-size: $base-font-size + 3px;
-        }
 
-        .description {
-            margin-top: $gutter;
-            color: $light-color;
+            a {
+                color: $light-color;
+            }
         }
     }
 
@@ -63,6 +62,21 @@
     .container {
         max-width: $full - 40%;
         width: $full;
+
+        &.columns {
+            column-count: 2;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-gap: $gutter;
+        }
+        
+        @media #{$break-medium} {
+            &.columns {
+                column-count: 1;
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+            }
+        }        
     }
 
     .content-block {

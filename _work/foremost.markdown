@@ -4,11 +4,8 @@ date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#222222"
   project_text_color: "#ffffff"
-  project_details: Digital Spot – Fall 2016
+  project_details: Digital Spots – Fall 2016 – Producer & Editor
 sections:
-- type: text
-  body: I produced &amp; edited these spots for Foremost, an American-made clothing
-    brand.
 - type: vimeo
   id: 131372707
 - type: vimeo
