@@ -25,10 +25,16 @@
     {{ block.body | markdownify }}
   </div>
 </div>
-{% when 'video' %}
+{% when 'vimeo' %}
 <div class="{{ block.type }} content-block">
   <div class="container">
     <iframe src="https://player.vimeo.com/video/{{ block.id }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
+{% when 'youtube' %}
+<div class="{{ block.type }} content-block">
+  <div class="container">
+    <iframe src="https://www.youtube.com/embed/{{ block.id }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
   </div>
 </div>    
 {% when 'byline' %}

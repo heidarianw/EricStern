@@ -9,11 +9,11 @@ sections:
 - type: text
   body: I produced &amp; edited these spots for Foremost, an American-made clothing
     brand.
-- type: video
+- type: vimeo
   id: 131372707
 - type: center-image
   image: "/uploads/julian.png"
-- type: video
+- type: vimeo
   id: 131372706
 - type: image-grid
   left_image: "/uploads/kate-1.png"

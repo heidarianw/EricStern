@@ -1,6 +1,5 @@
 .project-overview {
-    height: $full;
-    max-height: $full-viewport-height;
+    height: $full-viewport-height;
     background: #111;
     width: $full-viewport-width;
 
@@ -106,7 +105,8 @@
         }
     }
 
-    .video {
+    .vimeo,
+    .youtube {
         position: relative;
         padding-bottom: 56.25%;
         padding-top: 35px;
