@@ -10,9 +10,11 @@ class: page
       <h4 class="heading">{{ page.general.project_details | downcase }}</h4>
     </div>
   </div>
+
+  <a href="#content" class="icons text-center arrow" style="color: {{ page.general.project_text_color }}">&#xf35d;</a>
 </section>
 
-<section class="project-content">
+<section id="content" class="project-content">
   <div class="container">
    {% include content.html %}
   </div>

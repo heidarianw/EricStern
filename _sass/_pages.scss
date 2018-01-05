@@ -102,8 +102,10 @@
   background: #111;
   width: 100vw;
 
-  .info {
-    padding-top: $gutter;
+  .arrow {
+    bottom: 50px;
+    font-size: $base-font-size + 20px;
+    font-family: 'Ion';
   }
 }
 
