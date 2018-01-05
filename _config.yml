@@ -31,12 +31,9 @@ defaults:
     permalink: "/work/:title/"
     layout: projects
     general:
-    - project_color: "#222"
-    - project_text_color: "#fff"
-    - project_type: What the project was.
-    - project_details: Role & year
-    services:
-    - type: 
+      project_color: "#222"
+      project_text_color: "#fff"
+      project_details: Role & year
     sections:
     - type: text
       body: 
