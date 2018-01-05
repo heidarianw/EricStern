@@ -3,18 +3,18 @@
 {% when 'full-width-image' or 'center-image' or 'split-image-left' or 'split-image-right' %}
 <div class="{{ block.type }} content-block">
   <figure>
-    <img src="{{ block.image }}"> 
+    <img src="{{ block.image | prepend: site.url }}"> 
     <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
   </figure>
 </div> 
 {% when 'image-grid' %}
 <div class="{{ block.type }} content-block">
-  <div class="container row align-center">
-    <figure class="left-image">
-      <img src="{{ block.left_image }}">
+  <div class="row">
+    <figure class="image-left">
+      <img src="{{ block.left_image | prepend: site.url }}">
     </figure>
-    <figure class="right-image">
-      <img src="{{ block.right_image }}">
+    <figure class="image-right">
+      <img src="{{ block.right_image | prepend: site.url }}">
     </figure>
   </div>
 </div> 

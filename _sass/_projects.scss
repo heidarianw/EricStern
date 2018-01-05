@@ -55,6 +55,20 @@
         position: relative;
     }
 
+    .image-grid {
+        figure {
+            flex: 0 0 calc(50% - #{$gutter / 2});
+
+            &.image-left {
+                margin-left: 0 !important;
+            }
+
+            &.image-right {
+                margin-left: auto !important;
+            }
+        }
+    }
+
     .video {
         position: relative;
         padding-bottom: 56.25%;
