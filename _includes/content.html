@@ -43,11 +43,20 @@
     </div>
   </div>    
 </div>
-{% when 'byline' %}
-<div class="{{ block.type}}">
-  <div class="container">
-    <p class="heading">{{ block.byline | markdownify }}</p>
-  </div>   
-</div>   
+{% when 'media-grid' %}
+<div class="{{ block.type }} content-block">
+  <h5 class="featured text-center">As Featured In:</h5>
+  <div class="row align-center">
+    {% for item in block.press_items %}
+    <a href="{{ item.press_url }}" target="_blank">
+      <figure class="image-left">
+        <img src="{{ item.logo | prepend: site.url }}">
+      </figure>
+    </a>
+    {% endfor %}
+  </div>
+</div> 
+{% when 'divider' %}
+<div class="divider"></div>
 {% endcase %}
 {% endfor %}
