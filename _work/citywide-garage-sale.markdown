@@ -11,7 +11,7 @@ sections:
   body: |-
     A fall 2017 TexasMedia group project for local Austin, TX client City-Wide Garage Sale, a
     forty-year- old vintage market.
-  
+
     The media consultancy plan evaluates the client’s existing communication efforts and proposes
     owned media, search &amp; display, social media, terrestrial, and eCommerce recommendations.
 ---
