@@ -1,12 +1,14 @@
 {% for block in page.sections%}
 {% case block.type %}
 {% when 'full-width-image' or 'center-image' or 'split-image-left' or 'split-image-right' %}
-<div class="{{ block.type }} content-block">
-  <figure>
-    <img src="{{ block.image | prepend: site.url }}"> 
-    <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
-  </figure>
-</div> 
+<a href="{{ block.press_url }}" target="_blank">
+  <div class="{{ block.type }} content-block">
+    <figure>
+      <img src="{{ block.image | prepend: site.url }}"> 
+      <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
+    </figure>
+  </div> 
+</a>
 {% when 'image-grid' %}
 <div class="{{ block.type }} content-block">
   <div class="row">

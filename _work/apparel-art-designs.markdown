@@ -7,6 +7,8 @@ general:
   project_text_color: "#fff"
   project_details: Creative Director – 2016 – Illustrations by <a href="http://www.maazcon.com"
     target="_blank">Maaz Khan</a>
+  color_pallete_image: "/uploads/apparel-pallete.jpg"
+  pallete_is_first: true 
 sections:
 - type: center-image
   image: "/uploads/atlantic-city-back.jpg"

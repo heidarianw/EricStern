@@ -2,9 +2,10 @@
 title: Put 'em Up (Texas Anthem)
 date: 2018-01-05 00:25:00 Z
 general:
-  project_color: "#222222"
-  project_text_color: "#ffffff"
+  project_color: "#966b58"
+  project_text_color: "#d7d1c3"
   project_details: A Music Video – Director/Producer/Editor – September 2015
+  color_pallete_image: "/uploads/peu-pallete.jpg"
 sections:
 - type: youtube
   id: kofJzGcV9jE
@@ -14,19 +15,17 @@ sections:
 - type: center-image
   image: "/uploads/peu-1.jpg"
 - type: image-grid
-  left_image: "/uploads/peu-2.jpg"
-  right_image: "/uploads/peu-3.jpg"
-- type: center-image
-  image: "/uploads/peu-4.png"
-- type: image-grid
   left_image: "/uploads/peu-5.png"
-  right_image: "/uploads/peu-6.png"
-- type: center-image
-  image: "/uploads/peu-7.png"
+  right_image: "/uploads/peu-3.jpg"
 - type: image-grid
-  left_image: "/uploads/peu-8.png"
-  right_image: "/uploads/peu-9.png"
+  left_image: "/uploads/peu-7.png"
+  right_image: "/uploads/peu-6.png"  
 - type: center-image
-  image: "/uploads/peu-10.png"
+  image: "/uploads/peu-2.jpg"
+- type: media-grid
+  - logo: "/uploads/logos/total-frat-move.png"
+    press_url: https://totalfratmove.com/new-rap-about-the-university-of-texas-is-a-little-too-much-for-me-to-handle/
+  - logo:
+    press_url:
 ---
 

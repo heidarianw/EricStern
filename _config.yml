@@ -34,9 +34,16 @@ defaults:
       project_color: "#222"
       project_text_color: "#fff"
       project_details: Role & year
+      color_pallete_image: 
+      pallete_is_first:
     sections:
     - type: text
-      body: 
+      body: Project copy goes here.
+    - type: image-grid
+      left_image:
+      right_image:
+    - type: center-image
+      image:  
 - scope:
     path: index.markdown
     type: pages

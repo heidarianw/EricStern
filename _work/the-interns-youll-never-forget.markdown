@@ -6,18 +6,21 @@ general:
   project_color: "#4a65bc"
   project_text_color: "#69d9d4"
   project_details: An Infomercial – Summer 2017
+  color_pallete_image: "/uploads/interns-pallete.jpg"
 sections:
 - type: text
   body: |-
-    The Brief: Make something famous, for good.
+    BBH Barn 2017. Producer &amp; editor.
 
-    The Problem: It’s harder than ever for interns to stand out and get a job in advertising.
-
-    The Solution: Hyper-target the audience and make ourselves famous to BBH/Domani.
+    We had to make something famous, for good. So, we made ourselves famous, for good. We bought a segway for the office. It has our names on it. And everyone went bonkers.
 - type: vimeo
   id: 228313549
+- type: image-grid
+  left_image: "/uploads/interns-1.jpg"
+  right_image: "/uploads/interns-2.jpg"
 - type: center-image
   image: "/uploads/adweek.png"
+  press_url: http://www.adweek.com/brand-marketing/bbh-barn-internship-segway
 layout: projects
 ---
 
