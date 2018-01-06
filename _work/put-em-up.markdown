@@ -19,7 +19,7 @@ sections:
   right_image: "/uploads/peu-3.jpg"
 - type: image-grid
   left_image: "/uploads/peu-7.png"
-  right_image: "/uploads/peu-6.png"  
+  right_image: "/uploads/peu-6.png"
 - type: center-image
   image: "/uploads/peu-2.jpg"
 - type: media-grid
@@ -39,9 +39,9 @@ sections:
   - logo: "/uploads/logos/buzz-magazine.png"
     press_url: https://thebuzzmagazines.com/articles/2015/10/put-%E2%80%99em-ut-junior-produces-song-focused-school-spirit
   - logo: "/uploads/logos/kxan.png"
-    press_url: https://www.youtube.com/watch?v=J-eM6zHbV3c 
+    press_url: https://www.youtube.com/watch?v=J-eM6zHbV3c
   - logo: "/uploads/logos/good-morning-texas.png"
-    press_url: https://youtu.be/SHVyy4UjR3g 
+    press_url: https://youtu.be/SHVyy4UjR3g
   - logo: "/uploads/logos/orange.png"
     press_url: http://orangemag.co/multimedia-1/2015/11/10/jonathan-dror-reads-mean-tweets-1
   - logo: "/uploads/logos/1300-zone.png"
