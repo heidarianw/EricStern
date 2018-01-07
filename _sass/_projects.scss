@@ -7,8 +7,9 @@
         margin-top: $gutter * 2;
         text-transform: uppercase;
         color: $light-color;
-        font-family: $base-font-stack;
+        font-family: $heading-font-stack;
         font-weight: 800;
+        letter-spacing: 4px;
         text-align: center;
     }
 
@@ -30,6 +31,7 @@
             max-width: $full - 20%;
             color: #222;
             font-weight: 800;
+            font-family: $heading-font-stack;
             text-transform: uppercase;
             line-height: 1;
         }
@@ -40,7 +42,7 @@
         .heading {
             color: $light-color;
             font-weight: 600;
-            font-family: 'Roboto Mono';
+            font-family: $base-font-stack;
             font-weight: 400;
             font-size: $base-font-size + 3px;
 

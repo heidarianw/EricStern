@@ -8,8 +8,6 @@
       max-width: $half-viewport-width + 10vw;
       max-height: $half-viewport-width + 10vw;
       margin: 0 auto;
-      grid-gap: $gutter / 2;
-      grid-template-columns: repeat(4, 1fr);
     
     .navigation {
       background: $dark-color;
@@ -25,28 +23,52 @@
         font-weight: 500;
         font-size: $base-font-size + 2px;
         text-transform: uppercase;
-        opacity: 0;
+        height: 100%;
+        width: 100%;
         padding: 0 10px;
         line-height: 1.2;
-        @include prefix(transition, opacity .3s ease-in, webkit moz ms);
+        @include prefix(transform, translate3d(0, -50%, -50%), webkit moz ms);
       }  
 
-      &:hover a {
+      span {
+        opacity: 0;
+        position: relative;
+        z-index: 20;
+        @include prefix(transition, opacity .3s ease-in, webkit moz ms);
+      }
+
+      &:hover span {
         opacity: 1;
       }
       
-      &:before {
+      &::before {
         content: '';
         display: table;
         padding-top: 100%;
       }
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background: #333;
+        opacity: 0;
+        @include prefix(transition, opacity .3s ease-in, webkit moz ms);
+      }
+
+      &:hover::after {
+        opacity: 1;
+        z-index: 1;
+      }
+    
+    .page-content.home .container .navigation:hover:after {
+      opacity: 1;
+        z-index: 0;
+    }
     
       &.featured {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 1;
-
         &:before {
           content: '';
           display: table;
@@ -80,5 +102,3 @@
 		}
   }
 }
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
