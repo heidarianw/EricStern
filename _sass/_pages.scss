@@ -16,6 +16,9 @@
       margin: 0;
       text-align: center;
       cursor: pointer;
+      box-sizing: border-box;
+      background-position: center !important;
+      background-size: cover !important;
 
       a {
         color: $light-color;
@@ -23,6 +26,8 @@
         font-size: $base-font-size + 2px;
         text-transform: uppercase;
         opacity: 0;
+        padding: 0 10px;
+        line-height: 1.2;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
       }  
 
@@ -45,16 +50,9 @@
         &:before {
           content: '';
           display: table;
-          padding-top: 49%;
+          padding-top: 50%;
         }
       } 
-      
-      &.featured:nth-last-child(-n + 4) {
-        grid-row-start: 3;
-        grid-row-end: 4;
-        grid-column-start: -1 !important;
-        grid-column-end: 3 !important
-      }
     }
   }
 }  
