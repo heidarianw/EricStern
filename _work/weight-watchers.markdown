@@ -10,6 +10,7 @@ general:
 sections:
 - type: center-image
   image: "/uploads/weight-watchers-cover.jpg"
+- type: divider
 - type: text
   body: |-
     A fall 2017 TexasMedia group project created for Weight Watchers.
