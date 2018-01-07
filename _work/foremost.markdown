@@ -11,7 +11,7 @@ sections:
   id: 131372707
 - type: vimeo
   id: 131372706
-- type: divider  
+- type: divider
 - type: center-image
   image: "/uploads/julian-4.jpg"
 - type: image-grid
@@ -21,6 +21,6 @@ sections:
   image: "/uploads/kate-1.png"
 - type: image-grid
   left_image: "/uploads/kate-7.jpg"
-  right_image: "/uploads/kate-4.jpg"  
+  right_image: "/uploads/kate-4.jpg"
 ---
 

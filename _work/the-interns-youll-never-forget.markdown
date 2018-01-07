@@ -11,11 +11,10 @@ sections:
 - type: vimeo
   id: 228313549
 - type: text
-  body: |-
-    BBH Barn 2017. Producer &amp; editor.
-
-    We had to make something famous, for good. So, we made ourselves famous, for good. We bought a segway for the office. It has our names on it. And everyone went bonkers.  
-- type: divider  
+  body: "BBH Barn 2017. Producer &amp; editor.\n\nWe had to make something famous,
+    for good. So, we made ourselves famous, for good. We bought a segway for the office.
+    It has our names on it. And everyone went bonkers.  "
+- type: divider
 - type: image-grid
   left_image: "/uploads/interns-1.jpg"
   right_image: "/uploads/interns-2.jpg"
