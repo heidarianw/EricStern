@@ -101,7 +101,8 @@
   
 	&.about {
     .container {
-      width: $half + 25%;
+      max-width: 1024px;
+      width: $full;
       margin-top: $gutter;
     
     .page-heading {
@@ -116,12 +117,6 @@
 
       p {
         line-height: $base-line-height;
-      }
-
-      @media #{$break-huge} {
-        & {
-            flex: 0 0 30% !important;
-        }
       }
     }
 
@@ -140,12 +135,6 @@
         width: $full - 25%;
         display: block;
         margin: 0 auto;
-      }
-
-      @media #{$break-huge} {
-        & {
-            flex: 0 0 40% !important;
-        }
       }
       
       @media #{$break-large} {
