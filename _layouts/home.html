@@ -7,12 +7,26 @@ class: page
   <div class="container grid align-center">
 
     {% for item in page.navigation %}
-    {% assign project = site.projects | where: 'title', item.project %}
-    <div class="row align-center {% if forloop.first == true or forloop.last == true %}featured {% endif %}project">
-      <a href="{{ project.url | prepend:site.url }}">
-        {{ project.title }}
-      </a> 
-    </div>
+    {% if item.project %}
+    {% assign project = site.work | where: 'title', item.project | first %}
+      <div class="row align-center {% if forloop.first == true or forloop.last == true %}featured {% endif %}navigation">
+        <a href="{{ project.url | prepend:site.url }}">
+          {{ project.title }}
+        </a> 
+      </div>
+    {% elsif item.page_url %}
+      <div class="row align-center {% if forloop.first == true or forloop.last == true %}featured {% endif %}navigation">
+        <a href="{{ item.page_url | prepend:site.url }}">
+          {{ item.title }}
+        </a> 
+      </div>
+    {% elsif item.contact_email %}
+      <div class="row align-center {% if forloop.first == true or forloop.last == true %}featured {% endif %}navigation">
+        <a href="mailto:{{ item.contact_email }}">
+          {{ item.title }}
+        </a> 
+      </div>  
+    {% endif %}   
     {% endfor %}
 
   </div>

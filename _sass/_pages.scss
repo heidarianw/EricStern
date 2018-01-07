@@ -11,29 +11,16 @@
       grid-gap: $gutter / 2;
       grid-template-columns: repeat(4, 1fr);
     
-    .project {
+    .navigation {
       background: $dark-color;
       margin: 0;
+      text-align: center;
       cursor: pointer;
-
-      &.about {
-        grid-column-start: 4;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 1
-      }
-    
-      &.contact {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 3;
-        grid-row-end: 3
-      }
 
       a {
         color: $light-color;
         font-weight: 500;
-        font-size: $base-font-size + 3px;
+        font-size: $base-font-size + 2px;
         text-transform: uppercase;
         opacity: 0;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
