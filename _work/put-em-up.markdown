@@ -7,19 +7,13 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: youtube
-  id: kofJzGcV9jE 
+  id: kofJzGcV9jE
 - type: byline
-  body: |-
-    Put ‘em up for the Texas,
-
-    Put 'em up for the fight,
-
-    Put 'em up for the burnt orange,
-
-    And put 'em up for the white.    
+  body: "Put ‘em up for the Texas,\n\nPut 'em up for the fight,\n\nPut 'em up for
+    the burnt orange,\n\nAnd put 'em up for the white.    "
 - type: divider
 - type: color-pallete
-  image: "/uploads/peu-pallete.jpg" 
+  image: "/uploads/peu-pallete.jpg"
 - type: center-image
   image: "/uploads/peu-1.jpg"
 - type: image-grid
@@ -30,7 +24,7 @@ sections:
   right_image: "/uploads/peu-6.png"
 - type: center-image
   image: "/uploads/peu-2.jpg"
-- type: divider  
+- type: divider
 - type: media-grid
   press_items:
   - logo: "/uploads/logos/total-frat-move.png"
