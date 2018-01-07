@@ -36,6 +36,7 @@
         position: absolute;
         z-index: 20;
         top: 50%;
+        width: 80%;
         font-family: $heading-font-stack;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
         @include prefix(transform, translate3d(-50%, -50%, 0), webkit moz ms);
