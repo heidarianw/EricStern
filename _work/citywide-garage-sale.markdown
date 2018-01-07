@@ -5,7 +5,6 @@ general:
   project_color: "#be2926"
   project_text_color: "#d87e7c"
   project_details: A Digital Media Plan – Fall 2017
-  color_pallete_image: "/uploads/citywide-pallete.jpg"
 sections:
 - type: text
   body: |-
@@ -14,5 +13,7 @@ sections:
 
     The media consultancy plan evaluates the client’s existing communication efforts and proposes
     owned media, search &amp; display, social media, terrestrial, and eCommerce recommendations.
+- type: color-pallete
+  image: "/uploads/citywide-pallete.jpg"
 ---
 

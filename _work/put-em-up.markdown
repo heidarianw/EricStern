@@ -5,7 +5,6 @@ general:
   project_color: "#bf5700"
   project_text_color: "#fff"
   project_details: A Music Video – Director/Producer/Editor – September 2015
-  color_pallete_image: "/uploads/peu-pallete.jpg"
 sections:
 - type: youtube
   id: kofJzGcV9jE
@@ -53,5 +52,7 @@ sections:
     press_url: http://orangemag.co/multimedia-1/2015/11/10/jonathan-dror-reads-mean-tweets-1
   - logo: "/uploads/logos/1300-zone.png"
     press_url: https://am1300thezone.iheart.com/onair/the-sports-buffet-22066/jonathan-dror-put-em-up-13912351/#ixzz3kcRdyyRu
+- type: color-pallete
+  image: "/uploads/peu-pallete.jpg"
 ---
 

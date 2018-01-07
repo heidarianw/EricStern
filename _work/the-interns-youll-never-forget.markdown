@@ -6,7 +6,6 @@ general:
   project_color: "#4a65bc"
   project_text_color: "#69d9d4"
   project_details: An Infomercial – Summer 2017
-  color_pallete_image: "/uploads/interns-pallete.jpg"
 sections:
 - type: vimeo
   id: 228313549
@@ -27,6 +26,7 @@ sections:
 - type: center-image
   image: "/uploads/adweek.png"
   press_url: http://www.adweek.com/brand-marketing/bbh-barn-internship-segway
-layout: projects
+- type: color-pallete
+  image: "/uploads/interns-pallete.jpg"  
 ---
 

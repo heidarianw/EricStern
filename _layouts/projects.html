@@ -17,26 +17,6 @@ class: page
 
 <section id="content" class="project-content">
   <div class="container {% if page.is_columns == true %}columns{% endif %}">
-    {% if page.general.color_pallete_image %}
-    {% if page.general.pallete_is_first == true %} 
-   <div class="color-pallete content-block">
-      <figure>
-        <img src="{{ page.general.color_pallete_image | prepend: site.url }}"> 
-      </figure>
-    </div> 
-    {% endif %}
-    {% endif %}
-
    {% include content.html %}
-  
-   {% if page.general.color_pallete_image %}
-   {% if page.general.pallete_is_first != true %} 
-   <div class="color-pallete content-block">
-      <figure>
-        <img src="{{ page.general.color_pallete_image | prepend: site.url }}"> 
-      </figure>
-    </div> 
-    {% endif %}
-    {% endif %}
   </div>
 </section>

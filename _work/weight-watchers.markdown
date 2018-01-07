@@ -6,10 +6,11 @@ general:
   project_color: "#178fdc"
   project_text_color: "#559819"
   project_details: A National Media Plan – Fall 2017
-  color_pallete_image: "/uploads/weight-watchers-pallete.jpg"
 sections:
 - type: center-image
   image: "/uploads/weight-watchers-cover.jpg"
+- type: color-pallete
+  image: "/uploads/weight-watchers-pallete.jpg"  
 - type: divider
 - type: text
   body: |-

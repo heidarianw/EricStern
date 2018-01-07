@@ -5,7 +5,6 @@ general:
   project_color: "#222222"
   project_text_color: "#ffffff"
   project_details: A Short Film - 2014 – Director & Editor
-  color_pallete_image: "/uploads/foremost-pallete.jpg"
 sections:
 - type: vimeo
   id: 108362685
@@ -32,5 +31,7 @@ sections:
   right_image: "/uploads/catch-bts-7.jpg"
 - type: center-image
   image: "/uploads/catch-bts-4.jpg"
+- type: color-pallete
+  image: "/uploads/foremost-pallete.jpg"  
 ---
 

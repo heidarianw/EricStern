@@ -31,6 +31,12 @@
     </figure>
   </div>
 </div> 
+{% when 'color-pallete' %}
+<div class="{{ block.type }} content-block">
+  <figure>
+      <img src="{{ block.image | prepend: site.url }}"> 
+  </figure>
+</div> 
 {% when 'text' %}
 <div class="{{ block.type }} content-block">
   <div class="container">
