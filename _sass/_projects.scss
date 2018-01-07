@@ -37,6 +37,13 @@
             font-family: $heading-font-stack;
             text-transform: uppercase;
             line-height: 1;
+
+            @media #{$break-medium} {
+                & {
+                   font-size: $base-font-size + 50px;
+                   max-width: $full;
+                }
+            }
         }
     
     .info {
