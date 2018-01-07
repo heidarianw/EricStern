@@ -76,8 +76,8 @@
     min-height: $footer-height;
 
     .container {
-        max-width: $full - 40%;
-        width: $full;
+        max-width: 1024px;
+        width: $full - 30%;
 
         &.columns {
             column-count: 2;

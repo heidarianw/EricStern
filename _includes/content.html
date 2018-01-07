@@ -75,5 +75,7 @@
 </div> 
 {% when 'divider' %}
 <div class="divider"></div>
+{% when 'media-plan' %}
+<a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button">View Full Media Plan</a>
 {% endcase %}
 {% endfor %}
