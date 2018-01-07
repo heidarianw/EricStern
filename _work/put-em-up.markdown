@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: Put 'em Up (Texas Anthem)
 date: 2018-01-05 00:25:00 Z
 general:
@@ -47,8 +46,5 @@ sections:
     press_url: http://orangemag.co/multimedia-1/2015/11/10/jonathan-dror-reads-mean-tweets-1
   - logo: "/uploads/logos/1300-zone.png"
     press_url: https://am1300thezone.iheart.com/onair/the-sports-buffet-22066/jonathan-dror-put-em-up-13912351/#ixzz3kcRdyyRu
-=======
-title: Put Em Up
->>>>>>> 07ba15bff16a74fd0ea48cf2b2498fb52f2c2fe5
 ---
 
