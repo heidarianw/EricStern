@@ -8,6 +8,6 @@ general:
   color_pallete_image: "/uploads/summer-moon-pallete.jpg"
 sections:
 - type: text
-  body: Awarded the account winning media plan.
+  body: Awarded the account winning media plan. View the full media plan.
 ---
 

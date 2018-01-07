@@ -10,6 +10,7 @@ general:
 sections:
 - type: vimeo
   id: 228313549
+  is_square: true
 - type: text
   body: "BBH Barn 2017. Producer &amp; editor.\n\nWe had to make something famous,
     for good. So, we made ourselves famous, for good. We bought a segway for the office.
@@ -18,6 +19,11 @@ sections:
 - type: image-grid
   left_image: "/uploads/interns-1.jpg"
   right_image: "/uploads/interns-2.jpg"
+- type: image-grid
+  left_image: "/uploads/interns-3.jpg"
+  right_image: "/uploads/interns-4.jpg"  
+- type: center-image
+  image: "/uploads/interns-5.jpg"  
 - type: center-image
   image: "/uploads/adweek.png"
   press_url: http://www.adweek.com/brand-marketing/bbh-barn-internship-segway

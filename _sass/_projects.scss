@@ -2,12 +2,16 @@
     height: $full-viewport-height;
     background: #111;
     width: $full-viewport-width;
+    position: fixed;
+    top: 0;
+    z-index: -1;
 
     .back {
-        margin-top: $gutter * 2;
+        margin-bottom: $gutter * 4;
         text-transform: uppercase;
         color: $light-color;
         font-family: $heading-font-stack;
+        font-size: $base-font-size - 2px;
         font-weight: 800;
         letter-spacing: 4px;
         text-align: center;
@@ -15,9 +19,8 @@
 
     .back .icon {
         font-family: 'Ion';
-        font-size: 40px;
+        font-size: 30px;
         vertical-align: middle;
-        color: $light-color;
     }
 
     .intro {
@@ -60,6 +63,8 @@
 
 .project-content {
     width: $full;
+    margin-top: $full-viewport-height;
+    background: $light-color;
     padding: $gutter * 2 0;
     min-height: $footer-height;
 
@@ -160,6 +165,10 @@
             padding-bottom: 56.25%;
             width: 100%;
             overflow: hidden;
+
+            &.square {
+                padding-bottom: 75% !important;
+            }
         
             iframe {
                 position: absolute;

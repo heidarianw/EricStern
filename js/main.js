@@ -4,17 +4,22 @@ Filename: main.js
 
 // animation
 $(document).ready(function(){var t=new TimelineMax;
-  t.from(".description",.5,{opacity:0},0);
+  t.from(".description, .intro",.5,{opacity:0},0);
   t.staggerFrom(".proposal-overview > div",.5,{opacity:0},0.1);
   t.staggerFrom(".info ul li",.5,{opacity:0},0.1);
-  t.staggerFrom(".content-block, .project",.5,{opacity:0},0.1);
+  t.staggerFrom(".content-block, .navigation",.5,{opacity:0},0.1);
 });
 
-var windowHeight = $(window).height();
-
-$(window).scroll(function(){
-  $(".project-overview").css("opacity", 1 - $(window).scrollTop() / windowHeight);
-});
+function scrollBanner() {
+  $(document).scroll(function(){
+  	var scrollPos = $(this).scrollTop();
+  	$('.intro').css({
+  	  'margin-top' : '-'+scrollPos/2+'px',
+  	  'opacity' : 1-(scrollPos/1000)
+  	});
+  });    
+}
+scrollBanner();
 
 $('.arrow').on('click', function(event) {
   var target = $(this.getAttribute('href'));

@@ -4,15 +4,15 @@ date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
 - project: Weight Watchers
-  cover_image: "/uploads/interns-1.jpg"
+  cover_image: "/uploads/weight-watchers-cover.jpg"
 - project: The Interns You'll Never Forget
-  cover_image: "/uploads/interns-1.jpg"
+  cover_image: "/uploads/interns-cover.jpg"
 - page_url: "/about"
   title: About
 - project: City-Wide Garage Sale
-  cover_image: "/uploads/kate-1.png"
+  cover_image: "/uploads/city-wide-cover.jpg"
 - project: Summer Moon Coffee
-  cover_image: 
+  cover_image: "/uploads/summer-moon-cover.jpg"
 - project: Apparel Art Designs
   cover_image: "/uploads/apparel-cover.jpg"
 - project: Put 'em Up (Texas Anthem)
@@ -22,7 +22,7 @@ navigation:
 - project: Foremost
   cover_image: "/uploads/foremost-cover.jpg"
 - project: Catch
-  cover_image: "/uploads/catch-screen-6.jpg"
+  cover_image: "/uploads/catch-screen-2.jpg"
 layout: home
 ---
 

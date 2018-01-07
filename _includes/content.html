@@ -1,6 +1,7 @@
 {% for block in page.sections%}
 {% case block.type %}
 {% when 'full-width-image' or 'center-image' or 'split-image-left' or 'split-image-right' %}
+{% if block.press_url %}
 <a href="{{ block.press_url }}" target="_blank">
   <div class="{{ block.type }} content-block">
     <figure>
@@ -9,6 +10,16 @@
     </figure>
   </div> 
 </a>
+{% else %}
+<a href="{{ block.press_url }}" target="_blank">
+  <div class="{{ block.type }} content-block">
+    <figure>
+      <img src="{{ block.image | prepend: site.url }}"> 
+      <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
+    </figure>
+  </div> 
+</a>
+{% endif %}
 {% when 'image-grid' %}
 <div class="{{ block.type }} content-block">
   <div class="row">
@@ -29,7 +40,7 @@
 </div>
 {% when 'vimeo' %}
 <div class="video">
-  <div class="{{ block.type }} content-block">
+  <div class="{{ block.type }} content-block {% if block.is_square == true %}square{% endif %}">
     <div class="container">
       <iframe src="https://player.vimeo.com/video/{{ block.id }}?title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
@@ -37,7 +48,7 @@
 </div>
 {% when 'youtube' %}
 <div class="video">
-  <div class="{{ block.type }} video content-block">
+  <div class="{{ block.type }} video content-block {% if block.is_square == true %}square{% endif %}">
     <div class="container">
       <iframe src="https://www.youtube.com/embed/{{ block.id }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>

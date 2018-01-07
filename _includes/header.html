@@ -1,9 +1,21 @@
-{% if page.layout != 'projects' %}
+{% if page.layout != 'projects' and page.layout != 'about' %}
 <header class="header align-center no-space">
   <div class="branding text-center {% if page.is_dark == true %}dark{% endif %}">
     <a href="{{ site.url }}">
       <h4 class="name">{{ site.title }}</h4>
       <h6 class="tagline">{{ site.tagline | downcase }}</h6>
+    </a>
+  </div>    
+</header>
+{% endif %}
+
+{% if page.layout == 'about' %}
+<header class="header align-center no-space">
+  <div class="branding text-center {% if page.is_dark == true %}dark{% endif %}">
+    <a href="{{ site.url }}">
+      <h4 class="name">{{ site.title }}</h4>
+      <h6 class="tagline">{{ site.tagline | downcase }}</h6>
+      <h6 class="back">Back to Work</h6>
     </a>
   </div>    
 </header>
