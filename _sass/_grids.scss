@@ -56,6 +56,10 @@
 	flex: 0 0 20%;
 }
 
+.grid-one-sixth {
+	flex: 0 0 $full / 6;
+}
+
 @media #{$break-medium} {
   	.grid-one-half,
   	.grid-one-third,

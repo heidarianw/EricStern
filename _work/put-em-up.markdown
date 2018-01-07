@@ -8,15 +8,15 @@ general:
 sections:
 - type: youtube
   id: kofJzGcV9jE
-- type: text
+- type: byline
   body: |-
-    Put ‘em up for the Texas
+    Put ‘em up for the Texas,
 
-    Put ‘em up for the fight
+    Put 'em up for the fight,
 
-    Put ‘em up for the burnt orange
+    Put 'em up for the burnt orange,
 
-    And put ‘em up for the white.
+    And put 'em up for the white.
 - type: divider
 - type: center-image
   image: "/uploads/peu-1.jpg"

@@ -187,11 +187,58 @@
         }    
     }
 
+    .byline {
+        text-align: center;
+        font-size: $base-font-size + 6px;
+        font-family: $heading-font-stack;
+        font-weight: 500;
+        color: $dark-color;
+        letter-spacing: 1px;
+        padding-left: $gutter * 2;
+        line-height: $base-line-height - .2;
+        margin: $gutter * 3 auto;
+        border-right: 10px solid;
+        border-left: 10px solid;
+
+        p {
+            margin: -5px auto;
+        }
+    }
+
     .divider {
         margin: $gutter * 2 auto;
         height: 1px;
         width: $full;
         background: $border-color;
+    }
+
+    .media-grid {
+        a {
+            margin: 10px;
+        }
+    }
+
+    .media-plan {
+        margin: $gutter * 3 auto;
+
+        .container {
+            max-width: $half + 20%;
+            
+            .button {
+                height: $button-height;
+                display: block;
+                max-width: 50%;
+                margin: 0 auto;
+                line-height: $button-height;
+                border: 1px solid;
+                border-radius: 2px;
+                text-align: center;
+                font-family: 'Gotham';
+                font-weight: 800;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+        }    
     }
 
     @media #{$break-medium} {

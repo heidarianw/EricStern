@@ -44,6 +44,10 @@
     {{ block.body | markdownify }}
   </div>
 </div>
+{% when 'byline' %}
+<div class="{{ block.type }} content-block" style="border-color: {{ page.general.project_color }};">
+  {{ block.body | markdownify }}
+</div>
 {% when 'vimeo' %}
 <div class="video">
   <div class="{{ block.type }} content-block {% if block.is_square == true %}square{% endif %}">
@@ -63,9 +67,9 @@
 {% when 'media-grid' %}
 <div class="{{ block.type }} content-block">
   <h5 class="featured text-center">As Featured In:</h5>
-  <div class="row align-center wrap">
+  <div class="row align-justify-align-center wrap">
     {% for item in block.press_items %}
-    <a href="{{ item.press_url }}" target="_blank" class="grid-one-fifth">
+    <a href="{{ item.press_url }}" target="_blank" class="grid-one-sixth">
       <figure class="image-left">
         <img src="{{ item.logo | prepend: site.url }}">
       </figure>
@@ -76,6 +80,10 @@
 {% when 'divider' %}
 <div class="divider"></div>
 {% when 'media-plan' %}
-<a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button">View Full Media Plan</a>
+<div class="{{ block.type }}">
+  <div class="container">
+    <a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button" style="color: {{ page.general.project_text_color }}; border-color: {{ page.general.project_color }};">View Full Media Plan</a>
+  </div>  
+</div>  
 {% endcase %}
 {% endfor %}
