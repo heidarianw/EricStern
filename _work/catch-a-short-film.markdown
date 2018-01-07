@@ -32,6 +32,6 @@ sections:
 - type: center-image
   image: "/uploads/catch-bts-4.jpg"
 - type: color-pallete
-  image: "/uploads/foremost-pallete.jpg"  
+  image: "/uploads/foremost-pallete.jpg"
 ---
 

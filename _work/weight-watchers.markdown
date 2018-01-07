@@ -10,7 +10,7 @@ sections:
 - type: center-image
   image: "/uploads/weight-watchers-cover.jpg"
 - type: color-pallete
-  image: "/uploads/weight-watchers-pallete.jpg"  
+  image: "/uploads/weight-watchers-pallete.jpg"
 - type: divider
 - type: text
   body: |-
