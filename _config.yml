@@ -50,8 +50,8 @@ defaults:
   values:
     navigation:
       item:
-        - projects: Apparel Art Designs
-          cover_image: "/uploads/interns-1.jpg"
+      - projects: Apparel Art Designs
+        cover_image: "/uploads/interns-1.jpg"
 - scope:
     path: about.markdown
     type: pages
