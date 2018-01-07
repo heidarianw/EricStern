@@ -120,12 +120,6 @@
       }
     }
 
-    @media #{$break-huge} {
-      & {
-        max-width: 1200px;
-      }
-    }
-
       @media #{$break-medium} {
         & {
           margin-top: $gutter * 8;
