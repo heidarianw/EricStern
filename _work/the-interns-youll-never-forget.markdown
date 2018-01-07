@@ -21,9 +21,9 @@ sections:
   right_image: "/uploads/interns-2.jpg"
 - type: image-grid
   left_image: "/uploads/interns-3.jpg"
-  right_image: "/uploads/interns-4.jpg"  
+  right_image: "/uploads/interns-4.jpg"
 - type: center-image
-  image: "/uploads/interns-5.jpg"  
+  image: "/uploads/interns-5.jpg"
 - type: center-image
   image: "/uploads/adweek.png"
   press_url: http://www.adweek.com/brand-marketing/bbh-barn-internship-segway
