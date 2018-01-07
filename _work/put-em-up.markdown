@@ -7,14 +7,7 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: youtube
-<<<<<<< HEAD
   id: kofJzGcV9jE 
-=======
-  id: kofJzGcV9jE
-- type: byline
-  body: "Put ‘em up for the Texas,\n\nPut 'em up for the fight,\n\nPut 'em up for
-    the burnt orange,\n\nAnd put 'em up for the white.    "
->>>>>>> 05d20883a9b8399bbb7fd768a04a435efefabd79
 - type: divider
 - type: color-pallete
   image: "/uploads/peu-pallete.jpg"

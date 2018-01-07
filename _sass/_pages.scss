@@ -111,6 +111,12 @@
       margin-bottom: $gutter;
     }
 
+    .bio {
+      p {
+        line-height: $base-line-height;
+      }
+    }
+
       @media #{$break-medium} {
         & {
           margin-top: $gutter * 8;
@@ -120,7 +126,7 @@
     }
 
 		.bio-image {
-      margin: 0 $gutter * 2;
+      margin: 0 $gutter * 2 0 0;
       
       @media #{$break-large} {
         & {
