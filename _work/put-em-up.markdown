@@ -7,7 +7,7 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: youtube
-  id: kofJzGcV9jE
+  id: kofJzGcV9jE 
 - type: byline
   body: |-
     Put ‘em up for the Texas,
@@ -16,8 +16,10 @@ sections:
 
     Put 'em up for the burnt orange,
 
-    And put 'em up for the white.
+    And put 'em up for the white.    
 - type: divider
+- type: color-pallete
+  image: "/uploads/peu-pallete.jpg" 
 - type: center-image
   image: "/uploads/peu-1.jpg"
 - type: image-grid
@@ -28,6 +30,7 @@ sections:
   right_image: "/uploads/peu-6.png"
 - type: center-image
   image: "/uploads/peu-2.jpg"
+- type: divider  
 - type: media-grid
   press_items:
   - logo: "/uploads/logos/total-frat-move.png"
@@ -52,7 +55,5 @@ sections:
     press_url: http://orangemag.co/multimedia-1/2015/11/10/jonathan-dror-reads-mean-tweets-1
   - logo: "/uploads/logos/1300-zone.png"
     press_url: https://am1300thezone.iheart.com/onair/the-sports-buffet-22066/jonathan-dror-put-em-up-13912351/#ixzz3kcRdyyRu
-- type: color-pallete
-  image: "/uploads/peu-pallete.jpg"
 ---
 
