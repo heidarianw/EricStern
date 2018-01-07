@@ -27,6 +27,6 @@ sections:
   image: "/uploads/adweek.png"
   press_url: http://www.adweek.com/brand-marketing/bbh-barn-internship-segway
 - type: color-pallete
-  image: "/uploads/interns-pallete.jpg"  
+  image: "/uploads/interns-pallete.jpg"
 ---
 
