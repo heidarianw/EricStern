@@ -80,7 +80,7 @@ url:
 twitter_username: ericstern
 tagline: Creator. Storyteller. Achiever.
 google_analytics:
-  tracking_id: UA-123456789-1
+  tracking_id: 
 markdown: kramdown
 plugins: 
 sass:
