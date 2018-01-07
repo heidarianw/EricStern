@@ -8,6 +8,8 @@ general:
   project_details: A National Media Plan – Fall 2017
   color_pallete_image: "/uploads/weight-watchers-pallete.jpg"
 sections:
+- type: center-image
+  image: "/uploads/weight-watchers-cover.jpg"
 - type: text
   body: |-
     A fall 2017 TexasMedia group project created for Weight Watchers.
