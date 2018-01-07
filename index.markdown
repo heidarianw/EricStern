@@ -14,13 +14,13 @@ navigation:
 - project: Summer Moon Coffee
   cover_image: 
 - project: Apparel Art Designs
-  cover_image: 
+  cover_image: "/uploads/apparel-cover.jpg"
 - project: Put 'em Up (Texas Anthem)
   cover_image: "/uploads/peu-10.png"
 - contact_email: eric@ericstern.works
   title: Contact
 - project: Foremost
-  cover_image: "/uploads/julian.png"
+  cover_image: "/uploads/foremost-cover.jpg"
 - project: Catch
   cover_image: "/uploads/catch-screen-6.jpg"
 layout: home

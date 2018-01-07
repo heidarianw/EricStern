@@ -11,7 +11,7 @@ sections:
   body: |-
     A fall 2017 TexasMedia group project created for Weight Watchers.
 
-    The media strategy and greater “What Else Is on Your Plate?” campaign revolved around
+    The media strategy and greater “What <i>Else</i> Is on Your Plate?” campaign revolved around
     emphasizing mindfulness by behaviorally targeting individuals through unique Milestone Moment placements.
 ---
 

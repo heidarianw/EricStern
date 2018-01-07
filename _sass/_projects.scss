@@ -151,8 +151,7 @@
     }
 
     .video {
-        border-bottom: 1px solid $border-color;
-
+        
         .vimeo,
         .youtube {
             position: relative;
@@ -168,6 +167,13 @@
                 height: 100%;
             }
         }    
+    }
+
+    .divider {
+        margin: $gutter * 2 auto;
+        height: 1px;
+        width: $full;
+        background: $border-color;
     }
 
     @media #{$break-medium} {
