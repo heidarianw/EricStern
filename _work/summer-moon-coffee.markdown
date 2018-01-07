@@ -11,8 +11,8 @@ sections:
 - type: color-pallete
   image: "/uploads/summer-moon-pallete.jpg"
 - type: center-image
-  image: "/uploads/summer-moon-first-page.jpg"  
+  image: "/uploads/summer-moon-first-page.jpg"
 - type: media-plan
-  plan_file: "/uploads/summer-moon-deck.pdf"  
+  plan_file: "/uploads/summer-moon-deck.pdf"
 ---
 

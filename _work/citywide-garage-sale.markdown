@@ -18,6 +18,6 @@ sections:
 - type: color-pallete
   image: "/uploads/citywide-pallete.jpg"
 - type: media-plan
-  plan_file: "/uploads/city-wide-deck.pdf"    
+  plan_file: "/uploads/city-wide-deck.pdf"
 ---
 
