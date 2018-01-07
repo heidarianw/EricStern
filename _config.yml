@@ -47,6 +47,13 @@ defaults:
 - scope:
     path: index.markdown
     type: pages
+  values:
+    projects:
+    - First Featured Project
+    - Second Featured Project
+    navigation:
+    - Page Slug
+    - Contact Email
 - scope:
     path: about.markdown
     type: pages
