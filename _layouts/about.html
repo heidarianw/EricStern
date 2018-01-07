@@ -3,15 +3,14 @@ layout: default
 class: page
 ---
 
-<section class="page-content about column align-center position-relative">
+<section class="page-content about column align-justify-align-center position-relative">
   <div class="container row">
 
     <figure class="bio-image">
-      <img src="{{ page.bio_image }}">
+      <img src="{{ page.bio_image | prepend: site.url }}">
     </figure>
 
-    <div class="bio">
-      <h6 class="page-heading">{{ page.page_heading }}</h6>
+    <div class="bio grid-one-half">
       {{ content }}
     </div>  
 

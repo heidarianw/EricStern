@@ -31,7 +31,7 @@
 
         .title {
             font-size: $base-font-size + 75px;
-            max-width: $full - 20%;
+            max-width: $full - 15%;
             color: #222;
             font-weight: 800;
             font-family: $heading-font-stack;
@@ -213,6 +213,11 @@
     }
 
     .media-grid {
+        .featured-heading {
+            font-family: $heading-font-stack;
+            text-transform: uppercase;
+        }
+
         a {
             margin: 10px;
             -webkit-filter: grayscale(1);
