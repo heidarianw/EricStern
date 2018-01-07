@@ -117,6 +117,12 @@
       p {
         line-height: $base-line-height;
       }
+
+      @media #{$break-huge} {
+        & {
+            flex: 0 0 30% !important;
+        }
+      }
     }
 
       @media #{$break-medium} {
@@ -129,6 +135,18 @@
 
 		.bio-image {
       margin: 0 $gutter / 2 0 0;
+
+      img {
+        width: $full - 25%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      @media #{$break-huge} {
+        & {
+            flex: 0 0 40% !important;
+        }
+      }
       
       @media #{$break-large} {
         & {
