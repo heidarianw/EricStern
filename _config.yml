@@ -48,12 +48,10 @@ defaults:
     path: index.markdown
     type: pages
   values:
-    projects:
-    - First Featured Project
-    - Second Featured Project
     navigation:
-    - Page Slug
-    - Contact Email
+      item:
+        - projects: Apparel Art Designs
+          cover_image: "/uploads/interns-1.jpg"
 - scope:
     path: about.markdown
     type: pages
