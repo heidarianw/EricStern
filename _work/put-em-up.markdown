@@ -7,7 +7,7 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: youtube
-  id: kofJzGcV9jE 
+  id: kofJzGcV9jE
 - type: divider
 - type: color-pallete
   image: "/uploads/peu-pallete.jpg"
