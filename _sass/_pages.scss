@@ -1,7 +1,9 @@
 .page-content {
   width: $full;
-  
+
   &.home {
+    margin-top: $gutter;
+
     .container {
       width: $full;
       max-width: $half-viewport-width + 10vw;
@@ -99,6 +101,8 @@
 }  
   
 	&.about {
+    margin-top: $gutter;
+    
     .container {
       max-width: 1024px;
       width: $full;
