@@ -10,16 +10,17 @@ sections:
 - type: center-image
   body: Project copy goes here.
   image: "/uploads/weight-watchers-cover.jpg"
-- type: color-pallete
-  image: "/uploads/weight-watchers-pallete.jpg"
 - type: divider
   image: 
 - type: text
+  image: 
   body: |-
     A Fall 2017 TexasMedia group project created for Weight Watchers.
 
     The media strategy and greater “What <i>Else</i> Is on Your Plate?” campaign revolved around
     emphasizing mindfulness by behaviorally targeting individuals through unique Milestone Moment placements.
+- type: color-pallete
+  image: "/uploads/weight-watchers-pallete.jpg"
 - type: media-plan
   plan_file: "/uploads/weight-watchers-deck.pdf"
 ---
