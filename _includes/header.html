@@ -1,5 +1,5 @@
 {% if page.layout != 'projects' %}
-<header class="header align-center no-space">
+<header class="header align-center no-space {% if page.layout == "about" %} about position-absolute{% endif %}">
   <div class="branding text-center {% if page.is_dark == true %}dark{% endif %}">
     <a href="{{ site.url }}">
       <h4 class="name">{{ site.title }}</h4>

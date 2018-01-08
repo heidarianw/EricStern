@@ -1,9 +1,20 @@
 // header
 header {
+
+&:not(.about) {
 	width: $full;
-	margin-top: $gutter - 5px;
+	margin-top: -$gutter - 10px;
 	margin-bottom: $gutter - 5px;
-	
+}
+
+	&.about {
+		width: $full;
+		margin-bottom: 20px;
+		margin-top: 0;
+		top: 0;
+	}
+
+
 	.branding {
 		position: relative;
 		z-index: 1000;
