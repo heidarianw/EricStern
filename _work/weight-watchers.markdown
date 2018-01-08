@@ -11,6 +11,8 @@ sections:
   body: Project copy goes here.
   image: "/uploads/weight-watchers-first-page.jpg"
 - type: color-pallete
+  left_image: 
+  right_image: 
   image: "/uploads/weight-watchers-pallete.jpg"
 - type: divider
   image: 
@@ -21,8 +23,6 @@ sections:
 
     The media strategy and greater “What <i>Else</i> Is on Your Plate?” campaign revolved around
     emphasizing mindfulness by behaviorally targeting individuals through unique Milestone Moment placements.
-- type: color-pallete
-  image: "/uploads/weight-watchers-pallete.jpg"
 - type: media-plan
   plan_file: "/uploads/weight-watchers-deck.pdf"
 ---
