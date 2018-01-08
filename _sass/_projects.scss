@@ -1,5 +1,6 @@
 .top-nav {
     width: 100vw;
+    z-index: 1000;
     height: $header-height;
     position: fixed;
     top: -$header-height;
