@@ -3,20 +3,22 @@ layout: default
 class: page
 ---
 
+{% assign text_color = page.general.project_text_color %}
+
 <nav class="top-nav row align-center">
-  <a href="{{ site.url}}" class="icon">&#xf3d5;</a><span>{{ page.title }}</span>
+  <a href="{{ site.url}}" class="icon" style="color: {% if text_color == "#fff" or text_color == "#ffffff" %}{{ page.general.project_color }}{% else %}{{ page.general.project_text_color }}{% endif %}">&#xf3d5;</a><span style="color: {% if text_color == "#fff" or text_color == "#ffffff" %}{{ page.general.project_color }}{% else %}{{ page.general.project_text_color }}{% endif %}">{{ page.title }}</span>
 </nav>
 
 <section class="project-overview column align-justify-center" style="background: {{ page.general.project_color }}">
   <div class="intro column align-center text-center">
-    <a href="{{ site.url }}" class="back" style="color: {{ page.general.project_text_color }}">back to work</a>
-    <h1 class="title" style="color: {{ page.general.project_text_color }}">{{ page.title }}</h1>
+    <a href="{{ site.url }}" class="back" style="color: {{ text_color }}">back to work</a>
+    <h1 class="title" style="color: {{ text_color }}">{{ page.title }}</h1>
     <div class="info">
       <h4 class="heading">{{ page.general.project_details | downcase }}</h4>
     </div>
   </div>
 
-  <a href="#content" class="icons text-center arrow" style="color: {{ page.general.project_text_color }}">&#xf35d;</a>
+  <a href="#content" class="icons text-center arrow" style="color: {{ text_color }}">&#xf35d;</a>
 </section>
 
 <section id="content" class="project-content">
