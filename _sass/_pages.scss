@@ -2,7 +2,7 @@
   width: $full;
 
   &.home {
-    margin-top: $gutter;
+    margin-top: $gutter * 2;
 
     .container {
       width: $full;
@@ -101,8 +101,8 @@
 }  
   
 	&.about {
-    margin-top: $gutter;
-    
+    margin-top: $gutter * 2;
+
     .container {
       max-width: 1024px;
       width: $full;
@@ -116,7 +116,9 @@
     }
 
     .bio {
-      margin: 0 0 0 $gutter;
+      padding-left: 10px;
+      flex: 0 1 50%;
+      margin-right: 0 !important;
 
       p {
         line-height: $base-line-height;
@@ -132,12 +134,12 @@
     }
 
 		.bio-image {
-      margin: 0 $gutter 0 0;
+      padding-right: 10px;
+      box-sizing: border-box;
+      margin-left: 0 !important;
 
       img {
-        width: $full - 25%;
         display: block;
-        float: right;
         margin: 0 auto;
       }
       
