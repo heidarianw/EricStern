@@ -41,7 +41,7 @@
 }
 
 .spaced .grid-one-half {
-	flex: 0 0 calc( #{$half} - 10px);
+	flex: 0 0 calc(#{$half} - 10px);
 }
 
 .grid-one-third {
@@ -57,7 +57,7 @@
 }
 
 .spaced .grid-one-quarter {
-	flex: 0 0 calc( #{$half / 2} - 10px);
+	flex: 0 0 calc(#{$half / 2} - 10px);
 }
 
 .grid-one-fifth {
