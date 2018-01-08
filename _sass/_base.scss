@@ -58,6 +58,11 @@ iframe, object, embed {
 
 
 // setup
+html {
+	display:flex;
+	min-height: 100vh;
+}
+
 body {
 	background: $secondary-light-color;
 	margin: 0 auto;

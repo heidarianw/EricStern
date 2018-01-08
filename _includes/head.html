@@ -2,13 +2,16 @@
   <meta charset="UTF-8">
   <title>{{ site.title | escape | strip_html | upcase }}{% if page.url == "/" %} {% else %} – {{ page.title | strip_html | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/assets/icons/jessewintonco.ico">
+  <link rel="shortcut icon" href="/assets/icons/favicon.png">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="author" content="{{ site.title }}">
   <meta name="robots" content="Index, Follow">
   <meta name="description" content="{{ site.description }}">
 
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
   <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 </head>
    
