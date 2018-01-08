@@ -8,10 +8,10 @@ general:
 sections:
 - type: vimeo
   id: 131372707
-  is_wide: true
+  ratio: wide
 - type: vimeo
   id: 131372706
-  is_wide: true
+  ratio: wide
 - type: divider
 - type: color-pallete
   image: "/uploads/foremost-pallete.jpg"

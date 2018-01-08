@@ -200,6 +200,10 @@
             width: 100%;
             overflow: hidden;
 
+            &.standard {
+                padding-bottom: 56.25%;
+            }
+
             &.square {
                 padding-bottom: 75% !important;
             }

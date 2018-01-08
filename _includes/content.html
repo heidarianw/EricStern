@@ -48,7 +48,7 @@
 </div>
 {% when 'vimeo' %}
 <div class="video">
-  <div class="{{ block.type }} content-block{% if block.is_square == true %} square{% elsif block.is_wide %} wide{% endif %}">
+  <div class="{{ block.type }} content-block {{ block.ratio }}">
     <div class="container">
       <iframe src="https://player.vimeo.com/video/{{ block.id }}?title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
@@ -56,8 +56,8 @@
 </div>
 {% when 'youtube' %}
 <div class="video">
-  <div class="{{ block.type }} video content-block{% if block.is_square == true %} square{% elsif block.is_wide %} wide{% endif %}">
-    <div class="container ratio-2-1">
+  <div class="{{ block.type }} video content-block {{ block.ratio }}">
+    <div class="container">
       <iframe src="https://www.youtube.com/embed/{{ block.id }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
   </div>    

@@ -8,6 +8,7 @@ general:
 sections:
 - type: vimeo
   id: 108362685
+  ratio: wide
 - type: text
   body: |-
     A story about a father and son, and why sometimes, all you need is a game of catch.

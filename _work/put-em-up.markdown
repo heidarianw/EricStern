@@ -8,6 +8,7 @@ general:
 sections:
 - type: youtube
   id: kofJzGcV9jE
+  ratio: standard
 - type: divider
 - type: color-pallete
   image: "/uploads/peu-pallete.jpg"

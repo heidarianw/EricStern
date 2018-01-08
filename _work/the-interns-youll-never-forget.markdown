@@ -9,7 +9,7 @@ general:
 sections:
 - type: vimeo
   id: 228313549
-  is_square: true
+  ratio: square
 - type: text
   body: "BBH Barn 2017. \n\nWe had to make something famous, for good. So, we made
     ourselves famous, for good. We bought a segway for the office.\nIt has our names
