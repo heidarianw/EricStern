@@ -5,7 +5,7 @@
     position: fixed;
     top: -$header-height;
     left: 0;
-    @include prefix(transition, top .4s ease-in-out, webkit moz ms);
+    @include prefix(transition, top .2s ease-in-out, webkit moz ms);
 
     &.nav-down {
         top: 0;
@@ -37,8 +37,8 @@
     z-index: -1;
 
     .back {
-        position: relative;
-        top: -20%;
+        position: absolute;
+        top: 20px;
         text-transform: uppercase;
         color: $light-color;
         font-family: $heading-font-stack;
@@ -57,6 +57,7 @@
     .intro {
         width: $full - 20%;
         margin: 0 auto;
+        position: relative;
         flex: 1;
     }
 
