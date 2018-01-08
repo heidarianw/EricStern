@@ -44,6 +44,7 @@
         position: absolute;
         z-index: 20;
         top: 50%;
+        left: 50%;
         color: $dark-color;
         width: $full - 25%;
         font-family: $heading-font-stack;
@@ -67,6 +68,7 @@
         height: 100%;
         position: absolute;
         top: 0;
+        left: 0;
         background: $secondary-light-color;
         opacity: 0;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
