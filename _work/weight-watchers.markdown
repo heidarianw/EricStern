@@ -4,12 +4,12 @@ date: 2018-01-05 17:32:00 Z
 position: 8
 general:
   project_color: "#178fdc"
-  project_text_color: "#559819"
+  project_text_color: "#fff"
   project_details: A National Media Plan – Fall 2017
 sections:
 - type: center-image
   body: Project copy goes here.
-  image: "/uploads/weight-watchers-cover.jpg"
+  image: "/uploads/weight-watchers-first-page.jpg"
 - type: color-pallete
   image: "/uploads/weight-watchers-pallete.jpg"
 - type: divider

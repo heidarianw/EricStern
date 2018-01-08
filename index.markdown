@@ -9,6 +9,7 @@ navigation:
   cover_image: "/uploads/interns-cover.jpg"
 - page_url: "/about"
   title: About
+  cover_image: "/uploads/eric-cover.jpg"
 - project: City-Wide Garage Sale
   cover_image: "/uploads/city-wide-cover.jpg"
 - project: Summer Moon Coffee
@@ -22,7 +23,7 @@ navigation:
 - project: Foremost
   cover_image: "/uploads/foremost-cover.jpg"
 - project: Catch
-  cover_image: "/uploads/catch-screen-2.jpg"
+  cover_image: "/uploads/catch-cover.jpg"
 layout: home
 ---
 

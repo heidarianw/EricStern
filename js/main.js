@@ -14,12 +14,19 @@ function scrollBanner() {
   $(document).scroll(function(){
   	var scrollPos = $(this).scrollTop();
   	$('.intro').css({
-  	  'margin-top' : '-'+scrollPos/2+'px',
+  	  'margin-top' : '-'+scrollPos+'px',
   	  'opacity' : 1-(scrollPos/1000)
   	});
   });    
 }
 scrollBanner();
+
+$(window).on('scroll', function () {
+  if ($(window).scrollTop() >= $(window).height())
+      $('.top-nav').addClass('nav-down');
+  else
+      $('.top-nav').removeClass('nav-down');
+});
 
 $('.arrow').on('click', function(event) {
   var target = $(this.getAttribute('href'));

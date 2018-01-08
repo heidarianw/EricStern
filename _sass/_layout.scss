@@ -23,7 +23,8 @@ header {
 
 		.name {
 			font-weight: bold;
-			letter-spacing: 3px;
+			letter-spacing: 2.5px;
+			font-size: $base-font-size + 13px;
 			font-family: $heading-font-stack;
 			text-transform: uppercase;
 			margin: 0 auto;
@@ -31,7 +32,7 @@ header {
 
 		.tagline {
 			font-family: $heading-font-stack;
-			font-size: $base-font-size + 1px;
+			font-size: $base-font-size;
 			color: #888;
 		}
 
@@ -53,61 +54,4 @@ header {
 			padding: 0 !important;
 		}
 	}
-}
-
-// footer
-.footer {
-    width:  $full;
-	z-index: 1;
-
-	a {
-		text-decoration: none;
-	}
-
-	@media #{$break-medium} {
-		& {
-        	flex-direction: column;
-			padding: 0 20px;
-			width: $full;
-        	text-align: center;
-        	height: 75px;
-        	position: relative !important;
-    	}
-
-		& .social,
-		& .copyright {
-			margin: 2px auto !important;
-			height: auto !important;
-			flex: none !important;
-		}
-
-		& a {
-			margin: 0 3px !important;
-		}
-	}
-}
-
-.social a,
-.copyright {
-	font-family: 'Roboto Mono';
-	font-size: 10px;
-    letter-spacing: 1px;
-	color: #000;
-    border-bottom: 1px solid rgba(0,0,0,0);
-}
-
-.social a:first-of-type {
-    margin-left: 0;
-}
-
-.social a {
-    margin: 0 6px;
-}
-
-.social a:hover {
-    border-color: #000;
-}
-
-.copyright {
-		text-align: right;
 }

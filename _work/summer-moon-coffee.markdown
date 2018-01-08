@@ -8,10 +8,10 @@ general:
 sections:
 - type: text
   body: An account winning media plan. View the full media plan.
-- type: color-pallete
-  image: "/uploads/summer-moon-pallete.jpg"
 - type: center-image
   image: "/uploads/summer-moon-first-page.jpg"
+- type: color-pallete
+  image: "/uploads/summer-moon-pallete.jpg"
 - type: media-plan
   plan_file: "/uploads/summer-moon-deck.pdf"
 ---

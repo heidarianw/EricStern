@@ -36,7 +36,8 @@
         position: absolute;
         z-index: 20;
         top: 50%;
-        width: $full - 35%;
+        color: $dark-color;
+        width: $full - 25%;
         font-family: $heading-font-stack;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
         @include prefix(transform, translate3d(-50%, -50%, 0), webkit moz ms);
@@ -58,7 +59,7 @@
         height: 100%;
         position: absolute;
         top: 0;
-        background: #222;
+        background: $secondary-light-color;
         opacity: 0;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
       }

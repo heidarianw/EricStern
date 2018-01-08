@@ -1,3 +1,30 @@
+.top-nav {
+    width: 100vw;
+    height: $header-height;
+    position: fixed;
+    top: -$header-height;
+    @include prefix(transition, top .4s ease-in-out, webkit moz ms);
+
+    &.nav-down {
+        top: 0;
+    }
+
+    a {
+        font-family: 'Ion';
+        font-size: 35px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    span {
+        font-family: $heading-font-stack;
+        text-transform: uppercase;
+        font-size: $base-font-size + 2px;
+        font-weight: 800;
+        margin-left: 10px;
+    }
+}
+
 .project-overview {
     height: $full-viewport-height;
     background: #111;
@@ -7,7 +34,8 @@
     z-index: -1;
 
     .back {
-        margin-bottom: $gutter * 4;
+        position: relative;
+        top: -175px;
         text-transform: uppercase;
         color: $light-color;
         font-family: $heading-font-stack;
@@ -73,7 +101,6 @@
     margin-top: $full-viewport-height;
     background: $light-color;
     padding: $gutter * 2 0;
-    min-height: $footer-height;
 
     .container {
         max-width: 1024px;
@@ -169,12 +196,15 @@
         .vimeo,
         .youtube {
             position: relative;
-            padding-bottom: 56.25%;
             width: 100%;
             overflow: hidden;
 
             &.square {
                 padding-bottom: 75% !important;
+            }
+
+            &.wide {
+                padding-bottom: 42% !important;
             }
         
             iframe {
@@ -213,6 +243,8 @@
     }
 
     .media-grid {
+        margin-top: -$gutter;
+
         .featured-heading {
             font-family: $heading-font-stack;
             text-transform: uppercase;

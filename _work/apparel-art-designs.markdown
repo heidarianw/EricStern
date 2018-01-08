@@ -3,7 +3,7 @@ title: Apparel Art Designs
 date: 2018-01-05 00:25:00 Z
 is_columns: true
 general:
-  project_color: "#111"
+  project_color: "#bd6b71"
   project_text_color: "#fff"
   project_details: Creative Director – 2016 – Illustrations by <a href="http://www.maazcon.com"
     target="_blank">Maaz Khan</a>
