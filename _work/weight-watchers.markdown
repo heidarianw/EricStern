@@ -9,13 +9,9 @@ general:
 sections:
 - type: center-image
   body: Project copy goes here.
-<<<<<<< HEAD
   image: "/uploads/weight-watchers-first-page.jpg"
 - type: color-pallete
   image: "/uploads/weight-watchers-pallete.jpg"
-=======
-  image: "/uploads/weight-watchers-cover.jpg"
->>>>>>> 2fa747b91b34c3a289ad8ad166f4c1ae03587664
 - type: divider
   image: 
 - type: text

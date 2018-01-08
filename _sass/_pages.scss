@@ -10,13 +10,21 @@
       margin: 0 auto;
     
     .navigation {
-      background: $dark-color;
+      background: $secondary-light-color;
       margin: 5px;
       text-align: center;
       cursor: pointer;
       box-sizing: border-box;
       background-position: center !important;
       background-size: cover !important;
+
+      &.no-image {
+        border: 1px solid $border-color;
+        
+        span {
+          opacity: 1;
+        }
+      }
 
       a {
         color: $light-color;
