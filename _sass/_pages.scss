@@ -78,7 +78,7 @@
         &:before {
           content: '';
           display: table;
-          padding-top: 48.5%;
+          padding-top: calc(50% - 5px);
 
           @media #{$break-medium} {
             & {
