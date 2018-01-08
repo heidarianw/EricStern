@@ -1,9 +1,10 @@
 .top-nav {
-    width: 100vw;
+    width: $full;
     z-index: 1000;
     height: $header-height;
     position: fixed;
     top: -$header-height;
+    left: 0;
     @include prefix(transition, top .4s ease-in-out, webkit moz ms);
 
     &.nav-down {
@@ -29,9 +30,10 @@
 .project-overview {
     height: $full-viewport-height;
     background: #111;
-    width: $full-viewport-width;
+    width: $full;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: -1;
 
     .back {
