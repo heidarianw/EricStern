@@ -11,11 +11,9 @@ sections:
   id: 228313549
   is_square: true
 - type: text
-  body: |-
-    BBH Barn 2017. 
-    
-    We had to make something famous, for good. So, we made ourselves famous, for good. We bought a segway for the office.
-    It has our names on it. And everyone went bonkers.
+  body: "BBH Barn 2017. \n\nWe had to make something famous, for good. So, we made
+    ourselves famous, for good. We bought a segway for the office.\nIt has our names
+    on it. And everyone went bonkers."
 - type: divider
 - type: color-pallete
   image: "/uploads/interns-pallete.jpg"
