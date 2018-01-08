@@ -36,7 +36,7 @@ defaults:
       project_details: Role & year
     sections:
     - type: text
-      body: Project copy goes here.
+      body: Text field. Body copy goes here.
     - type: image-grid
       left_image: 
       right_image: 

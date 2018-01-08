@@ -11,8 +11,6 @@ sections:
   body: Project copy goes here.
   image: "/uploads/weight-watchers-first-page.jpg"
 - type: color-pallete
-  left_image: 
-  right_image: 
   image: "/uploads/weight-watchers-pallete.jpg"
 - type: divider
   image: 
