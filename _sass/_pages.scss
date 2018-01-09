@@ -39,7 +39,6 @@
         height: 100%;
         width: 100%;
         position: relative;
-        padding: 0 10px;
         z-index: 100;
         line-height: 1.2;
       }  
@@ -47,8 +46,9 @@
       span {
         opacity: 0;
         z-index: 20;
+        width: $full;
         color: $dark-color;
-        font-size: $base-font-size - 1px;
+        font-size: $base-font-size - 3px;
         font-family: $heading-font-stack;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
 

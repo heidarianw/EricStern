@@ -5,12 +5,12 @@ position: 0
 navigation:
 - project: Weight Watchers
   cover_image: "/uploads/weight-watchers-cover.jpg"
-- project: The Interns You'll Never Forget
+- project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/interns-cover.png"
 - page_url: "/about"
   title: About
   cover_image: "/uploads/eric-cover.jpg"
-- project: City-Wide Garage Sale
+- project: "City-Wide \n\nGarage Sale"
   cover_image: "/uploads/city-wide-cover.jpg"
 - project: Summer Moon Coffee
   cover_image: "/uploads/summer-moon-cover.jpg"

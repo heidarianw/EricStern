@@ -1,5 +1,5 @@
 ---
-title: City-Wide Garage Sale
+title: "City-Wide \n\nGarage Sale"
 date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#be2926"
