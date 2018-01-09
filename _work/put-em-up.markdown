@@ -1,5 +1,5 @@
 ---
-title: "Put 'Em Up \n\n(Texas Anthem)"
+title: Put 'Em Up (Texas Anthem)
 date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#bf5700"
