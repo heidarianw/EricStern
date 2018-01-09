@@ -7,12 +7,9 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: youtube
-  body: Text field. Body copy goes here.
   id: kofJzGcV9jE
   ratio: standard
 - type: divider
-  left_image: 
-  right_image: 
 - type: color-pallete
   image: "/uploads/peu-pallete.jpg"
 - type: center-image
