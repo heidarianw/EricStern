@@ -32,15 +32,6 @@ defaults:
     sections:
     - type: text
       body: Text field. Body copy goes here.
-    - type: image-grid
-      left_image: 
-      right_image: 
-    - type: center-image
-      image: 
-    - type: color-pallete
-      image: 
-    - type: video
-      ratio: square, wide, or standard
 - scope:
     path: index.markdown
     type: pages
