@@ -122,12 +122,15 @@
 }  
   
 	&.about {
-    margin-top: $gutter * 3;
+    margin-top: $gutter * 5;
+    overflow: hidden;
+
 
     .container {
       max-width: 1024px;
       width: $full;
-      margin-top: $gutter;
+      overflow: hidden;
+      max-height: calc(100vh - #{$gutter * 5});
     
     .page-heading {
       font-family: $heading-font-stack;

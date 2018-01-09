@@ -9,7 +9,7 @@ layout: about
 
 I like to work. 
 
-Just ask my friends. They’ll always say I’m working on the next project.
+Just ask my friends. They’ll say I’m always working on the next project.
 
 But in all seriousness, I always strive to produce great work. And that takes a lot of work. Hence the name, ericstern.works.
 
@@ -19,4 +19,6 @@ Having spent the last couple summers in Dallas working as a freelance producer a
 
 I’m a collaborator, creative problem solver, and someone who takes an innovative approach with all my work.
 
-So let’s work (a lot) together.
+So let’s work *(a lot)* together,
+
+es@ericstern.works
