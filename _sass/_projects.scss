@@ -150,19 +150,19 @@
     .center-image img {
         margin: 0 auto;
     }
-    
+
     .image-grid {
         figure {
-            flex: 0 0 calc($half - #{$gutter / 2});
-            width: calc($half - 10px);
+            flex: 0 0 calc(#{$half} - #{$gutter / 2});
+            width: calc(#{$half} - 10px);
 
             &.image-left {
-                width: calc($half - #{$gutter / 2});
+                width: calc(#{$half} - #{$gutter / 2});
                 margin-left: 0 !important;
             }
 
             &.image-right {
-                width: calc($half - #{$gutter / 2});
+                width: calc(#{$half} - #{$gutter / 2});
                 margin-left: auto !important;
             }
         }
