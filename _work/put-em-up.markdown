@@ -1,5 +1,5 @@
 ---
-title: Put 'em Up (Texas Anthem)
+title: Put 'em Up <br>(Texas Anthem)
 date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#bf5700"
@@ -7,14 +7,18 @@ general:
   project_details: A Music Video – Director/Producer/Editor – September 2015
 sections:
 - type: youtube
+  body: Text field. Body copy goes here.
   id: kofJzGcV9jE
   ratio: standard
 - type: divider
+  left_image: 
+  right_image: 
 - type: color-pallete
   image: "/uploads/peu-pallete.jpg"
 - type: center-image
   image: "/uploads/peu-1.jpg"
 - type: image-grid
+  ratio: square, wide, or standard
   left_image: "/uploads/peu-5.png"
   right_image: "/uploads/peu-3.jpg"
 - type: image-grid
