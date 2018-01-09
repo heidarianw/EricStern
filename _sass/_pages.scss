@@ -47,7 +47,6 @@
       span {
         opacity: 0;
         z-index: 20;
-        max-width: $full - 10%;
         color: $dark-color;
         font-family: $heading-font-stack;
         @include prefix(transition, opacity .3s ease-in, webkit moz ms);
