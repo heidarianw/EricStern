@@ -4,10 +4,8 @@ Filename: main.js
 
 // animation
 $(document).ready(function(){var t=new TimelineMax;
-  t.from(".description, .intro",.5,{opacity:0},0);
-  t.staggerFrom(".proposal-overview > div",.5,{opacity:0},0.1);
-  t.staggerFrom(".info ul li",.5,{opacity:0},0.1);
-  t.staggerFrom(".content-block, .navigation",.5,{opacity:0},0.1);
+  t.from(".intro",.5,{opacity:0});
+  t.staggerFrom(".content-block",.5,{opacity:0},0.2);
 });
 
 function scrollBanner() {

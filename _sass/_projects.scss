@@ -5,7 +5,7 @@
     position: fixed;
     top: -$header-height;
     left: 0;
-    @include prefix(transition, top .2s ease-in-out, webkit moz ms);
+    @include prefix(transition, top .15s ease-in, webkit moz ms);
 
     &.nav-down {
         top: 0;
