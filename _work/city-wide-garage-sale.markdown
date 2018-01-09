@@ -10,7 +10,7 @@ sections:
   image: "/uploads/city-wide-page-one.jpg"
 - type: color-pallete
   image: "/uploads/citywide-pallete.jpg"
-- type: divider  
+- type: divider
 - type: text
   body: |-
     A Fall 2017 TexasMedia group project for local Austin, TX client City-Wide Garage Sale, a
