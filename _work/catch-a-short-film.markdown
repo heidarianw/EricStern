@@ -13,7 +13,7 @@ sections:
   body: |-
     A story about a father and son, and why sometimes, all you need is a game of catch.
 
-    The world’s first ever short film to be funded with Bitcoin.
+    The world’s first ever short film to be funded with bitcoin.
 - type: divider
 - type: color-pallete
   image: "/uploads/catch-pallete.jpg"
