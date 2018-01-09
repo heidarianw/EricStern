@@ -19,6 +19,10 @@
       background-position: center !important;
       background-size: cover !important;
 
+      &.loading {
+        opacity: 0;
+      }
+
       &.featured {
         width: calc(#{$half} - 10px);
       }
