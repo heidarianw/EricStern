@@ -16,7 +16,7 @@ navigation:
   cover_image: "/uploads/summer-moon-cover.jpg"
 - project: Apparel Art Designs
   cover_image: "/uploads/apparel-cover.jpg"
-- project: Put 'em Up (Texas Anthem)
+- project: "Put 'em Up \n\n(Texas Anthem)"
   cover_image: "/uploads/peu-10.png"
 - contact_email: eric@ericstern.works
   title: Contact
