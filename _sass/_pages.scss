@@ -89,12 +89,6 @@
         opacity: 1;
         z-index: 1;
       }
-
-      @media #{$break-medium} {
-        &.page span{
-           opacity: 1 !important;
-        }
-      }
       
       &.featured {
         &:before {
