@@ -184,12 +184,15 @@
     .image-grid {
         figure {
             flex: 0 0 calc(50% - #{$gutter / 2});
+            width: calc(50% - 10px);
 
             &.image-left {
+                width: calc(50% - #{$gutter / 2});
                 margin-left: 0 !important;
             }
 
             &.image-right {
+                width: calc(50% - #{$gutter / 2});
                 margin-left: auto !important;
             }
         }
