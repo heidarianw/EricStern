@@ -4,6 +4,7 @@ Filename: main.js
 
 // animation
 $(document).ready(function(){var t=new TimelineMax;
+  t.staggerFrom(".navigation",.5,{opacity:0},0.2);
   t.from(".intro",.5,{opacity:0});
   t.staggerFrom(".content-block",.5,{opacity:0},0.2);
 });
