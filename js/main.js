@@ -11,11 +11,14 @@ $(window).load(function(){
   $('.navigation, img').removeClass('loading');
 });
 
+$(window).load(function(){var homepage=new TimelineMax;
+  homepage.staggerFrom(".navigation",.5,{opacity:0},0.1);
+});
 
-$(window).load(function(){var t=new TimelineMax;
-  t.staggerFrom(".navigation",.5,{opacity:0},0.1);
-  t.from(".intro",.5,{opacity:0});
-  t.staggerFrom(".content-block",.5,{opacity:0},0.2);
+
+$(window).load(function(){var workpage=new TimelineMax;
+  workpage.staggerFrom(".content-block",.5,{opacity:0},0.2);
+  workpage.from(".intro",.5,{opacity:0});
 });
 
 function scrollBanner() {
