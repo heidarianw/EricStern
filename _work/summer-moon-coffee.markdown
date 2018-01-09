@@ -6,13 +6,15 @@ general:
   project_text_color: "#8c6c53"
   project_details: An Account Winning Media Plan – Summer 2017
 sections:
-- type: text
-  body: An account winning media plan. View the full media plan.
 - type: center-image
+  left_image: 
+  right_image: 
   image: "/uploads/summer-moon-first-page.jpg"
 - type: color-pallete
   image: "/uploads/summer-moon-pallete.jpg"
 - type: media-plan
   plan_file: "/uploads/summer-moon-deck.pdf"
+- type: video
+  ratio: square, wide, or standard
 ---
 
