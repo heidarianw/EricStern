@@ -7,11 +7,10 @@ general:
   project_details: An Account Winning Media Plan – Summer 2017
 sections:
 - type: center-image
-  left_image: 
-  right_image: 
   image: "/uploads/summer-moon-first-page.jpg"
 - type: color-pallete
   image: "/uploads/summer-moon-pallete.jpg"
+- type: divider
 - type: media-plan
   plan_file: "/uploads/summer-moon-deck.pdf"
 - type: video

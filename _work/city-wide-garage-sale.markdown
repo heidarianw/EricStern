@@ -8,6 +8,9 @@ general:
 sections:
 - type: center-image
   image: "/uploads/city-wide-page-one.jpg"
+- type: color-pallete
+  image: "/uploads/citywide-pallete.jpg"
+- type: divider  
 - type: text
   body: |-
     A Fall 2017 TexasMedia group project for local Austin, TX client City-Wide Garage Sale, a
@@ -15,8 +18,6 @@ sections:
 
     The media consultancy plan evaluates the client’s existing communication efforts and proposes
     owned media, search &amp; display, social media, terrestrial, and eCommerce recommendations.
-- type: color-pallete
-  image: "/uploads/citywide-pallete.jpg"
 - type: media-plan
   plan_file: "/uploads/city-wide-deck.pdf"
 ---
