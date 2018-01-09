@@ -155,4 +155,8 @@ img {
 	width: auto;
 	max-width: 100%;
 	display: block;
+	
+	&.loading {
+        opacity: 0;
+	}
 }

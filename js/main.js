@@ -3,8 +3,12 @@ Filename: main.js
 */
 
 // animation
+$(document).ready(function() {
+  $('.navigation, img').addClass('loading');
+});
+
 $(window).load(function(){
-  $('.navigation').removeClass('loading');
+  $('img').removeClass('loading');
 });
 
 
