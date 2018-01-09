@@ -63,12 +63,13 @@ defaults:
     page_heading: ''
 email: hi@ericstern.works
 description: 
+keywords: 
 baseurl: 
 url: 
 twitter_username: ericstern
 tagline: Creator. Storyteller. Achiever.
 google_analytics:
-  tracking_id: 
+  tracking_id:   
 markdown: kramdown
 plugins: 
 sass:
