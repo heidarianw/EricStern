@@ -14,7 +14,7 @@ function scrollBanner() {
   $(document).scroll(function(){
   	var scrollPos = $(this).scrollTop();
   	$('.intro').css({
-  	  'margin-top' : '-'+scrollPos+'px',
+  	  'margin-top' : '-'+scrollPos*1.3+'px',
   	  'opacity' : 1-(scrollPos/1000)
   	});
   });    
