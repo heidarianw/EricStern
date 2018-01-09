@@ -5,13 +5,13 @@ Filename: main.js
 // animation
 
 $(document).ready(function(){var homepage=new TimelineMax;
-  homepage.staggerFrom(".navigation",.5,{opacity:0},0.1);
+  homepage.staggerTo(".navigation",.5,{opacity:1},0.1);
 });
 
 
 $(document).ready(function(){var workpage=new TimelineMax;
-  workpage.staggerFrom(".content-block",.5,{opacity:0},0.2);
-  workpage.from(".intro",.5,{opacity:0});
+  workpage.staggerTo(".content-block",.5,{opacity:1},0.2);
+  workpage.to(".arrow, .intro",.5,{opacity:1});
 });
 
 function scrollBanner() {

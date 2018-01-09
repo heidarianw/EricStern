@@ -58,6 +58,7 @@
         margin: 0 auto;
         position: relative;
         flex: 1;
+        opacity: 0;
         width: $full;
     }
 
@@ -96,6 +97,7 @@
     .arrow {
         font-size: $base-font-size + 20px;
         font-family: 'Ion';
+        opacity: 0;
     }
   }
 
@@ -125,6 +127,7 @@
     }
 
     .content-block {
+        opacity: 0;
         margin: $gutter * 1 auto;
     }
 
