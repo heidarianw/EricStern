@@ -6,7 +6,7 @@ navigation:
 - project: Weight Watchers
   cover_image: "/uploads/weight-watchers-cover.jpg"
 - project: The Interns You'll Never Forget
-  cover_image: "/uploads/interns-cover.jpg"
+  cover_image: "/uploads/interns-cover.png"
 - page_url: "/about"
   title: About
   cover_image: "/uploads/eric-cover.jpg"
