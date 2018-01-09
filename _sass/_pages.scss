@@ -15,8 +15,13 @@
       align-items: stretch;
       text-align: center;
       box-sizing: border-box;
+      width: calc(#{$full / 4} - 10px);
       background-position: center !important;
       background-size: cover !important;
+
+      &.featured {
+        width: calc(#{$half} - 10px);
+      }
 
       &.no-image {
         border: 1px solid $border-color;
