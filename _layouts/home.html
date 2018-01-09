@@ -11,19 +11,19 @@ class: page
     {% assign project = site.work | where: 'title', item.project | first %}
       <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation project position-relative"  {% if item.cover_image %}style="background: url('{{ item.cover_image | prepend:site.url }}');"{% endif %}>
         <a href="{{ project.url | prepend:site.url }}" class="column align-center">
-          <span>{{ project.title | markdownify }}</span>
+          <span>{{ project.title }}</span>
         </a> 
       </div>
     {% elsif item.page_url %}
       <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation page position-relative" {% if item.cover_image %}style="background: url('{{ item.cover_image | prepend:site.url }}');"{% endif %}>
         <a href="{{ item.page_url | prepend:site.url }}" class="column align-center">
-          <span>{{ item.title | markdownify }}</span>
+          <span>{{ item.title }}</span>
         </a> 
       </div>
     {% elsif item.contact_email %}
       <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation page {% if item.cover_image %}{% else %}no-image {% endif %}position-relative" {% if item.cover_image %}style="background: url('{{ item.cover_image | prepend:site.url }}');"{% endif %}>
         <a href="mailto:{{ item.contact_email }}" class="column align-center">
-          <span>{{ item.title | markdownify }}</span>
+          <span>{{ item.title }}</span>
         </a> 
       </div>  
     {% endif %}   
