@@ -76,3 +76,4 @@ sass:
   style: compressed
 permalinks: pretty
 profile_image: 
+media_button_text: View Presentation Deck

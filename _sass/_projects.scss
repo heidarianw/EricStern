@@ -104,7 +104,7 @@
 .project-content {
     width: $full;
     margin-top: $full-viewport-height;
-    background: $light-color;
+    background: $secondary-light-color;
     padding: $gutter * 2 0;
 
     .container {
@@ -129,6 +129,13 @@
     .content-block {
         opacity: 0;
         margin: $gutter * 1 auto;
+
+        @media #{$break-medium} {
+            & {
+                margin: $gutter !important;
+            }
+        }
+
     }
 
     .color-pallete {
@@ -153,6 +160,13 @@
     }
 
     .image-grid {
+
+        @media #{$break-medium} {
+            & .row {
+                display: block;
+            }
+        }
+
         figure {
             flex: 0 0 calc(#{$half} - #{$gutter / 2});
             width: calc(#{$half} - 10px);
@@ -165,6 +179,14 @@
             &.image-right {
                 width: calc(#{$half} - #{$gutter / 2});
                 margin-left: auto !important;
+            }
+
+            @media #{$break-medium} {
+                & {
+                    width: 100% !important;
+                    flex: none !important;
+                    margin-bottom: $gutter;
+                }
             }
         }
     }
@@ -195,6 +217,18 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
+            }
+
+            @media #{$break-medium} {
+                & {
+                    margin: 0 auto !important;
+                }
+            }   
+        } 
+        
+        @media #{$break-medium} {
+            & {
+                margin: 0 !important;
             }
         }    
     }
@@ -245,6 +279,12 @@
 
         .container {
             max-width: $half + 20%;
+
+            @media #{$break-medium} {
+                & {
+                    max-width: 100%;
+                }
+            }     
             
             .button {
                 height: $button-height;
@@ -259,8 +299,14 @@
                 font-weight: 800;
                 font-size: 14px;
                 text-transform: uppercase;
+
+                @media #{$break-medium} {
+                    & {
+                        max-width: $full - 20%;
+                    }
+                } 
             }
-        }    
+        } 
     }
 
     @media #{$break-medium} {

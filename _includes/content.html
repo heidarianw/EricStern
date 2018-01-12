@@ -81,7 +81,7 @@
 <div class="{{ block.type }}">
   <div class="container">
     {% assign text_color = page.general.project_text_color %}
-    <a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button" style="color: {% if text_color == "#fff" or text_color == "#ffffff" %}{{ page.general.project_color }}{% else %}{{ page.general.project_text_color }}{% endif %}; border-color: {{ page.general.project_color }};">View Full Media Plan</a>
+    <a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button" style="color: {% if text_color == "#fff" or text_color == "#ffffff" %}{{ page.general.project_color }}{% else %}{{ page.general.project_text_color }}{% endif %}; border-color: {{ page.general.project_color }};">{{ site.media_button_text }}</a>
   </div>  
 </div>  
 {% endcase %}
