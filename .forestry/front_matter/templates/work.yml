@@ -1,0 +1,96 @@
+---
+pages:
+- _work/weight-watchers.markdown
+- _work/summer-moon-coffee.markdown
+- _work/put-em-up.markdown
+- _work/foremost.markdown
+- _work/city-wide-garage-sale.markdown
+- _work/catch-a-short-film.markdown
+- _work/apparel-art-designs.markdown
+- _work/the-interns-youll-never-forget.markdown
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: position
+  label: Position
+  type: text
+  hidden: false
+  default: ''
+- name: general
+  label: General
+  type: field_group
+  fields:
+  - name: project_color
+    label: Project color
+    type: text
+    hidden: false
+    default: ''
+  - name: project_text_color
+    label: Project text color
+    type: text
+    hidden: false
+    default: ''
+  - name: project_details
+    label: Project details
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: sections
+  label: Sections
+  type: field_group_list
+  fields:
+  - name: type
+    label: Type
+    type: text
+    hidden: false
+    default: ''
+  - name: id
+    label: Id
+    type: text
+    hidden: false
+    default: ''
+  - name: ratio
+    label: Ratio
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  - name: body
+    label: Body
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - type: text
+    body: Text field. Body copy goes here.
+- name: is_columns
+  label: Is columns
+  type: boolean
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: "/work/:title/"
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: projects

@@ -1,0 +1,13 @@
+---
+hide_body: false
+fields:
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: "/work"
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: work
