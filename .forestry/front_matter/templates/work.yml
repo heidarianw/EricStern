@@ -63,8 +63,8 @@ fields:
   default: projects
 - type: list
 - type: field_group_list
-  name: video
-  label: Video
+  name: sections
+  label: Sections
   fields:
   - type: text
     name: id
@@ -89,3 +89,5 @@ fields:
       - Square
       - Standard
     label: Ratio
+  config:
+    labelField: id
