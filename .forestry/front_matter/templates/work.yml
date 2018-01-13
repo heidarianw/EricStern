@@ -66,28 +66,15 @@ fields:
   name: sections
   label: Sections
   fields:
-  - type: text
-    name: id
-    label: ID
-    description: The id from the URL.
-  - type: select
-    name: source
-    config:
-      source:
-        type: simple
-      options:
-      - Vimeo
-      - YouTube
-    label: Source
-  - type: select
-    name: ratio
-    config:
-      source:
-        type: simple
-      options:
-      - Wide
-      - Square
-      - Standard
-    label: Ratio
+  - type: field_group_list
+    name: video
+    label: Video
+    description: ''
+    fields:
+    - type: text
+      name: id
+      label: ID
+      description: The id of the video, from the URL.
+      default: https://vimeo.com/247792599
   config:
     labelField: id
