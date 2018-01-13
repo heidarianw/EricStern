@@ -66,3 +66,9 @@ fields:
         - Standard
       label: Ratio
       description: The ratio of the embedded video.
+  - type: textarea
+    name: text
+    label: Text
+    description: A WYSIWYG text field.
+    config:
+      wysiwyg: true
