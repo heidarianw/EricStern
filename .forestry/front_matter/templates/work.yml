@@ -16,66 +16,18 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: position
-  label: Position
-  type: text
-  hidden: false
-  default: ''
-- name: general
-  label: General
-  type: field_group
-  fields:
-  - name: project_color
-    label: Project color
-    type: text
-    hidden: false
-    default: ''
-  - name: project_text_color
-    label: Project text color
-    type: text
-    hidden: false
-    default: ''
-  - name: project_details
-    label: Project details
-    type: textarea
-    hidden: false
-    default: ''
-  hidden: false
-  default: 
-- name: is_columns
-  label: Is columns
-  type: boolean
-  hidden: false
-  default: ''
 - name: permalink
   label: Permalink
   type: text
   hidden: false
   default: "/work/:title/"
+- type: field_group_list
+  name: sections
+  label: Sections
+  config:
+    labelField: id
 - name: layout
   label: Layout
   type: text
   hidden: false
   default: projects
-- type: list
-- type: field_group_list
-  name: sections
-  label: Sections
-  fields:
-  - type: field_group_list
-    name: video
-    label: Video
-    description: ''
-    fields:
-    - type: text
-      name: id
-      label: ID
-      description: The id of the video, from the URL.
-      default: https://vimeo.com/247792599
-  config:
-    labelField: id
