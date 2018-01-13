@@ -46,46 +46,6 @@ fields:
     default: ''
   hidden: false
   default: 
-- name: sections
-  label: Sections
-  type: field_group_list
-  fields:
-  - type: field_group
-    name: video
-    label: Video
-    description: Embed a video
-    fields:
-    - type: text
-      label: ID
-      name: id
-      description: Enter the id of the video from the URL.
-      config:
-        required: true
-    - type: select
-      config:
-        source:
-          type: simple
-        options:
-        - Vimeo
-        - YouTube
-      label: Source
-      name: source
-      description: Select the video source.
-    - type: select
-      name: ratio
-      config:
-        source:
-          type: simple
-        options:
-        - Wide
-        - Square
-        - Standard
-      label: Ratio
-      description: Select the video's ratio.
-  hidden: false
-  default:
-  - type: text
-    body: Text field. Body copy goes here.
 - name: is_columns
   label: Is columns
   type: boolean
@@ -102,3 +62,30 @@ fields:
   hidden: false
   default: projects
 - type: list
+- type: field_group_list
+  name: video
+  label: Video
+  fields:
+  - type: text
+    name: id
+    label: ID
+    description: The id from the URL.
+  - type: select
+    name: source
+    config:
+      source:
+        type: simple
+      options:
+      - Vimeo
+      - YouTube
+    label: Source
+  - type: select
+    name: ratio
+    config:
+      source:
+        type: simple
+      options:
+      - Wide
+      - Square
+      - Standard
+    label: Ratio
