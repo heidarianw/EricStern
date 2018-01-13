@@ -21,13 +21,48 @@ fields:
   type: text
   hidden: false
   default: "/work/:title/"
-- type: field_group_list
-  name: sections
-  label: Sections
-  config:
-    labelField: id
 - name: layout
   label: Layout
   type: text
   hidden: false
   default: projects
+- type: field_group
+  name: sections
+  label: Sections
+  description: Configurable Content Sections
+  fields:
+  - type: field_group_list
+    name: video
+    label: Video
+    description: Embed a video in the page
+    fields:
+    - type: text
+      name: title
+      label: Title
+      description: The title of the video.
+    - type: text
+      name: id
+      label: ID
+      description: The id from the URL.
+      default: https://vimeo.com/247792599
+    - type: select
+      name: source
+      config:
+        source:
+          type: simple
+        options:
+        - Vimeo
+        - YouTube
+      label: Source
+      description: The source of the video.
+    - type: select
+      name: ratio
+      config:
+        source:
+          type: simple
+        options:
+        - Wide
+        - Square
+        - Standard
+      label: Ratio
+      description: The ratio of the embedded video.
