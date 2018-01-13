@@ -9,7 +9,7 @@ pages:
 - _work/catch-a-short-film.markdown
 - _work/apparel-art-designs.markdown
 - _work/the-interns-youll-never-forget.markdown
-hide_body: false
+hide_body: true
 fields:
 - name: title
   label: Title
