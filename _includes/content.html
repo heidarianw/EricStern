@@ -3,7 +3,7 @@
 {% when 'full-width-image' or 'center-image' or 'split-image-left' or 'split-image-right' %}
 {% if block.press_url %}
 <a href="{{ block.press_url }}" target="_blank">
-  <div class="{{ block.type }} content-block">
+  <div class="{{ block.type }}">
     <figure>
       <img src="{{ block.image | prepend: site.url }}"> 
       <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
@@ -11,7 +11,7 @@
   </div> 
 </a>
 {% else %}
-<div class="{{ block.type }} content-block">
+<div class="{{ block.type }} {% if page.is_columns == true %}{% else %}content-block{% endif %}">
   <figure>
     <img src="{{ block.image | prepend: site.url }}"> 
     <figcaption class="caption text-center pin-horizontal-center">{{ block.caption | downcase }}</figcaption>
@@ -81,7 +81,7 @@
 <div class="{{ block.type }}">
   <div class="container">
     {% assign text_color = page.general.project_text_color %}
-    <a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button" style="color: {% if text_color == "#fff" or text_color == "#ffffff" %}{{ page.general.project_color }}{% else %}{{ page.general.project_text_color }}{% endif %}; border-color: {{ page.general.project_color }};">{{ site.media_button_text }}</a>
+    <a href="{{ block.plan_file | prepend: site.url }}" target="_blank" class="button" style="color: {% if text_color == "#fff" or text_color == "#ffffff" %}{{ page.general.project_color }}{% else %}{{ page.general.project_text_color }}{% endif %}; border-color: {{ page.general.project_color }};">{{ block.button_text }}</a>
   </div>  
 </div>  
 {% endcase %}

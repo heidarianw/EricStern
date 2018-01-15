@@ -16,6 +16,7 @@ sections:
     It has our names on it. And everyone went bonkers."
 - type: media-plan
   plan_file: "/uploads/interns-deck.pdf"
+  button_text: View Presentation Deck
 - type: divider
 - type: color-pallete
   image: "/uploads/interns-pallete.jpg"

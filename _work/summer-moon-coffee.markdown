@@ -13,6 +13,7 @@ sections:
 - type: divider
 - type: media-plan
   plan_file: "/uploads/summer-moon-deck.pdf"
+  button_text: View Media Plan
 - type: video
   ratio: square, wide, or standard
 ---

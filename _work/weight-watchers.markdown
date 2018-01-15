@@ -23,5 +23,6 @@ sections:
     emphasizing mindfulness by behaviorally targeting individuals through unique Milestone Moment placements.
 - type: media-plan
   plan_file: "/uploads/weight-watchers-deck.pdf"
+  button_text: View Media Plan
 ---
 

@@ -120,12 +120,23 @@
     margin-top: $gutter * 5;
     overflow: hidden;
 
+    @media #{$break-medium} {
+      & {
+         overflow: auto;
+      }
+    }
 
     .container {
       max-width: 1024px;
       width: $full;
       overflow: hidden;
       max-height: calc(100vh - #{$gutter * 5});
+
+      @media #{$break-medium} {
+        & {
+           overflow: auto;
+        }
+      }
     
     .page-heading {
       font-family: $heading-font-stack;
