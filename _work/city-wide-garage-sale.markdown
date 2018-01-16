@@ -20,5 +20,6 @@ sections:
     owned media, search &amp; display, social media, terrestrial, and eCommerce recommendations.
 - type: media-plan
   plan_file: "/uploads/city-wide-deck.pdf"
+  button_text: View Media Plan
 ---
 
