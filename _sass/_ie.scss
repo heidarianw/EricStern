@@ -1,4 +1,94 @@
-.top-nav,
-.project-overview {
-    left: 0;
-}
+.page-content {
+  
+    &.home {
+  
+      .container {
+        display: block !important;
+      
+      .navigation {
+        float: left !important;
+      }
+  
+        a {
+          color: $light-color;
+          font-weight: 500;
+          font-size: $base-font-size;
+          text-transform: uppercase;
+          height: 100%;
+          width: 100%;
+          position: relative;
+          z-index: 100;
+          line-height: 1.2;
+        }  
+  
+        span {
+          opacity: 0;
+          z-index: 20;
+          width: $full;
+          color: $dark-color;
+          font-size: $base-font-size - 3px;
+          font-family: $heading-font-stack;
+          @include prefix(transition, opacity .3s ease-in, webkit moz ms);
+  
+          @media #{$break-huge} {
+            & {
+               font-size: $base-font-size + 2px;
+            }
+          }
+  
+          p {
+            margin-bottom: 0 !important;
+          }      
+        }
+  
+        &:hover span {
+          opacity: 1;
+        }
+        
+        &::before {
+          content: '';
+          display: table;
+          padding-top: 100%;
+        }
+  
+        &::after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: $secondary-light-color;
+          opacity: 0;
+          @include prefix(transition, opacity .3s ease-in, webkit moz ms);
+        }
+  
+        &:hover::after {
+          opacity: 1;
+          z-index: 1;
+        }
+        
+        &.featured {
+          &:before {
+            content: '';
+            display: table;
+            padding-top: calc(50% - 5px);
+  
+            @media #{$break-medium} {
+              & {
+                padding-top: 100% !important;
+              }
+            }
+          }
+        } 
+      }
+  
+      @media #{$break-medium} {
+        & {
+          width: $full - 10%;
+          max-width: $full !important;
+          max-height: $full !important;
+        }
+      }
+    }
+  }  

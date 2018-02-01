@@ -1,6 +1,57 @@
 ---
 ---
 
+// Variables
+$base-font-stack: 'Rokkitt', 'Times New Roman', serif;
+$heading-font-stack: 'Gotham', 'sans-serif';
+$base-font-size: 14px;
+$base-font-weight: normal;
+$base-line-height: 1.5;
+$font-weight-medium: 500;
+$font-weight-bold: bold;
+$text-color: #222;
+$light-color: #fff;
+$secondary-light-color: #eee;
+$border-color: #ddd;
+$dark-color: #111;
+
+// heights
+$header-height: 50px;
+
+// padding
+$gutter: 20px;
+$border-box: border-box;
+$content-box: content-box;
+
+// buttons
+$button-height: 50px;
+
+// width of the content areas
+$full: 100%;
+$half: 50%;
+$max-width: 1600px;
+$one-third: 33.3333%;
+$two-thirds: 66.6666%;
+$full-viewport-width: 100vw;
+$half-viewport-width: 50vw;
+$full-viewport-height: 100vh;
+$half-viewport-height: 50vh;
+
+// Browser prefix mixin
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  #{$property}: $value;
+}
+
+// Breakpoints
+$break-large: "screen and (max-width: 768px)";
+$break-medium: "screen and (max-width: 438px)";
+$break-huge: "screen and (min-width: 1550px)";
+
 @import
  "ie"
 ;
+
