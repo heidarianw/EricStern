@@ -18,7 +18,7 @@ navigation:
   cover_image: "/uploads/apparel-cover.jpg"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
   cover_image: "/uploads/peu-10.png"
-- contact_email: eric@ericstern.works
+- contact_email: es@ericstern.works
   title: Let's Do Work
   cover_image: "/uploads/contact-cover.png"
 - project: Foremost

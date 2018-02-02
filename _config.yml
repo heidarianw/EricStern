@@ -61,7 +61,7 @@ defaults:
     permalink: "/contact"
     layout: contact
     page_heading: ''
-email: stern880@gmail.com
+email: es@ericstern.works
 description: 
 keywords: 
 baseurl: 

@@ -70,7 +70,7 @@
       
       &::before {
         content: '';
-        display: table;
+        display: block;
         padding-top: 100%;
       }
 
@@ -94,7 +94,7 @@
       &.featured {
         &:before {
           content: '';
-          display: table;
+          display: block;
           padding-top: calc(50% - 5px);
 
           @media #{$break-medium} {
