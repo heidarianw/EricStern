@@ -5,6 +5,7 @@ position: 0
 navigation:
 - project: Weight Watchers
   cover_image: "/uploads/weight-watchers-cover.jpg"
+  mobile_cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/interns-cover.png"
 - page_url: "/about"
@@ -25,6 +26,7 @@ navigation:
   cover_image: "/uploads/foremost-cover.jpg"
 - project: Catch
   cover_image: "/uploads/catch-cover.jpg"
+  mobile_cover_image: "/uploads/catch-mobile.jpg"
 layout: home
 ---
 

@@ -21,4 +21,4 @@ I’m a collaborator, creative problem solver, and someone who takes an innovati
 
 So let’s work *(a lot)* together,
 
-[es@ericstern.works](mailto:stern880@gmail.com)
+[es@ericstern.works](mailto:es@ericstern.works)

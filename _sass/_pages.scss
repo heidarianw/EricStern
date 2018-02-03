@@ -25,6 +25,10 @@
         width: calc(#{$half} - 10px);
       }
 
+      &.mobile {
+        display: none;
+      }
+
       &.no-image {
         border: 1px solid $border-color;
         
@@ -114,7 +118,17 @@
 
         .navigation {
           float: none !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
           width: 100% !important;
+
+          &.has-mobile {
+            display: none;
+          }
+          
+          &.mobile {
+            display: block;
+          }
         }
       }
     }
@@ -125,7 +139,7 @@
     margin-top: $gutter * 5;
     overflow: hidden;
 
-    @media #{$break-medium} {
+    @media #{$break-landscape} {
       & {
          overflow: auto;
       }
@@ -137,9 +151,10 @@
       overflow: hidden;
       max-height: calc(100vh - #{$gutter * 5});
 
-      @media #{$break-medium} {
+      @media #{$break-landscape} {
         & {
            overflow: auto;
+           max-height: $full;
         }
       }
     
@@ -179,6 +194,12 @@
       padding-right: 10px;
       box-sizing: border-box;
       margin-left: 0 !important;
+
+      @media #{$break-landscape} {
+        & {
+           display: none;
+        }
+      }
 
       @media #{$break-medium} {
         & {
