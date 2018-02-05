@@ -46,6 +46,8 @@
         font-weight: 800;
         letter-spacing: 4px;
         text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .back .icon {
@@ -277,6 +279,10 @@
             margin: 8px;
             -webkit-filter: grayscale(1);
             filter: grayscale(1);
+            filter: url(desaturate.svg#greyscale);
+            filter: grayscale(100%);
+            filter: url(desaturate.svg#greyscale);
+            filter: gray;
             @include prefix(transition, opacity .3s ease-in, webkit moz ms);  
         }
     }
