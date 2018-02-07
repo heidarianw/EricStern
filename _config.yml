@@ -69,7 +69,7 @@ url:
 twitter_username: ericstern
 tagline: Creator. Storyteller. Achiever.
 google_analytics:
-  tracking_id: 
+  tracking_id: UA-113777497-1
 markdown: kramdown
 plugins:
 - jekyll-redirect-from
