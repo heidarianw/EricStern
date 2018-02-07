@@ -74,7 +74,7 @@
 
             @media #{$break-medium} {
                 & {
-                   font-size: $base-font-size + 35px;
+                   font-size: $base-font-size + 20px;
                    max-width: $full;
                 }
             }
@@ -89,11 +89,23 @@
             font-family: $base-font-stack;
             font-weight: 400;
             font-size: $base-font-size + 3px;
+        
+            @media #{$break-medium} {
+                & {
+                   font-size: $base-font-size + 1px;
+                }
+            }    
 
             a {
                 color: $light-color;
             }
         }
+
+        @media #{$break-medium} {
+            & {
+               width: $full - 10%;
+            }
+        }  
     }
 
     .arrow {
