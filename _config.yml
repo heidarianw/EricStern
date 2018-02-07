@@ -71,7 +71,7 @@ tagline: Creator. Storyteller. Achiever.
 google_analytics:
   tracking_id: 
 markdown: kramdown
-plugins: 
+plugins:
 - jekyll-redirect-from
 sass:
   style: compressed
