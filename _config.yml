@@ -72,6 +72,7 @@ google_analytics:
   tracking_id: 
 markdown: kramdown
 plugins: 
+- jekyll-redirect-from
 sass:
   style: compressed
 permalinks: pretty
