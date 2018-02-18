@@ -212,6 +212,12 @@
       img {
         display: block;
         margin: 0 auto;
+
+        @media #{$break-larger} {
+          & {
+            width: $full - 10%;
+          }
+        }
       }
    
 		}
