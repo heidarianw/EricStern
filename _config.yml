@@ -29,28 +29,28 @@ defaults:
       project_color: "#222"
       project_text_color: "#fff"
       project_details: Role & year
-    is_columns: false  
+    is_columns: false
     sections:
     - type: text
       body: Text field. Body copy goes here.
     - type: center-image
-      image:
+      image: 
       press_url: http://google.com
     - type: color-pallete
-      image:  
+      image: 
     - type: image-grid
-      left_image:
-      right_image:
+      left_image: 
+      right_image: 
     - type: divider
     - type: vimeo, youtube
       id: 123456789
-      ratio: wide, square, or standard  
+      ratio: wide, square, or standard
     - type: media-grid
       press_items:
-        - logo_image:
-          press_url: http://google.com   
+      - logo_image: 
+        press_url: http://google.com
     - type: media-plan
-      plan_file:
+      plan_file: 
       button_text: View Media Plan
 - scope:
     path: index.markdown
