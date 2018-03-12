@@ -137,7 +137,6 @@
   
 	&.about {
     margin-top: $gutter * 5;
-    overflow: hidden;
 
     @media #{$break-landscape} {
       & {
@@ -148,7 +147,6 @@
     .container {
       max-width: 1024px;
       width: $full;
-      overflow: hidden;
       max-height: calc(100vh - #{$gutter * 5});
 
       @media #{$break-landscape} {
@@ -166,8 +164,7 @@
     }
 
     .bio {
-      padding-left: 10px;
-      flex: 0 1 50%;
+      padding: 0 $gutter;
       margin-right: 0 !important;
 
       p {
@@ -191,9 +188,11 @@
     }
 
 		.bio-image {
-      padding-right: 10px;
+      padding: 0 $gutter;
       box-sizing: border-box;
       margin-left: 0 !important;
+      width: 50%;
+      float: left;
 
       @media #{$break-landscape} {
         & {
@@ -206,6 +205,8 @@
           display: block !important;
           flex: none !important;   
           margin-bottom: $gutter * 2;
+          float: none;
+          width: 100%;
         }
       }
 
