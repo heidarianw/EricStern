@@ -141,11 +141,11 @@
 
             @supports not (column-span: all) {
                 & {
-                       margin-top: $gutter;
+                       margin-top: $gutter * 2;
 
                        .color-pallete {
                            position: absolute;
-                           top: -60px;
+                           top: -$gutter * 4;
                        }
                    } 
                }
