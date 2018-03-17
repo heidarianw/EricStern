@@ -9,26 +9,26 @@ class: page
     {% for item in page.navigation %}
     {% if item.project %}
     {% assign project = site.work | where: 'title', item.project | first | limit: 10 %}
-      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}{% if item.mobile_cover_image %}has-mobile{% endif %} navigation project position-relative"  {% if item.cover_image %}style="background: url('{{ item.cover_image }}');"{% endif %}>
+      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}{% if item.mobile_cover_image %}has-mobile{% endif %} navigation project position-relative"  {% if item.cover_image %}style="background: url('{{ item.cover_image | prepend: site.url }}');"{% endif %}>
         <a href="{{ project.url | prepend:site.url }}" class="column align-center pin-middle-center">
           <span>{{ project.title | markdownify }}</span>
         </a> 
       </div>
       {% if item.mobile_cover_image %}
-      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured mobile grid-one-half {% else %} grid-one-quarter {% endif %}navigation project position-relative"  {% if item.mobile_cover_image %}style="background: url('{{ item.mobile_cover_image }}');"{% endif %}>
+      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured mobile grid-one-half {% else %} grid-one-quarter {% endif %}navigation project position-relative"  {% if item.mobile_cover_image %}style="background: url('{{ item.mobile_cover_image | prepend: site.url}}');"{% endif %}>
         <a href="{{ project.url | prepend:site.url }}" class="column align-center pin-middle-center">
           <span>{{ project.title | markdownify }}</span>
         </a> 
       </div>
       {% endif %}
     {% elsif item.page_url %}
-      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation page position-relative" {% if item.cover_image %}style="background: url('{{ item.cover_image }}');"{% endif %}>
+      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation page position-relative" {% if item.cover_image %}style="background: url('{{ item.cover_image | prepend: site.url }}');"{% endif %}>
         <a href="{{ item.page_url | prepend:site.url }}" class="column align-center pin-middle-center">
           <span>{{ item.title | markdownify }}</span>
         </a> 
       </div>
     {% elsif item.contact_email %}
-      <div class="row align-self-stretch contact {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation page {% if item.cover_image %}{% else %}no-image {% endif %}position-relative" {% if item.cover_image %}style="background: url('{{ item.cover_image }}');"{% endif %}>
+      <div class="row align-self-stretch contact {% if forloop.first == true or forloop.last == true %}featured grid-one-half {% else %} grid-one-quarter {% endif %}navigation page {% if item.cover_image %}{% else %}no-image {% endif %}position-relative" {% if item.cover_image %}style="background: url('{{ item.cover_image | prepend: site.url }}');"{% endif %}>
         <a href="mailto:{{ item.contact_email }}" class="column align-center pin-middle-center">
           <span>{{ item.title | markdownify }}</span>
         </a> 
