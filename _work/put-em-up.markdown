@@ -4,29 +4,40 @@ date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#bf5700"
   project_text_color: "#fff"
-  project_details: A Music Video – Director/Producer/Editor – September 2015
+  project_details: A Music Video – September 2015 – Director/Producer/Editor
 sections:
 - type: youtube
   body: Text field. Body copy goes here.
   id: kofJzGcV9jE
   ratio: standard
 - type: divider
+  image: 
+  press_url: http://google.com
   left_image: 
   right_image: 
 - type: color-pallete
   image: "/uploads/peu-pallete.jpg"
 - type: center-image
+  left_image: 
+  right_image: 
   image: "/uploads/peu-1.jpg"
 - type: image-grid
   ratio: square, wide, or standard
   left_image: "/uploads/peu-5.png"
   right_image: "/uploads/peu-3.jpg"
 - type: image-grid
+  id: 123456789
+  ratio: wide, square, or standard
   left_image: "/uploads/peu-7.png"
   right_image: "/uploads/peu-6.png"
 - type: center-image
+  press_items:
+  - logo: 
+    press_url: http://google.com
   image: "/uploads/peu-2.jpg"
 - type: divider
+  plan_file: 
+  button_text: View Media Plan
 - type: media-grid
   press_items:
   - logo: "/uploads/logos/total-frat-move.png"

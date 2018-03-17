@@ -47,8 +47,8 @@ defaults:
       ratio: wide, square, or standard
     - type: media-grid
       press_items:
-        - logo:
-          press_url: http://google.com   
+      - logo: 
+        press_url: http://google.com
     - type: media-plan
       plan_file: 
       button_text: View Media Plan
