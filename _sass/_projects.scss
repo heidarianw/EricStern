@@ -125,6 +125,7 @@
         max-width: 750px;
 
         &.columns {
+            position: relative;
             column-count: 2;
             -webkit-column-count: 2;
             -moz-column-count: 2;
@@ -137,6 +138,17 @@
                 margin-bottom: $gutter;
                 display: inline-block;
             }
+
+            @supports not (column-span: all) {
+                & {
+                       margin-top: $gutter;
+
+                       .color-pallete {
+                           position: absolute;
+                           top: -60px;
+                       }
+                   } 
+               }
         }
         
         @media #{$break-medium} {
