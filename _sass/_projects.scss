@@ -141,7 +141,7 @@
 
             @supports not (column-span: all) {
                 & {
-                       margin-top: $gutter * 2;
+                       margin-top: $gutter * 4;
 
                        .color-pallete {
                            position: absolute;

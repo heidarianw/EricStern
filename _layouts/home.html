@@ -15,7 +15,7 @@ class: page
         </a> 
       </div>
       {% if item.mobile_cover_image %}
-      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured mobile grid-one-half {% else %} grid-one-quarter {% endif %}navigation project position-relative"  {% if item.mobile_cover_image %}style="background: url('{{ item.mobile_cover_image | prepend: site.url}}');"{% endif %}>
+      <div class="row align-self-stretch {% if forloop.first == true or forloop.last == true %}featured mobile grid-one-half {% else %} grid-one-quarter {% endif %}navigation project position-relative"  {% if item.mobile_cover_image %}style="background: url('{{ item.mobile_cover_image | prepend: site.url }}');"{% endif %}>
         <a href="{{ project.url | prepend:site.url }}" class="column align-center pin-middle-center">
           <span>{{ project.title | markdownify }}</span>
         </a> 
