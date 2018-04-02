@@ -69,6 +69,12 @@
         }      
       }
 
+      @media #{$break-medium} {
+        & {
+          display: block;
+        }
+      }
+
       &:hover span {
         opacity: 1;
       }
