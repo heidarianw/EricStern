@@ -11,19 +11,23 @@ sections:
     The task: Create an integrated campaign for UT Austin's new Communication & Leadership degree.
 
     The creative solution: Juxtapose childhood nostalgia with all the complexities that emerge when students begin their college career to remind them they can rediscover and apply their passions in the real world to lead positive change through Communication & Leadership.
-- type: center-image
-  image: "/uploads/comm-leadership-ooh.png"
+- type: media-plan
+  plan_file: 
+  button_text: View Integrated Campaign
+- type: divider
 - type: color-pallete
   image: "/uploads/comm-leadership-palette.jpg"
+- type: center-image
+  image: "/uploads/comm-leadership-ooh.png"
 - type: image-grid
-- type: divider
+  left_image: 
+  right_image: 
 - type: vimeo, youtube
   id: 123456789
   ratio: wide, square, or standard
 - type: media-grid
   press_items:
-  - press_url: http://google.com
-- type: media-plan
-  button_text: View Integrated Campaign
+  - logo: 
+    press_url: http://google.com
 ---
 
