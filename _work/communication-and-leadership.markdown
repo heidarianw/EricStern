@@ -10,10 +10,19 @@ sections:
   body: |-
     The task: create an integrated campaign for UT Austin's new Communication & Leadership degree.
 
-    The first problem: Societal pressures push students to conform to the “right” major — one with job stability and high income.
-
-    The second problem: Students who choose a major based on passion often experience regret because they don’t know how to apply their degree in the real world.
-
     The solution: Juxtapose childhood nostalgia with all the complexities that emerge when students begin their college career to remind them they can rediscover and apply their passions in the real world to lead positive change through Communication & Leadership.
+- type: center-image
+  press_url: http://google.com
+- type: color-pallete
+- type: image-grid
+- type: divider
+- type: vimeo, youtube
+  id: 123456789
+  ratio: wide, square, or standard
+- type: media-grid
+  press_items:
+  - press_url: http://google.com
+- type: media-plan
+  button_text: View Media Plan
 ---
 
