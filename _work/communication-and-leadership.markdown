@@ -23,6 +23,6 @@ sections:
   press_items:
   - press_url: http://google.com
 - type: media-plan
-  button_text: View Media Plan
+  button_text: View Integrated Campaign
 ---
 
