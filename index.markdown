@@ -3,9 +3,11 @@ title: Home
 date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
+- project: Communication & Leadership
+  cover_image: "/uploads/comm-leadership-cover.jpg"
+  mobile_cover_image: "/uploads/comm-leadership-mobile.jpg"
 - project: Weight Watchers
-  cover_image: "/uploads/weight-watchers-cover.jpg"
-  mobile_cover_image: "/uploads/weight-watchers-mobile.jpg"
+  cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/interns-cover.png"
 - page_url: "/about"
@@ -19,9 +21,6 @@ navigation:
   cover_image: "/uploads/apparel-cover.jpg"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
   cover_image: "/uploads/peu-10.png"
-- contact_email: es@ericstern.works
-  title: Let's Do Work
-  cover_image: "/uploads/contact-cover.png"
 - project: Foremost
   cover_image: "/uploads/foremost-cover.jpg"
 - project: Catch
