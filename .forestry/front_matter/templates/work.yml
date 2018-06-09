@@ -1,15 +1,6 @@
 ---
-pages:
-- _work/test.md
-- _work/weight-watchers.markdown
-- _work/summer-moon-coffee.markdown
-- _work/put-em-up.markdown
-- _work/foremost.markdown
-- _work/city-wide-garage-sale.markdown
-- _work/catch-a-short-film.markdown
-- _work/apparel-art-designs.markdown
-- _work/the-interns-youll-never-forget.markdown
 hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -72,3 +63,12 @@ fields:
     description: A WYSIWYG text field.
     config:
       wysiwyg: true
+pages:
+- _work/weight-watchers.markdown
+- _work/summer-moon-coffee.markdown
+- _work/put-em-up.markdown
+- _work/foremost.markdown
+- _work/city-wide-garage-sale.markdown
+- _work/catch-a-short-film.markdown
+- _work/apparel-art-designs.markdown
+- _work/the-interns-youll-never-forget.markdown

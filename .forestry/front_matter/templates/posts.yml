@@ -6,9 +6,9 @@ fields:
   label: Permalink
   type: text
   hidden: false
-  default: "/work"
+  default: "/journal/:title/"
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: work
+  default: entries
