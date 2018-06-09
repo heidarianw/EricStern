@@ -10,7 +10,7 @@ sections:
   body: |-
     The task: Create an integrated campaign for UT Austin's new Communication & Leadership degree.
 
-    The solution: Juxtapose childhood nostalgia with all the complexities that emerge when students begin their college career to remind them they can rediscover and apply their passions in the real world to lead positive change through Communication & Leadership.
+    The creative solution: Juxtapose childhood nostalgia with all the complexities that emerge when students begin their college career to remind them they can rediscover and apply their passions in the real world to lead positive change through Communication & Leadership.
 - type: center-image
   press_url: http://google.com
 - type: color-pallete
