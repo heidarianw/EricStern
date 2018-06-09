@@ -13,7 +13,6 @@ sections:
     The creative solution: Juxtapose childhood nostalgia with all the complexities that emerge when students begin their college career to remind them they can rediscover and apply their passions in the real world to lead positive change through Communication & Leadership.
 - type: center-image
   image: "/uploads/comm-leadership-ooh.png"
-  press_url: http://google.com
 - type: color-pallete
   image: "/uploads/comm-leadership-palette.jpg"
 - type: image-grid
