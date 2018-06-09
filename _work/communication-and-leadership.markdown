@@ -24,15 +24,8 @@ sections:
   ratio: wide, square, or standard
   left_image: 
   right_image: 
-- type: vimeo, youtube
-  press_items:
-  - press_url: http://google.com
-  id: 123456789
-  ratio: wide, square, or standard
 - type: media-grid
+  plan_file: 
   button_text: View Media Plan
-  press_items:
-  - logo: 
-    press_url: http://google.com
 ---
 
