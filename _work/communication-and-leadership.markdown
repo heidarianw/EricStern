@@ -5,6 +5,7 @@ general:
   project_color: "#2b194b"
   project_text_color: "#b67e8b"
   project_details: an integrated campaign – spring 2018
+is_columns: false
 sections:
 - type: text
   body: |-
@@ -17,12 +18,8 @@ sections:
 - type: divider
 - type: color-pallete
   image: "/uploads/comm-leadership-palette.jpg"
-- type: image-grid
-  id: 123456789
-  ratio: wide, square, or standard
-  left_image: "/uploads/PassionPRINT_043018.jpg"
-  center_image: "/uploads/PotentialPRINT_042818.jpg"
-  right_image: "/uploads/PurposePRINT_043018.jpg"
+- type: center-image
+  image: "/uploads/comm-leadership-prints.png"
 - type: center-image
   image: "/uploads/comm-leadership-ooh.png"
 - type: media-grid
