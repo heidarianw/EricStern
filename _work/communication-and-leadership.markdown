@@ -22,8 +22,5 @@ sections:
   image: "/uploads/comm-leadership-prints.png"
 - type: center-image
   image: "/uploads/comm-leadership-ooh.png"
-- type: media-grid
-  plan_file: 
-  button_text: View Media Plan
 ---
 
