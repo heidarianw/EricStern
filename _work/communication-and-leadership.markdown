@@ -36,7 +36,7 @@ sections:
 - type: media-plan
   plan_file: 
   button_text: View Media Plan
-- image: "/uploads/PotentialPRINT_042818.jpg"
-  type: left-image
+- type: center-image
+  image: "/uploads/PotentialPRINT_042818.jpg"
 ---
 
