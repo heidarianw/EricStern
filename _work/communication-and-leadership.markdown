@@ -38,6 +38,5 @@ sections:
   button_text: View Media Plan
 - image: "/uploads/PotentialPRINT_042818.jpg"
   type: left-image
-  button_text: 
 ---
 
