@@ -13,14 +13,31 @@ sections:
 
     The creative solution: Juxtapose childhood nostalgia with all the complexities that emerge when students begin their college career to remind them they can rediscover and apply their passions in the real world to lead positive change through Communication & Leadership.
 - type: media-plan
+  image: 
+  press_url: http://google.com
   plan_file: "/uploads/comm-leadership-deck.pdf"
   button_text: View Campaign
 - type: divider
+  image: 
 - type: color-pallete
+  left_image: 
+  right_image: 
   image: "/uploads/comm-leadership-palette.jpg"
 - type: center-image
   image: "/uploads/comm-leadership-prints.png"
 - type: center-image
+  id: 123456789
+  ratio: wide, square, or standard
   image: "/uploads/comm-leadership-ooh.png"
+- type: media-grid
+  press_items:
+  - logo: 
+    press_url: http://google.com
+- type: media-plan
+  plan_file: 
+  button_text: View Media Plan
+- plan_file: "/uploads/PotentialPRINT_042818.jpg"
+  button_text: 
+  type: 
 ---
 
