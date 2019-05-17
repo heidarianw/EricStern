@@ -17,7 +17,7 @@ Here’s the nitty gritty rundown. I’m an impassioned storyteller, lifetime go
 
 Having spent the last couple summers in Dallas working as a freelance producer and designer, I recently interned with BBH New York and Y&R Austin in 2017. It’s now 2018, and I’m a TexasMedia advertising graduate from The University of Texas at Austin. This nationally recognized program provided me with the terrific opportunity of exploring the industry through the planning and strategy lens.
 
-I’m a collaborator, creative problem solver, and someone who takes an innovative approach with all my work. Right now, I'm working as a content strategy advocate for the startup, Proclaim Advocates.
+I’m a collaborator, creative problem solver, and someone who takes an innovative approach with all my work. Right now, I'm working as a Brand Manager at The Richards Group.
 
 So let’s work *(a lot)* together,
 
