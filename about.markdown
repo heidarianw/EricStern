@@ -9,15 +9,17 @@ layout: about
 
 I like to work.
 
-Just ask my friends. They’ll say I’m always working on the next project.
+Just ask my friends. My mom. Or brother. They’ll concur. Alas, the very fitting domain, ericstern.works.
 
-But in all seriousness, I always strive to produce great work. And that takes a lot of work. Hence the name, ericstern.works.
+Right now, I’m working at The Richards Group as a Brand Manager.
 
-Here’s the nitty gritty rundown. I’m an impassioned storyteller, lifetime golfer, country music connoisseur, and, of course, aspiring adman hailing from the Lone Star State. I got my start in film in 2011, but transitioned to advertising in 2015. My intention is not to leave film behind. Rather, I’m taking all my filmmaking experiences and using them as a foundation for my advertising career.
+That’s me to the left. In a cowboy hat. While on the phone. While also posing for a picture. Quite the trifecta in multitasking, if I do say so myself. I have a beard now…
 
-Having spent the last couple summers in Dallas working as a freelance producer and designer, I recently interned with BBH New York and Y&R Austin in 2017. It’s now 2019, and I’m a TexasMedia advertising graduate from The University of Texas at Austin. This nationally recognized program provided me with the terrific opportunity of exploring the industry through the planning and strategy lens.
+I like telling stories, playing golf, and listening to country music. Click the 🐐 for my country playlist. I’ve been told it’s the 🐐.
 
-I’m a collaborator, creative problem solver, and someone who takes an innovative approach with all my work. Right now, I'm working as a Brand Manager at The Richards Group.
+I also happen to like writing, filmmaking, and telling more stories. Which just so happens to be why you’re here.
+
+Please listen and peruse at your leisure. I’ll be around when you’re done.
 
 So let’s work *(a lot)* together,
 
