@@ -24,6 +24,6 @@ I also happen to like writing, filmmaking, and telling more stories. Which just 
 
 Please listen and peruse at your leisure. I’ll be around when you’re done.
 
-So let’s work *(a lot)* together,
+Here's to working *(a lot)* together,
 
 [es@ericstern.works](mailto:es@ericstern.works)
