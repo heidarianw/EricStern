@@ -10,7 +10,7 @@ layout: about
 
 
 
-
+> 
 I like to work.
 
 Just ask my friends. My mom. Or brother. They’ll concur. Alas, the very fitting domain, ericstern.works.
