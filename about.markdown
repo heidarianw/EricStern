@@ -12,7 +12,7 @@ layout: about
 
 I like to work.
 
-Just ask my friends. My mom. Or brother. They’ll concur. Alas, the very fitting domain, ericstern.works.
+Just ask my friends. My family. Or my dogs. They’ll concur. Alas, the very fitting domain, ericstern.works.
 
 Right now, I’m working at The Richards Group as a Brand Manager.
 
