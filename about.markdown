@@ -12,11 +12,11 @@ layout: about
 
 I like to work.
 
-Just ask my friends. My family. Or my dogs. They’ll concur. Alas, the very fitting domain, ericstern.works.
+Just ask my friends. My family. My dogs. They’ll concur. Alas, the very fitting domain: ericstern.works.
 
 Right now, I’m working at The Richards Group as a Brand Manager.
 
-That’s me to the left. In a cowboy hat. While on the phone. While also posing for a picture. Quite the trifecta in multitasking, if I do say so myself. I have a beard now…
+That’s me to the left. In a cowboy hat. On the phone. While also posing for a picture. Quite the trifecta in multitasking, if I do say so myself. I have a beard now…
 
 I like telling stories, playing golf, and listening to country music. Click the [🐐](https://open.spotify.com/playlist/0LKHF6hMyMdGzxnwgPsTJ2?si=tZVBHhPLRKmsbbMWPuAYkw) for my country playlist. I’ve been told it’s the 🐐.
 
