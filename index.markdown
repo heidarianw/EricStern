@@ -14,7 +14,7 @@ navigation:
 - project: Weight Watchers
   cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
-  cover_image: "/uploads/interns-cover.png"
+  cover_image: "/uploads/Main.gif"
 - project: Summer Moon Coffee
   cover_image: "/uploads/summer-moon-cover.jpg"
 - project: Apparel Art Designs
