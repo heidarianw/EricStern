@@ -3,11 +3,11 @@ title: Home
 date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
-- project: Communication & Leadership
-  cover_image: "/uploads/comm-leadership-cover.jpg"
-  mobile_cover_image: "/uploads/comm-leadership-mobile.jpg"
 - project: Texas Central
-  cover_image: "/uploads/CS0A8079-3.jpg"
+  cover_image: "/uploads/CS0A8077-2.jpg"
+  mobile_cover_image: "/uploads/CS0A8079-3.jpg"
+- project: Communication & Leadership
+  mobile_cover_image: "/uploads/comm-leadership-mobile.jpg"
 - page_url: "/about"
   title: About
   cover_image: "/uploads/eric-cover.jpg"
