@@ -6,13 +6,13 @@ navigation:
 - project: Communication & Leadership
   cover_image: "/uploads/comm-leadership-cover.jpg"
   mobile_cover_image: "/uploads/comm-leadership-mobile.jpg"
-- project: Weight Watchers
-  cover_image: "/uploads/weight-watchers-mobile.jpg"
+- project: The Texas High-Speed Train
+  cover_image: "/uploads/CS0A8079-3.jpg"
 - page_url: "/about"
   title: About
   cover_image: "/uploads/eric-cover.jpg"
-- project: The Texas High-Speed Train
-  cover_image: "/uploads/CS0A8079-3.jpg"
+- project: Weight Watchers
+  cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/interns-cover.png"
 - project: Summer Moon Coffee
