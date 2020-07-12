@@ -4,7 +4,7 @@ date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
 - project: Texas Central
-  cover_image: "/uploads/CS0A8077-2.jpg"
+  cover_image: "/uploads/CS0A8077-3.jpg"
   mobile_cover_image: "/uploads/CS0A8079-3.jpg"
 - project: Communication & Leadership
   mobile_cover_image: "/uploads/comm-leadership-mobile.jpg"
