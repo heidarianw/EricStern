@@ -11,9 +11,8 @@ sections:
   id: vM2ddzQ636I
   ratio: standard
 - type: image-grid
-  press_url: http://google.com
-  left_image: 
-  right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318.mp4"
+  left_image: "/uploads/GONZO-TEASER-4-SQ_FINAL_120318%20(2).mp4"
+  right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318%20(1).mp4"
 - type: center-image
   press_url: http://google.com
 - type: color-pallete
