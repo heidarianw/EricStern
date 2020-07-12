@@ -1,5 +1,8 @@
 ---
-title: The Texas High-Speed Train
+title: |-
+  The Texas
+
+  High-Speed Train
 date: 2020-07-12 15:09:00 Z
 general:
   project_color: "#25395e"
@@ -20,12 +23,17 @@ sections:
 - type: center-image
   image: "/uploads/1center.jpg"
 - type: image-grid
+  id: 123456789
+  ratio: wide, square, or standard
   left_image: "/uploads/2left.jpg"
   right_image: "/uploads/2right-2.jpg"
 - type: image-grid
+  press_items:
+  - press_url: http://google.com
   left_image: "/uploads/3left.jpg"
   right_image: "/uploads/3right.jpg"
 - type: center-image
+  button_text: View Media Plan
   image: "/uploads/4center-092d11.jpg"
 Field name: 
 ---
