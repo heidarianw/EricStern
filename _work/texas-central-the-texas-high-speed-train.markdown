@@ -11,21 +11,22 @@ sections:
   id: vM2ddzQ636I
   ratio: standard
 - type: image-grid
+  press_url: http://google.com
   left_image: "/uploads/GONZO-TEASER-4-SQ_FINAL_120318%20(2).mp4"
   right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318%20(1).mp4"
 - type: divider
 - type: color-pallete
   image: 
 - type: center-image
-  image: "/uploads/1center.png"
+  image: "/uploads/1center.jpg"
 - type: image-grid
-  left_image: "/uploads/2left.png"
-  right_image: "/uploads/2right.png"
+  left_image: "/uploads/2left.jpg"
+  right_image: "/uploads/2right-2.jpg"
 - type: image-grid
-  left_image: "/uploads/3left.png"
-  right_image: "/uploads/3right.png"
+  left_image: "/uploads/3left.jpg"
+  right_image: "/uploads/3right.jpg"
 - type: center-image
-  image: "/uploads/4center.png"
+  image: "/uploads/4center.jpg"
 Field name: 
 ---
 
