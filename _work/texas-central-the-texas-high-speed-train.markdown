@@ -26,7 +26,7 @@ sections:
   left_image: "/uploads/3left.jpg"
   right_image: "/uploads/3right.jpg"
 - type: center-image
-  image: "/uploads/4center.jpg"
+  image: "/uploads/4center-092d11.jpg"
 Field name: 
 ---
 
