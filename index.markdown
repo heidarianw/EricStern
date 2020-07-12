@@ -6,12 +6,7 @@ navigation:
 - project: Communication & Leadership
   cover_image: "/uploads/comm-leadership-cover.jpg"
   mobile_cover_image: "/uploads/comm-leadership-mobile.jpg"
-- project: |-
-    The
-
-    Texas High-Speed
-
-    Train
+- project: Texas Central
   cover_image: "/uploads/CS0A8079-3.jpg"
 - page_url: "/about"
   title: About
