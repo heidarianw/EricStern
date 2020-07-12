@@ -18,7 +18,7 @@ navigation:
 - project: Summer Moon Coffee
   cover_image: "/uploads/summer-moon-cover.jpg"
 - project: Apparel Art Designs
-  cover_image: "/uploads/Webp.net-gifmaker-2.gif"
+  cover_image: "/uploads/Webp.net-gifmaker-3.gif"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
   cover_image: "/uploads/peu-10.png"
 - project: Foremost
