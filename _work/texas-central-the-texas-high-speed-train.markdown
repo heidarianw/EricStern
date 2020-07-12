@@ -9,7 +9,7 @@ date: 2020-07-12 15:09:00 Z
 general:
   project_color: "#25395e"
   project_text_color: "#fff"
-  project_details: Digital Spots – 2019 – Director/Producer/Editor
+  project_details: Digital Spots – 2019 – Creator
 sections:
 - type: youtube
   body: Text field. Body copy goes here.
