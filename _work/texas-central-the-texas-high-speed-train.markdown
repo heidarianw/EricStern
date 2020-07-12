@@ -10,5 +10,12 @@ sections:
 - type: youtube
   id: vM2ddzQ636I
   ratio: standard
+- type: image-grid
+  left_image: 
+  right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318.mp4"
+- type: center-image
+  press_url: http://google.com
+- type: color-pallete
+  image: 
 ---
 
