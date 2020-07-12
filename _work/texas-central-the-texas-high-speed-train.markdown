@@ -16,7 +16,7 @@ sections:
   right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318%20(1).mp4"
 - type: divider
 - type: color-pallete
-  image: 
+  image: "/uploads/TCP_ColorPalette.jpg"
 - type: center-image
   image: "/uploads/1center.jpg"
 - type: image-grid
