@@ -10,22 +10,16 @@ sections:
   body: Text field. Body copy goes here.
   id: vM2ddzQ636I
   ratio: standard
+- type: divider
 - type: image-grid
-  press_url: http://google.com
   left_image: 
   right_image: 
 - type: center-image
+  image: 
   press_url: http://google.com
 - type: color-pallete
+  left_image: 
+  right_image: 
   image: 
-- type: divider
-- type: vimeo, youtube
-  id: 123456789
-  ratio: wide, square, or standard
-- type: media-grid
-  press_items:
-  - press_url: http://google.com
-- type: media-plan
-  button_text: View Media Plan
 ---
 
