@@ -5,7 +5,7 @@ position: 0
 navigation:
 - project: Texas Central
   mobile_cover_image: "/uploads/CS0A8079-3.jpg"
-  cover_image: "/uploads/CS0A8077-3.jpg"
+  cover_image: "/uploads/CS0A8079-3.jpg"
 - project: Communication & Leadership
   cover_image: "/uploads/comm-leadership-mobile.jpg"
 - page_url: "/about"
