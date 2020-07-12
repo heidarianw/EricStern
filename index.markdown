@@ -11,7 +11,7 @@ navigation:
 - page_url: "/about"
   title: About
   cover_image: "/uploads/eric-cover.jpg"
-- project: "City-Wide \n\nGarage Sale"
+- project: Texas Central — The Texas High-Speed Train
   cover_image: "/uploads/city-wide-cover.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/interns-cover.png"
