@@ -9,11 +9,11 @@ sections:
 - type: youtube
   body: Text field. Body copy goes here.
   id: vM2ddzQ636I
-  ratio: wide
+  ratio: standard
 - type: image-grid
   press_url: http://google.com
-  left_image: "/uploads/GONZO-TEASER-4-SQ_FINAL_120318%20(2).mp4"
-  right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318%20(1).mp4"
+  left_image: 
+  right_image: 
 - type: center-image
   press_url: http://google.com
 - type: color-pallete
