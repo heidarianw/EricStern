@@ -4,7 +4,7 @@ date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#332928"
   project_text_color: "#a48566"
-  project_details: Digital Spots – Summer 2015 – Producer & Editor
+  project_details: Digital Spots – 2015 – Producer & Editor
 sections:
 - type: vimeo
   body: Text field. Body copy goes here.
