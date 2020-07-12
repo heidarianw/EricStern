@@ -1,5 +1,5 @@
 ---
-title: Texas Central — The Texas High-Speed Train
+title: The Texas High-Speed Train
 date: 2020-07-12 15:09:00 Z
 general:
   project_color: "#dd0b0b"
