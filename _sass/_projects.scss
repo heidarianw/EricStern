@@ -225,6 +225,38 @@
         }
     }
 
+    .video-grid {
+
+        @media #{$break-medium} {
+            & .row {
+                display: block;
+            }
+        }
+
+        figure {
+            flex: 0 0 calc(#{$half} - #{$gutter / 2});
+            width: calc(#{$half} - 10px);
+
+            &.image-left {
+                width: calc(#{$half} - #{$gutter / 2});
+                margin-left: 0 !important;
+            }
+
+            &.image-right {
+                width: calc(#{$half} - #{$gutter / 2});
+                margin-left: auto !important;
+            }
+
+            @media #{$break-medium} {
+                & {
+                    width: 100% !important;
+                    flex: none !important;
+                    margin-bottom: $gutter;
+                }
+            }
+        }
+    }
+
     .video {
         
         .vimeo,
