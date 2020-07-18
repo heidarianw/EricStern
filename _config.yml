@@ -41,6 +41,9 @@ defaults:
     - type: image-grid
       left_image: 
       right_image: 
+    - type: video-grid
+      left_image: 
+      right_image: 
     - type: divider
     - type: vimeo, youtube
       id: 123456789
