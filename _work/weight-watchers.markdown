@@ -5,15 +5,15 @@ position: 8
 general:
   project_color: "#178fdc"
   project_text_color: "#fff"
-  project_details: A National Media Plan – Fall 2017
+  project_details: A National Media Plan – 2017
 sections:
 - type: center-image
   body: Project copy goes here.
   image: "/uploads/weight-watchers-first-page.jpg"
 - type: color-pallete
   image: "/uploads/weight-watchers-pallete.jpg"
+  press_url: http://google.com
 - type: divider
-  image: 
 - type: text
   image: 
   body: |-
@@ -23,6 +23,15 @@ sections:
     emphasizing mindfulness by behaviorally targeting individuals through unique Milestone Moment placements.
 - type: media-plan
   plan_file: "/uploads/weight-watchers-deck.pdf"
+  button_text: View Media Plan
+- type: divider
+- type: vimeo, youtube
+  id: 123456789
+  ratio: wide, square, or standard
+- type: media-grid
+  press_items:
+  - press_url: http://google.com
+- type: media-plan
   button_text: View Media Plan
 ---
 
