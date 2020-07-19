@@ -10,8 +10,7 @@ sections:
   body: Text field. Body copy goes here.
   id: vM2ddzQ636I
   ratio: standard
-- type: image-grid
-  press_url: http://google.com
+- type: video-grid
   left_image: "/uploads/GONZO-TEASER-4-SQ_FINAL_120318%20(2).mp4"
   right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318%20(1).mp4"
 - type: divider
