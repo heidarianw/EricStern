@@ -29,6 +29,17 @@
     </figure>
   </div>
 </div> 
+{% when 'video-grid' %}
+<div class="{{ block.type }} content-block">
+  <div class="row">
+    <figure class="image-left">
+      <video src="{{ block.left_image | prepend: site.url }}" autoplay loop muted>
+    </figure>
+    <figure class="image-right">
+      <video src="{{ block.right_image | prepend: site.url }}" autoplay loop muted>
+    </figure>
+  </div>
+</div> 
 {% when 'color-pallete' %}
 <div class="{{ block.type }} content-block">
   <figure>
