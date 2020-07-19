@@ -4,7 +4,7 @@ date: 2018-01-05 00:25:00 Z
 general:
   project_color: "#bf5700"
   project_text_color: "#fff"
-  project_details: A Music Video – September 2015 – Director/Producer/Editor
+  project_details: A Music Video – 2015 – Director/Producer/Editor
 sections:
 - type: youtube
   body: Text field. Body copy goes here.
