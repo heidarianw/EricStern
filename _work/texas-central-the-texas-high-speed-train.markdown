@@ -1,6 +1,6 @@
 ---
 title: Texas Central
-date: 2020-07-18 15:09:00 Z
+date: 2020-07-12 15:09:00 Z
 general:
   project_color: "#25395e"
   project_text_color: "#fff"
@@ -10,7 +10,7 @@ sections:
   body: Text field. Body copy goes here.
   id: vM2ddzQ636I
   ratio: standard
-- type: video-grid
+- type: image-grid
   press_url: http://google.com
   left_image: "/uploads/GONZO-TEASER-4-SQ_FINAL_120318%20(2).mp4"
   right_image: "/uploads/GONZO-TEASER-1-SQ_FINAL_120318%20(1).mp4"
