@@ -24,13 +24,5 @@ sections:
 - type: media-plan
   plan_file: "/uploads/weight-watchers-deck.pdf"
   button_text: View Media Plan
-- type: vimeo, youtube
-  id: 123456789
-  ratio: wide, square, or standard
-- type: media-grid
-  press_items:
-  - press_url: http://google.com
-- type: media-plan
-  button_text: View Media Plan
 ---
 
