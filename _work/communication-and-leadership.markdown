@@ -4,7 +4,7 @@ date: 2018-06-09 17:50:00 Z
 general:
   project_color: "#2b194b"
   project_text_color: "#b67e8b"
-  project_details: an integrated campaign – spring 2018
+  project_details: an integrated campaign – 2018
 is_columns: false
 sections:
 - type: text
@@ -26,7 +26,14 @@ sections:
   ratio: wide, square, or standard
   image: "/uploads/comm-leadership-ooh.png"
 - type: left-image
+  id: 123456789
+  ratio: wide, square, or standard
   image: "/uploads/PurposePRINT_043018.jpg"
   Key: 
+- type: media-grid
+  press_items:
+  - press_url: http://google.com
+- type: media-plan
+  button_text: View Media Plan
 ---
 
