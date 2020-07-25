@@ -233,6 +233,12 @@
             }
         }
 
+        video {
+            width: auto;
+            max-width: 100%;
+            display: block;
+        }
+
         figure {
             flex: 0 0 calc(#{$half} - #{$gutter / 2});
             width: calc(#{$half} - 10px);
