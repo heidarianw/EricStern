@@ -33,10 +33,14 @@
 <div class="{{ block.type }} content-block">
   <div class="row">
     <figure class="image-left">
-      <video src="{{ block.left_image | prepend: site.url }}" autoplay loop muted>
+      <video autoplay loop muted>
+        <source src="{{ block.left_image | prepend: site.url }}" type="video/webm">
+      </video>
     </figure>
     <figure class="image-right">
-      <video src="{{ block.right_image | prepend: site.url }}" autoplay loop muted>
+      <video autoplay loop muted>
+        <source src="{{ block.right_image | prepend: site.url }}" type="video/webm">
+      </video>
     </figure>
   </div>
 </div> 
