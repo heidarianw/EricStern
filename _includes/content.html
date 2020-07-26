@@ -33,7 +33,7 @@
 <div class="{{ block.type }} content-block">
   <div class="row">
     <figure class="image-left">
-      <video autoplay loop muted defaultMuted>
+      <video autoplay loop muted defaultMuted playsinline>
         <source src="{{ block.left_image | prepend: site.url }}" type="video/mp4" />
         <source src="{{ block.left_image | prepend: site.url }}" type="video/webm" />
         <source src="{{ block.left_image | prepend: site.url }}" type="video/ogg" />
@@ -41,7 +41,7 @@
       </video>
     </figure>
     <figure class="image-right">
-      <video autoplay loop muted defaultMuted>
+      <video autoplay loop muted defaultMuted playsinline>
         <source src="{{ block.right_image | prepend: site.url }}" type="video/mp4" />
         <source src="{{ block.right_image | prepend: site.url }}" type="video/webm" />
         <source src="{{ block.right_image | prepend: site.url }}" type="video/ogg" />
