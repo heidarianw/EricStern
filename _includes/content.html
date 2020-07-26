@@ -34,12 +34,18 @@
   <div class="row">
     <figure class="image-left">
       <video autoplay loop muted>
-        <source src="{{ block.left_image | prepend: site.url }}" type="video/webm">
+        <source src="{{ block.left_image | prepend: site.url }}" type="video/mp4" />
+        <source src="{{ block.left_image | prepend: site.url }}" type="video/webm" />
+        <source src="{{ block.left_image | prepend: site.url }}" type="video/ogg" />
+        <source src="{{ block.left_image | prepend: site.url }}" type="image/jpg" />
       </video>
     </figure>
     <figure class="image-right">
       <video autoplay loop muted>
-        <source src="{{ block.right_image | prepend: site.url }}" type="video/webm">
+        <source src="{{ block.right_image | prepend: site.url }}" type="video/mp4" />
+        <source src="{{ block.right_image | prepend: site.url }}" type="video/webm" />
+        <source src="{{ block.right_image | prepend: site.url }}" type="video/ogg" />
+        <source src="{{ block.right_image | prepend: site.url }}" type="image/jpg" />
       </video>
     </figure>
   </div>
