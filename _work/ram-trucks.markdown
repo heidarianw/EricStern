@@ -9,6 +9,8 @@ sections:
 - type: text
   body: A hodgepodge of broadcast, digital, social, and print projects I managed.
 - type: divider
+- type: color-pallete
+  image: "/uploads/Ram_ColorPalette.jpg"
 - type: vimeo
   body: Text field. Body copy goes here.
   id: 484853711
