@@ -9,21 +9,21 @@ sections:
 - type: vimeo
   body: Text field. Body copy goes here.
   id: 484853711
-  ratio: wide
+  ratio: standard
 - type: vimeo
   image: 
   press_url: http://google.com
   id: 484854799
-  ratio: wide
+  ratio: standard
 - type: vimeo
   image: 
   id: 484855134
-  ratio: wide
+  ratio: standard
 - type: youtube
   left_image: 
   right_image: 
   id: l9jAPyvRD_I
-  ratio: wide
+  ratio: standard
 - type: center-image
   left_image: 
   right_image: 
