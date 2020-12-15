@@ -17,10 +17,10 @@ navigation:
   cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/Main.gif"
-- project: Apparel Art Designs
-  cover_image: "/uploads/Webp.net-gifmaker-3.gif"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
   cover_image: "/uploads/peu-10.png"
+- project: Apparel Art Designs
+  cover_image: "/uploads/Webp.net-gifmaker-3.gif"
 - project: Foremost
   cover_image: "/uploads/foremost-cover.jpg"
 - project: Catch
