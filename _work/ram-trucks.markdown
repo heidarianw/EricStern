@@ -6,6 +6,8 @@ general:
   project_text_color: "#ab9d75"
   project_details: Tier 1 Creative – 2019/2020 – Brand Manager
 sections:
+- type: text
+  body: A hodgepodge of projects I managed.
 - type: vimeo
   body: Text field. Body copy goes here.
   id: 484853711
