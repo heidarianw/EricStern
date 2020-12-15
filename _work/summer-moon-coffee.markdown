@@ -1,6 +1,7 @@
 ---
 title: Summer Moon Coffee
 date: 2018-01-05 00:25:00 Z
+published: false
 general:
   project_color: "#140b06"
   project_text_color: "#8c6c53"
@@ -15,6 +16,16 @@ sections:
 - type: divider
 - type: media-plan
   plan_file: "/uploads/summer-moon-deck.pdf"
+  button_text: View Media Plan
+- type: video-grid
+- type: divider
+- type: vimeo, youtube
+  id: 123456789
+  ratio: wide, square, or standard
+- type: media-grid
+  press_items:
+  - press_url: http://google.com
+- type: media-plan
   button_text: View Media Plan
 ---
 
