@@ -3,6 +3,9 @@ title: Home
 date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
+- project: Ram Trucks
+  cover_image: "/uploads/Ram_MainCover.jpg"
+  mobil_cover_image: "/uploads/Ram_MobileCover.jpg"
 - project: Texas Central
   mobile_cover_image: "/uploads/MobileCoverTCP.jpg"
   cover_image: "/uploads/MainCoverTCP.jpg"
@@ -15,8 +18,6 @@ navigation:
   cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/Main.gif"
-- project: Summer Moon Coffee
-  cover_image: "/uploads/summer-moon-cover.jpg"
 - project: Apparel Art Designs
   cover_image: "/uploads/Webp.net-gifmaker-3.gif"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
