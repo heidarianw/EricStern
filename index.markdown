@@ -8,11 +8,11 @@ navigation:
   mobil_cover_image: "/uploads/Ram_MobileCover.jpg"
 - project: Texas Central
   cover_image: "/uploads/MobileCoverTCP2.jpg"
-- project: Communication & Leadership
-  cover_image: "/uploads/comm-leadership-mobile.jpg"
 - page_url: "/about"
   title: About
   cover_image: "/uploads/eric-cover.jpg"
+- project: Communication & Leadership
+  cover_image: "/uploads/comm-leadership-mobile.jpg"
 - project: Weight Watchers
   cover_image: "/uploads/weight-watchers-mobile.jpg"
 - project: "The Interns You'll \n\nNever Forget"
