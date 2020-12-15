@@ -7,8 +7,7 @@ navigation:
   cover_image: "/uploads/Ram_MainCover.jpg"
   mobil_cover_image: "/uploads/Ram_MobileCover.jpg"
 - project: Texas Central
-  mobile_cover_image: "/uploads/MobileCoverTCP.jpg"
-  cover_image: "/uploads/MainCoverTCP.jpg"
+  cover_image: "/uploads/MobileCoverTCP.jpg"
 - project: Communication & Leadership
   cover_image: "/uploads/comm-leadership-mobile.jpg"
 - page_url: "/about"
