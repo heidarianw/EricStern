@@ -7,7 +7,8 @@ general:
   project_details: Tier 1 Creative – 2019/2020 – Brand Manager
 sections:
 - type: text
-  body: A hodgepodge of projects I managed.
+  body: A hodgepodge of broadcast, digital, social, and print projects I managed.
+- type: divider
 - type: vimeo
   body: Text field. Body copy goes here.
   id: 484853711
