@@ -5,7 +5,7 @@ position: 0
 navigation:
 - project: Ram Trucks
   cover_image: "/uploads/Ram_MainCover.jpg"
-  mobil_cover_image: "/uploads/Ram_MobileCover.jpg"
+  mobile_cover_image: "/uploads/Ram_MobileCover.jpg"
 - project: Texas Central
   cover_image: "/uploads/MobileCoverTCP2.jpg"
 - page_url: "/about"
