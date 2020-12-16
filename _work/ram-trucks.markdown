@@ -58,8 +58,11 @@ sections:
   right_image: "/uploads/RAM19_046922_MY20_Silvr_PassSide_City_20_00678_RGB_200dpi.jpg"
 - type: image-grid
   left_image: "/uploads/RAM19_046922_MY20_BLK_PassSide_FrntQrter_07_00320_RGB_200dpi.jpg"
-  right_image: "/uploads/RAM20_054184_MY20_BLK_PassSide_NextToBuilding_08_00336_lr.jpg"
+  right_image: "/uploads/RAM19_046922_MY20_BLK_DrvsSide_UnderGridRoof_03_00261_RGB_200dpi.jpg"
 - type: center-image
-  image: "/uploads/RAM19_046922_MY20_BLK_DrvsSide_UnderGridRoof_03_00261_RGB_200dpi.jpg"
+  image: "/uploads/RAM20_054765_EcoDiesel_RGB.jpg"
+- type: image-grid
+  left_image: "/uploads/RAM20_061645_TRX_BarrettJackson_pg_RGB%5B1%5D.jpg"
+  right_image: "/uploads/RAM19_043471_RCM_CC_5500_Ag_pg_RGB.jpg"
 ---
 
