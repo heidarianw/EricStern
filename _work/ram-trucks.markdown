@@ -62,7 +62,7 @@ sections:
 - type: center-image
   image: "/uploads/RAM20_054765_EcoDiesel_RGB.jpg"
 - type: image-grid
-  left_image: "/uploads/RAM20_061645_TRX_BarrettJackson_pg_RGB%5B1%5D.jpg"
+  left_image: "/uploads/RAM20_061645_TRX_BarrettJackson_pg_RGB%5B1%5D-c97a06.jpg"
   right_image: "/uploads/RAM19_043471_RCM_CC_5500_Ag_pg_RGB.jpg"
 ---
 
