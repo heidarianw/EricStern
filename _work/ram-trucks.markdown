@@ -9,13 +9,19 @@ sections:
 - type: text
   body: A hodgepodge of broadcast, digital, social, and print projects I managed.
 - type: divider
+  image: 
+  press_url: http://google.com
 - type: color-pallete
   image: "/uploads/Ram_ColorPalette.jpg"
 - type: vimeo
+  left_image: 
+  right_image: 
   body: Text field. Body copy goes here.
   id: 484853711
   ratio: standard
 - type: vimeo
+  left_image: 
+  right_image: 
   image: 
   press_url: http://google.com
   id: 484854799
@@ -24,15 +30,20 @@ sections:
   id: 491414656
   ratio: standard
 - type: vimeo
-  image: 
   id: 484855134
   ratio: standard
+  image: 
 - type: youtube
+  press_items:
+  - logo: 
+    press_url: http://google.com
   left_image: 
   right_image: 
   id: l9jAPyvRD_I
   ratio: standard
 - type: center-image
+  plan_file: 
+  button_text: View Media Plan
   left_image: 
   right_image: 
   image: "/uploads/RAM19_046922_MY20_Red_Front_14_00506_RGB_200dpi.jpg"
@@ -60,7 +71,7 @@ sections:
   left_image: "/uploads/RAM19_046922_MY20_BLK_PassSide_FrntQrter_07_00320_RGB_200dpi.jpg"
   right_image: "/uploads/RAM19_046922_MY20_BLK_DrvsSide_UnderGridRoof_03_00261_RGB_200dpi.jpg"
 - type: center-image
-  image: "/uploads/RAM20_054765_EcoDiesel_RGB.jpg"
+  image: "/uploads/RAM20_054765_EcoDiesel_RGB0.jpg"
 - type: image-grid
   left_image: "/uploads/RAM20_061645_TRX_BarrettJackson_pg_RGB.jpg"
   right_image: "/uploads/RAM19_043471_RCM_CC_5500_Ag_pg_RGB.jpg"
