@@ -13,8 +13,8 @@ navigation:
   cover_image: "/uploads/eric-cover.jpg"
 - project: Communication & Leadership
   cover_image: "/uploads/comm-leadership-mobile.jpg"
-- project: Weight Watchers
-  cover_image: "/uploads/weight-watchers-mobile.jpg"
+- project: In My Spare Time
+  cover_image: "/uploads/Spare-Time_Cover.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/Main.gif"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
