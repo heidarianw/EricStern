@@ -9,21 +9,26 @@ sections:
 - type: text
   body: One day, I decided to write some lines for The Economist (the out-of-home
     concept turned out pretty neat, I think).
-- type: center-image
-  image: "/uploads/ALL%20SIDES.jpg"
-- type: center-image
-  image: "/uploads/DIFFERENT-71028a.jpg"
-- type: center-image
-  image: "/uploads/CLUTCH.jpg"
-- type: center-image
-  image: "/uploads/TALK.jpg"
+- type: image-grid
+  left_image: "/uploads/ALL%20SIDES.jpg"
+  right_image: "/uploads/DIFFERENT-71028a.jpg"
+- type: image-grid
+  left_image: "/uploads/TALK.jpg"
+  right_image: "/uploads/CLUTCH.jpg"
 - type: center-image
   image: "/uploads/ESCALATOR.jpg"
 - type: divider
+  id: 123456789
+  ratio: wide, square, or standard
 - type: text
+  press_items:
+  - logo: 
+    press_url: http://google.com
   body: More folks really ought to celebrate National Simplicity Day on July 12, so
     I created a series of posters to promote the holiday.
 - type: center-image
+  plan_file: 
+  button_text: View Media Plan
   image: "/uploads/Desert.jpg"
 - type: center-image
   image: "/uploads/Mountains.jpg"
