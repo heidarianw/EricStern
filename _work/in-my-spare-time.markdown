@@ -36,8 +36,7 @@ sections:
   image: "/uploads/Forest.jpg"
 - type: divider
 - type: text
-  body: This SodaStream script needed a visual treatment and moodboard, so I created
-    one.
+  body: This SodaStream script needed a visual treatment and moodboard.
 - type: center-image
   image: "/uploads/SodaStream-1.jpg"
 - type: center-image
