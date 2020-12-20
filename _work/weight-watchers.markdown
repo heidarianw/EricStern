@@ -1,6 +1,7 @@
 ---
 title: Weight Watchers
 date: 2018-01-05 17:32:00 Z
+published: false
 position: 8
 general:
   project_color: "#178fdc"
@@ -23,6 +24,15 @@ sections:
     emphasizing mindfulness by behaviorally targeting individuals through unique Milestone Moment placements.
 - type: media-plan
   plan_file: "/uploads/weight-watchers-deck.pdf"
+  button_text: View Media Plan
+- type: divider
+- type: vimeo, youtube
+  id: 123456789
+  ratio: wide, square, or standard
+- type: media-grid
+  press_items:
+  - press_url: http://google.com
+- type: media-plan
   button_text: View Media Plan
 ---
 
