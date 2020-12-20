@@ -27,13 +27,10 @@ sections:
   body: More folks ought to celebrate National Simplicity Day on July 12, so I created
     a series of posters to promote the holiday.
 - type: center-image
-  plan_file: 
-  button_text: View Media Plan
   image: "/uploads/Desert.jpg"
-- type: center-image
-  image: "/uploads/Mountains.jpg"
-- type: center-image
-  image: "/uploads/Forest.jpg"
+- type: image-grid
+  left_image: "/uploads/Mountains.jpg"
+  right_image: "/uploads/Forest.jpg"
 - type: divider
 - type: text
   body: This SodaStream script needed a visual treatment and moodboard.
