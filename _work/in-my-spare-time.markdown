@@ -13,5 +13,32 @@ sections:
 - type: center-image
   image: "/uploads/ALL%20SIDES.jpg"
 - type: center-image
+  image: "/uploads/DIFFERENT-71028a.jpg"
+- type: center-image
+  image: "/uploads/CLUTCH.jpg"
+- type: center-image
+  image: "/uploads/TALK.jpg"
+- type: center-image
+  image: "/uploads/ESCALATOR.jpg"
+- type: divider
+- type: text
+  body: More folks really ought to celebrate National Simplicity Day on July 12, so
+    I created a series of posters to promote the holiday.
+- type: center-image
+  image: "/uploads/Desert.jpg"
+- type: center-image
+  image: "/uploads/Mountains.jpg"
+- type: center-image
+  image: "/uploads/Forest.jpg"
+- type: divider
+- type: text
+  body: This SodaStream script needed a visual treatment and moodboard, so I created
+    one.
+- type: center-image
+  image: "/uploads/SodaStream-1.jpg"
+- type: center-image
+  image: "/uploads/SodaStream-2.jpg"
+- type: center-image
+  image: "/uploads/SodaStream-3.jpg"
 ---
 
