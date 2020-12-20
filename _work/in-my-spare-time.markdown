@@ -24,8 +24,8 @@ sections:
   press_items:
   - logo: 
     press_url: http://google.com
-  body: More folks really ought to celebrate National Simplicity Day on July 12, so
-    I created a series of posters to promote the holiday.
+  body: More folks ought to celebrate National Simplicity Day on July 12, so I created
+    a series of posters to promote the holiday.
 - type: center-image
   plan_file: 
   button_text: View Media Plan
