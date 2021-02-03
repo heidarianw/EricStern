@@ -33,14 +33,6 @@ sections:
   id: 484855134
   ratio: standard
   image: 
-- type: youtube
-  press_items:
-  - logo: 
-    press_url: http://google.com
-  left_image: 
-  right_image: 
-  id: l9jAPyvRD_I
-  ratio: standard
 - type: center-image
   plan_file: 
   button_text: View Media Plan
