@@ -14,10 +14,16 @@ sections:
 - type: color-pallete
   image: "/uploads/Ram_ColorPalette.jpg"
 - type: vimeo
+  id: 519754691
+  ratio: standard
+- type: vimeo
   left_image: 
   right_image: 
   body: Text field. Body copy goes here.
   id: 484853711
+  ratio: standard
+- type: vimeo
+  id: 519754829
   ratio: standard
 - type: vimeo
   left_image: 
@@ -34,12 +40,17 @@ sections:
   ratio: standard
   image: 
 - type: center-image
+  press_items:
+  - logo: 
+    press_url: http://google.com
   plan_file: 
   button_text: View Media Plan
   left_image: 
   right_image: 
   image: "/uploads/RAM19_046922_MY20_Red_Front_14_00506_RGB_200dpi.jpg"
 - type: image-grid
+  plan_file: 
+  button_text: View Media Plan
   left_image: "/uploads/RAM19_046922_MY20_RedDrvrSide_InWarehouse_12_00480_RGB_200dpi.jpg"
   right_image: "/uploads/RAM19_046922_MY20_RedPassSide_FrntQrter_11_00404_RGB_200dpi.jpg"
 - type: image-grid
@@ -67,5 +78,6 @@ sections:
 - type: image-grid
   left_image: "/uploads/RAM20_061645_TRX_BarrettJackson_pg_RGB.jpg"
   right_image: "/uploads/RAM19_043471_RCM_CC_5500_Ag_pg_RGB.jpg"
+Field name: 
 ---
 
