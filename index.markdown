@@ -10,7 +10,7 @@ navigation:
   cover_image: "/uploads/MobileCoverTCP2.jpg"
 - page_url: "/about"
   title: About
-  cover_image: "/uploads/eric-cover.jpg"
+  cover_image: "/uploads/ES2.1%20copy.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/Main.gif"
 - project: Communication & Leadership
