@@ -14,7 +14,7 @@ I like to work.
 
 Just ask my friends. My family. My dogs. They’ll concur. Alas, the very fitting domain: ericstern.works.
 
-Right now, I’m working at BBDO New York as an Account Executive.
+Right now, I’m working at BBDO New York in Account Management.
 
 That’s me to the left. In a cowboy hat. On the phone. While also posing for a picture. Quite the trifecta in multitasking if I do say so myself. I have a beard now…
 
