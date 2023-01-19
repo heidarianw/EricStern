@@ -1,6 +1,7 @@
 ---
 title: Communication & Leadership
 date: 2018-06-09 17:50:00 Z
+published: false
 general:
   project_color: "#2b194b"
   project_text_color: "#b67e8b"
@@ -32,5 +33,10 @@ sections:
   - press_url: http://google.com
   image: "/uploads/PurposePRINT_043018.jpg"
   Key: 
+- type: media-grid
+  press_items:
+  - press_url: http://google.com
+- type: media-plan
+  button_text: View Media Plan
 ---
 
