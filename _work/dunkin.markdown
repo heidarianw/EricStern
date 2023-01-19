@@ -16,7 +16,7 @@ sections:
   ratio: standard
 - type: text
   body: |-
-    We also created Patriots-specific work with Devin McCourty and Kyle Van Noy. They both rely on a cup of Dunkin' to give them a boost on gameday. It's just as important as their gameday rituals, which they also both have.
+    We also created Patriots-specific work with Devin McCourty and Kyle Van Noy. They both rely on a cup of Dunkin' to give them a boost on gameday. It's just as important as their gameday rituals, which they also both have...
 
     Devin likes to deliver a personal pre-game pep talk.
 - type: vimeo
@@ -25,7 +25,7 @@ sections:
   id: 790963742
   ratio: standard
 - type: text
-  body: Kyle likes to jam out to his jams.
+  body: And Kyle likes to jam out to his jams.
   ratio: wide, square, or standard
   left_image: 
   right_image: 
