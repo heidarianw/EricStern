@@ -8,11 +8,11 @@ navigation:
   mobile_cover_image: "/uploads/DNKN_Diagonal_1x1.jpg"
 - project: Ram Trucks
   cover_image: "/uploads/Ram_MobileCover.jpg"
-- project: Texas Central
-  cover_image: "/uploads/MobileCoverTCP2.jpg"
 - page_url: "/about"
   title: About
   cover_image: "/uploads/ES2.1%20copy.jpg"
+- project: Texas Central
+  cover_image: "/uploads/MobileCoverTCP2.jpg"
 - project: "The Interns You'll \n\nNever Forget"
   cover_image: "/uploads/Main.gif"
 - project: "Put 'Em Up \n\n(Texas Anthem)"
