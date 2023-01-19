@@ -7,8 +7,8 @@ general:
   project_details: Out-of-Store Creative – 2021/2022 – Account Manager
 sections:
 - type: text
-  body: Dunkin' was an NFL team sponsor, so we developed work to connect with football
-    fans and promote hot coffee.
+  body: Dunkin' was an NFL team sponsor during the 2021-22 seasons, so we developed
+    work to connect with football fans and promote hot coffee.
 - type: vimeo
   press_url: http://google.com
   id: 790963591
