@@ -10,7 +10,6 @@ sections:
   body: Dunkin' was an NFL team sponsor, so we developed work to connect with football
     fans and promote hot coffee.
 - type: vimeo
-  image: 
   press_url: http://google.com
   id: 790963591
   ratio: standard
@@ -20,43 +19,16 @@ sections:
 
     Devin likes to deliver a personal pre-game pep talk.
 - type: vimeo
-  left_image: 
-  right_image: 
   id: 790963742
   ratio: standard
 - type: text
   body: And Kyle likes to jam out to his jams.
   ratio: wide, square, or standard
-  left_image: 
-  right_image: 
 - type: vimeo
   left_image: 
   right_image: 
   id: 790963777
   ratio: standard
-- type: video-grid
-  press_items:
-  - logo: 
-    press_url: http://google.com
-  id: 123456789
-  ratio: wide, square, or standard
-  left_image: 
-  right_image: 
-- type: divider
-  plan_file: 
-  button_text: View Media Plan
-  press_items:
-  - logo: 
-    press_url: http://google.com
-- type: media-grid
-  plan_file: 
-  button_text: View Media Plan
-  press_items:
-  - logo: 
-    press_url: http://google.com
-- type: media-plan
-  plan_file: 
-  button_text: View Media Plan
 Field name: 
 ---
 
