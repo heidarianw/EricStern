@@ -5,7 +5,7 @@ position: 0
 navigation:
 - project: Dunkin'
   cover_image: "/uploads/ezgif.com-gif-maker.gif"
-  mobile_cover_image: "/uploads/DNKN_1x1.jpg"
+  mobile_cover_image: "/uploads/ezgif.com-gif-maker%20(1).gif"
 - project: Ram Trucks
   cover_image: "/uploads/Ram_MobileCover.jpg"
 - page_url: "/about"
