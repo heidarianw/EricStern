@@ -4,8 +4,8 @@ date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
 - project: Dunkin'
-  cover_image: "/uploads/DNKN_Diagonal%20Original_1144x562.jpg"
-  mobile_cover_image: "/uploads/DNKN_Diagonal_1x1.jpg"
+  cover_image: "/uploads/DNKN_1144x562.jpg"
+  mobile_cover_image: "/uploads/DNKN_1x1.jpg"
 - project: Ram Trucks
   cover_image: "/uploads/Ram_MobileCover.jpg"
 - page_url: "/about"
