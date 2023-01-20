@@ -4,8 +4,8 @@ date: 2017-09-08 20:14:00 Z
 position: 0
 navigation:
 - project: Dunkin'
-  cover_image: "/uploads/ezgif.com-gif-maker%20(1).gif"
-  mobile_cover_image: "/uploads/ezgif.com-gif-maker%20(1).gif"
+  cover_image: "/uploads/YouGotThis_16x9.gif"
+  mobile_cover_image: "/uploads/YouGotThis_1x1.gif"
 - project: Ram Trucks
   cover_image: "/uploads/Ram_MobileCover.jpg"
 - page_url: "/about"
