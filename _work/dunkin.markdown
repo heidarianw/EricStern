@@ -8,8 +8,8 @@ general:
 sections:
 - type: text
   body: Dunkin' sponsored the Giants, Bears, Eagles, Jets, and Ravens during the 2021-22
-    season, so we developed work to connect with those football fans and promote hot
-    coffee.
+    NFL season, so we developed work to connect with those football fans and promote
+    hot coffee.
 - type: vimeo
   press_url: http://google.com
   id: 790963591
