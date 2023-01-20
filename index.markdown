@@ -18,7 +18,7 @@ navigation:
 - project: "Put 'Em Up \n\n(Texas Anthem)"
   cover_image: "/uploads/peu-10.png"
 - project: Apparel Art Designs
-  cover_image: "/uploads/Webp.net-gifmaker-3.gif"
+  cover_image: "/uploads/ApparelArtCover.gif"
 - project: In My Spare Time
   cover_image: "/uploads/Spare-Time_Cover.jpg"
 - project: Foremost
