@@ -41,8 +41,7 @@ sections:
   right_image: 
   id: 790963777
   ratio: standard
-- type: media-plan
-  button_text: View Media Plan
+- type: divider
 Field name: 
 ---
 
