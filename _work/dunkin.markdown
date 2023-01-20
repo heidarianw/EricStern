@@ -14,11 +14,11 @@ sections:
   id: 790963591
   ratio: standard
 - type: image-grid
-  left_image: "/uploads/JetsRebus.png"
-  right_image: "/uploads/RavensRebus.png"
-- type: image-grid
   left_image: "/uploads/BearsRebus.png"
   right_image: "/uploads/EaglesRebus.png"
+- type: image-grid
+  left_image: "/uploads/JetsRebus.png"
+  right_image: "/uploads/RavensRebus.png"
 - type: text
   image: 
   body: |-
