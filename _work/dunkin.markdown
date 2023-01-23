@@ -50,8 +50,6 @@ sections:
   id: 790963777
   ratio: standard
 - type: divider
-  plan_file: 
-  button_text: View Media Plan
 - type: text
   body: "To kick off 2022, Dunkin’ reimagined its menu with products intended to help
     consumers elevate their everyday routine in the new year.\n \nOOH, radio, social/digital,
@@ -66,6 +64,15 @@ sections:
 - type: vimeo
   id: 792055043
   ratio: standard
+- type: divider
+- type: text
+  body: "Everything is a little better after coffee. So once you have a cup of Dunkin’
+    in your hand, there’s not much you can’t handle.\n \nThe \"Do It With Dunkin'\"
+    campaign was hyper-targeted to New Yorkers and Bostonians by way of OOH, radio,
+    and social/digital in an attempt to reignite people’s love for Dunkin’ and welcome
+    them back to everyday city life after the coronavirus pandemic."
+- type: 
+  body: 
 Field name: 
 ---
 
