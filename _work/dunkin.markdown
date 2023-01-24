@@ -76,6 +76,11 @@ sections:
 - type: video-grid
   left_image: "/uploads/NY_Animation_1.mp4"
   right_image: "/uploads/BOS_Animation_2.mp4"
+- type: center-image
+  image: "/uploads/Animated%20Single%20OOH.jpg"
+- type: video-grid
+  left_image: "/uploads/DD-Recovers-Fall-Knicks_preview_insitu_V2.mp4"
+  right_image: "/uploads/DD-Recovers-Fall-Jingle-Ball_preview_insitu.mp4"
 Field name: 
 ---
 
