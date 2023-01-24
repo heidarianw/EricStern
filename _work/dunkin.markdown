@@ -81,6 +81,18 @@ sections:
 - type: video-grid
   left_image: "/uploads/DD-Recovers-Fall-Knicks_preview_insitu_V2.mp4"
   right_image: "/uploads/DD-Recovers-Fall-Jingle-Ball_preview_insitu.mp4"
+- type: image-grid
+  left_image: "/uploads/OOH5.jpg"
+  right_image: "/uploads/OOH4.jpg"
+- type: image-grid
+  left_image: "/uploads/OOH2.jpg"
+  right_image: "/uploads/OOH3.jpg"
+- type: image-grid
+  left_image: "/uploads/OOH7.jpg"
+  right_image: "/uploads/OOH9.jpg"
+- type: image-grid
+  left_image: "/uploads/OOH8.jpg"
+  right_image: "/uploads/OOH6.jpg"
 Field name: 
 ---
 
